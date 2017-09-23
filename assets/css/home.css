@@ -1,2 +1,29 @@
-.header {
-  border: 1px dashed red; }
+html, body {
+  font-size: 18px;
+  font-family: "Roboto"; }
+
+.header .small {
+  background: #F2F2F2;
+  line-height: 46px;
+  border-bottom: 4px solid #1F3D69; }
+  .header .small a {
+    color: #4D4D4D;
+    font-size: 0.77rem;
+    text-decoration: none; }
+    .header .small a i {
+      margin-right: 6px; }
+
+.header nav {
+  height: 200px;
+  background: #238DE1; }
+  .header nav h1 {
+    position: relative;
+    top: 41px;
+    margin: 0;
+    padding-left: 60px;
+    background: url("../img/un-logo.png") transparent no-repeat left center;
+    background-size: 50px 43px;
+    font-weight: normal;
+    font-size: 1.833rem;
+    text-transform: uppercase;
+    color: white; }
