@@ -1,2 +1,34 @@
 @import "_global.scss";
 @import "_header.scss";
+@import "_mixins.scss";
+
+.home__tabs {
+  background: #C7E6FF;
+
+  nav {
+    position: relative;
+    top: -74px;
+    display: flex;
+
+    a {
+      background: #1871B7;
+      color: white;
+      display: block;
+      font-weight: bold;
+      line-height: 74px;
+      opacity: 0.5;
+      text-align: center;
+      text-decoration: none;
+      text-transform: uppercase;
+      width: 240px;
+      
+      @include border-top-radius(20px);
+
+      &.active {
+        color: #1F3D69;
+        background: #C7E6FF;
+        opacity: 1;
+      }
+    }
+  }
+}
