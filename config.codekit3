@@ -41,6 +41,17 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"\/assets\/img\/un-logo-footer.png": {
+		"ft": 32768,
+		"iS": 6982,
+		"oA": 0,
+		"oAP": "\/assets\/img\/un-logo-footer.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/assets\/img\/un-logo.png": {
 		"ft": 32768,
 		"iS": 8649,
@@ -61,6 +72,19 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/assets\/scss\/_footer.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/_footer.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
 		},
 	"\/assets\/scss\/_global.scss": {
 		"aP": 0,
@@ -100,6 +124,16 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
+		},
+	"\/assets\/scss\/footer.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/assets\/scss\/footer-min.css",
+		"oF": 0,
+		"oS": 3
 		},
 	"\/assets\/scss\/home.scss": {
 		"aP": 0,

@@ -1,0 +1,30 @@
+.footer {
+  font-size: 12px;
+  color: #1F1F1F;
+  padding: 40px 0;
+  line-height: 26px;
+
+  & > .container {
+    display: flex;
+  }
+
+  h1 {
+    flex: 0.5;
+    margin: 0;
+    padding: 0 0 0 45px;
+    font-size: 12px;
+    font-weight: bold;
+    background: url('../img/un-logo-footer.png') transparent no-repeat left center;
+    background-size: 30px 26px;
+  }
+  
+  nav {
+    flex: 1;
+    text-align: right;
+    a {
+      text-decoration: none;
+      color: #1F1F1F;
+      margin-left: 20px;
+    }
+  }
+}
