@@ -3,6 +3,7 @@
 @import "_header.scss";
 
 html, body {
+  background: #F4F5F8;
   font-size: 18px;
   font-family: "Roboto";
 }
@@ -15,3 +16,5 @@ html, body {
 .content {
   background: #F4F5F8;
 }
+
+.hidden { display: none; }

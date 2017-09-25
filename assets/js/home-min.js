@@ -1,0 +1,1 @@
+$(function(){function n(){o.addClass("hidden"),$(window).off("click",n)}var o=$("#headerDropdown");$("#headerDropdownToggle").on("click",function(d){d.stopPropagation(),d.preventDefault(),o.hasClass("hidden")?($(window).on("click",n),o.removeClass("hidden")):n()})});

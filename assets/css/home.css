@@ -88,8 +88,11 @@
       border-bottom-color: #1F3D69;
       border-width: 5px;
       margin-left: -5px; }
+    .header nav .header__nav .dropdown--toggle:hover .dropdown {
+      display: block; }
 
 html, body {
+  background: #F4F5F8;
   font-size: 18px;
   font-family: "Roboto"; }
 
@@ -99,6 +102,9 @@ html, body {
 
 .content {
   background: #F4F5F8; }
+
+.hidden {
+  display: none; }
 
 .home__tabs {
   background: #C7E6FF;
