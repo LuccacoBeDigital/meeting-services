@@ -111,7 +111,7 @@ html, body {
   position: relative;
   z-index: 100; }
   .home__tabs nav {
-    position: relative;
+    position: absolute;
     top: -74px;
     display: flex; }
     .home__tabs nav a {
@@ -135,6 +135,52 @@ html, body {
         color: #1F3D69;
         background: #C7E6FF;
         opacity: 1; }
+
+.home__wizard {
+  padding: 50px 200px; }
+  .home__wizard ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+  .home__wizard li {
+    flex: 1;
+    color: white;
+    position: relative;
+    text-align: center;
+    color: #7696B1;
+    font-size: 16px; }
+    .home__wizard li span {
+      margin: 0 auto 15px;
+      display: block;
+      width: 52px;
+      height: 52px;
+      text-align: center;
+      line-height: 52px;
+      border-radius: 100%;
+      color: #7696B1;
+      background: #EAF5FF; }
+    .home__wizard li.active {
+      text-transform: uppercase;
+      font-weight: bold;
+      color: #203C6C; }
+      .home__wizard li.active span {
+        color: white;
+        background: #203C6C; }
+      .home__wizard li.active::before {
+        background: #203C6C;
+        background: linear-gradient(45deg, #203C6C, #203C6C, #EAF5FF, #EAF5FF); }
+  .home__wizard li::before {
+    content: '';
+    position: absolute;
+    top: 25px;
+    left: 50%;
+    width: 100%;
+    height: 4px;
+    background: #EAF5FF;
+    z-index: -1; }
+  .home__wizard li:last-child::before {
+    display: none; }
 
 .content__wrapper {
   position: relative;
