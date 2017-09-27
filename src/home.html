@@ -30,7 +30,7 @@
       <nav>
         <div class="container">
           <h1>Request for Meeting Services</h1>
-          <ul class="header__nav desktop">
+          <ul class="header__nav--desktop desktop">
             <li><a href=""><i class="fa fa-question-circle"></i>Help</a></li>
             <li><a href=""><i class="fa fa-phone"></i>Contact Us</a></li>
             <li><a href=""><i class="fa fa-user"></i>Username</a></li>
@@ -43,6 +43,25 @@
               </div>
             </li>
           </ul>
+          <div class="header__nav--mobile mobile">
+            <a href="" class="header__nav__toggle">
+              <img src="../assets/img/nav-toggle-on.svg" alt="">
+            </a>
+
+            <ul>
+              <li><a href=""><i class="fa fa-question-circle"></i>Help</a></li>
+              <li><a href=""><i class="fa fa-phone"></i>Contact Us</a></li>
+              <li><a href=""><i class="fa fa-user"></i>Username</a></li>
+              <li>
+                <a href="" id="headerDropdownToggle"><i class="fa fa-chevron-down"></i>New York</a>
+                <div id="headerDropdown" class="dropdown hidden">
+                  <a href="">Geneva</a>
+                  <a href="">Vienna</a>
+                  <a href="">Nairobi</a>
+                </div>
+              </li>
+            </ul>
+          </div>
         </div>
       </nav>
     </section>
