@@ -201,3 +201,8 @@ html, body {
 
 .home__footer {
   padding-bottom: 50px; }
+
+.home__wizard__check {
+  position: absolute;
+  left: calc(50% + 10px);
+  top: -10px; }

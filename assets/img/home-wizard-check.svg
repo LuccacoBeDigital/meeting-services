@@ -1,0 +1,14 @@
+<svg width="26px" height="27px" viewBox="0 0 26 27" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="desktop" transform="translate(-657.000000, -1325.000000)">
+            <g id="steps_bottom" transform="translate(533.000000, 1323.000000)">
+                <g id="check_mark" transform="translate(124.000000, 0.000000)">
+                    <circle id="Oval" fill="#FFFFFF" cx="12.9318182" cy="15.8863636" r="9.88636364"></circle>
+                    <text id="" font-family="FontAwesome" font-size="30" font-weight="normal" fill="#CC7D27">
+                        <tspan x="0" y="26"></tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
