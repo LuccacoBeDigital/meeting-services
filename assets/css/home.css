@@ -183,8 +183,21 @@ html, body {
     display: none; }
 
 .content__wrapper {
-  position: relative;
-  z-index: 10;
   background: white;
-  min-height: 500px;
-  box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.2); }
+  box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.2);
+  padding-top: 500px;
+  position: relative;
+  z-index: 10; }
+
+.home__go-next {
+  display: block;
+  margin: 0 auto;
+  padding: 15px 30;
+  background: #52B3FF;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-size: 16px; }
+
+.home__footer {
+  padding-bottom: 50px; }
