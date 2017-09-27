@@ -50,7 +50,7 @@
   background: #238DE1; }
   .header nav .container {
     position: relative; }
-  .header nav h1 {
+  .header nav h2 {
     position: relative;
     top: 41px;
     margin: 0;
@@ -296,7 +296,7 @@ html, body {
 .home__go-next {
   display: block;
   margin: 0 auto;
-  padding: 15px 30;
+  padding: 15px 30px;
   background: #52B3FF;
   border: none;
   border-radius: 4px;

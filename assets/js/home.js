@@ -1,8 +1,8 @@
 /*eslint-env jquery*/
 $(function() {
 
-  var $headerDropdown = $('#headerDropdown');
-  var $headerDropdownToggle = $('#headerDropdownToggle');
+  var $headerDropdown = $('.headerDropdown');
+  var $headerDropdownToggle = $('.headerDropdownToggle');
 
   function hasClickedOutside() {
     $headerDropdown.addClass('hidden');
