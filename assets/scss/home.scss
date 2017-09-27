@@ -119,3 +119,23 @@
   left: calc(50% + 10px);
   top: -10px;
 }
+
+@media (max-width: 480px) {
+  .home__tabs {
+   nav {
+      width: 100%;
+      top: -54px;
+      a {
+        font-size: 14px;
+        width: 50%;
+        line-height: 54px;
+      }
+    }
+  } 
+  .home__wizard {
+    padding: 20px 0px;
+    li {
+      font-size: 12px;
+    }
+  }
+}

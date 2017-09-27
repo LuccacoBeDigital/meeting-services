@@ -28,3 +28,25 @@
     }
   }
 }
+
+@media (max-width: 480px) {
+  .footer {
+    & > .container {
+      flex-direction: column;
+      padding: 0 10px;
+    }
+  
+    h1 {
+      flex: 1;
+    }
+    
+    nav {
+      text-align: left;
+      a {
+        margin: 5px 0 5px 0;
+        display: block;
+        padding-left: 45px;
+      }
+    }
+  }
+}

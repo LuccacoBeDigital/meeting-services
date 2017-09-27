@@ -18,3 +18,10 @@ html, body {
 }
 
 .hidden { display: none; }
+
+@media (min-width: 481px) {
+  .mobile { display: none !important; }
+}
+@media (max-width: 480px) {
+  .desktop { display: none !important; }
+}

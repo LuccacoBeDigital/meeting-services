@@ -93,3 +93,21 @@
     }
   }
 }
+
+@media (max-width: 480px) {
+  .header {
+    .small {
+      padding-left: 15px;
+    }
+    nav {
+      height: 200px;
+      padding: 0 10px;
+      h1 {
+        font-size: 1rem;
+        line-height: 2rem;
+        padding-left: 50px;
+        background-size: 41px 35px;
+      }
+    }
+  }
+}
