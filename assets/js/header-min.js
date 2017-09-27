@@ -1,0 +1,1 @@
+$(function(){var e=$("#headerNavToggle"),a=e.find("img"),s=$("#headerNavMobile");e.on("click",function(e){e.preventDefault();var i=s.hasClass("hidden");s.toggleClass("hidden"),a.attr("src","../assets/img/nav-toggle-"+(i?"off":"on")+".svg"),$("body").css("overflow-y",i?"hidden":"visible")})});
