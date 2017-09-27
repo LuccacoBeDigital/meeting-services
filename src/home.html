@@ -21,6 +21,24 @@
   </head>
   <body>
 
+    <div class="header__nav--mobile mobile">
+      <ul>
+        <li><a href=""><i class="fa fa-question-circle"></i>Help</a></li>
+        <li><a href=""><i class="fa fa-phone"></i>Contact Us</a></li>
+        <li><a href=""><i class="fa fa-user"></i>Username</a></li>
+        <li>
+          <a href="" id="headerDropdownToggle"><i class="fa fa-chevron-down"></i>New York</a>
+          <div id="headerDropdown" class="dropdown hidden">
+            <a href="">Geneva</a>
+            <a href="">Vienna</a>
+            <a href="">Nairobi</a>
+          </div>
+          <img src="../assets/img/dgacm-logo.svg" alt="" class="logo">
+        </li>
+      </ul>
+      <div class="overlay"></div>
+    </div>
+
     <section class="header">
       <div class="small">
         <div class="container">
@@ -43,25 +61,9 @@
               </div>
             </li>
           </ul>
-          <div class="header__nav--mobile mobile">
-            <a href="" class="header__nav__toggle">
-              <img src="../assets/img/nav-toggle-on.svg" alt="">
-            </a>
-
-            <ul>
-              <li><a href=""><i class="fa fa-question-circle"></i>Help</a></li>
-              <li><a href=""><i class="fa fa-phone"></i>Contact Us</a></li>
-              <li><a href=""><i class="fa fa-user"></i>Username</a></li>
-              <li>
-                <a href="" id="headerDropdownToggle"><i class="fa fa-chevron-down"></i>New York</a>
-                <div id="headerDropdown" class="dropdown hidden">
-                  <a href="">Geneva</a>
-                  <a href="">Vienna</a>
-                  <a href="">Nairobi</a>
-                </div>
-              </li>
-            </ul>
-          </div>
+          <a href="" class="header__nav__toggle mobile">
+            <img src="../assets/img/nav-toggle-on.svg" alt="">
+          </a>
         </div>
       </nav>
     </section>
