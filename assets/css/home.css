@@ -42,7 +42,7 @@
     color: #4D4D4D;
     font-size: 0.77rem;
     text-decoration: none; }
-    .header .small a i {
+    .header .small a strong {
       margin-right: 6px; }
 
 .header nav {
@@ -74,7 +74,7 @@
       color: white;
       text-decoration: none;
       font-size: 14px; }
-      .header__nav--desktop li a i {
+      .header__nav--desktop li a strong {
         margin-right: 6px; }
   .header__nav--desktop .dropdown {
     position: absolute;
@@ -146,7 +146,7 @@
       display: block;
       line-height: 50px;
       letter-spacing: 0.5; }
-      .header__nav--mobile ul a i {
+      .header__nav--mobile ul a strong {
         margin-right: 5px; }
     .header__nav--mobile ul .dropdown {
       display: flex;
@@ -180,7 +180,7 @@
   .header nav {
     height: 200px;
     padding: 0 10px; }
-    .header nav h1 {
+    .header nav h2 {
       top: 65px;
       font-size: 1rem;
       line-height: 2rem;

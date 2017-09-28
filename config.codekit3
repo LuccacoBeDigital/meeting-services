@@ -113,6 +113,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/assets\/js\/header-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/header-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"\/assets\/js\/header.js": {
 		"ft": 64,
 		"ma": 0,
