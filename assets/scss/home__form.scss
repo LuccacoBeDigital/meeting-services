@@ -176,3 +176,31 @@
     background-image: url('../img/check-on.svg')
   }
 }
+
+@media (max-width: 480px) {
+  .home__form {
+    padding: 20px;
+    h4 {
+      font-size: 14px;
+    }
+  }
+  .home__form__columns {
+    flex-direction: column;
+    .home__form__input {
+      margin-right: 0;
+    }
+  }
+  .home__form__input--half,
+  .home__form__input--quarter {
+    flex: 1;
+  }
+  .home__form__input {
+    label {
+      font-size: 14px;
+    }
+    input,
+    textarea {
+      font-size: 14px;
+    }
+  }
+}

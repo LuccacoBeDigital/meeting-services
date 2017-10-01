@@ -364,6 +364,24 @@ html, body {
   .checkbox input[type="checkbox"]:checked + label span {
     background-image: url("../img/check-on.svg"); }
 
+@media (max-width: 480px) {
+  .home__form {
+    padding: 20px; }
+    .home__form h4 {
+      font-size: 14px; }
+  .home__form__columns {
+    flex-direction: column; }
+    .home__form__columns .home__form__input {
+      margin-right: 0; }
+  .home__form__input--half,
+  .home__form__input--quarter {
+    flex: 1; }
+  .home__form__input label {
+    font-size: 14px; }
+  .home__form__input input,
+  .home__form__input textarea {
+    font-size: 14px; } }
+
 .home__tabs {
   background: #C7E6FF;
   position: relative;
