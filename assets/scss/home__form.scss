@@ -180,6 +180,9 @@
 @media (max-width: 480px) {
   .home__form {
     padding: 20px;
+    h1 {
+      font-size: 14px;
+    }
     h4 {
       font-size: 14px;
     }
@@ -202,5 +205,8 @@
     textarea {
       font-size: 14px;
     }
+  }
+  .home__form__div {
+   margin: 0px -20px 20px;
   }
 }

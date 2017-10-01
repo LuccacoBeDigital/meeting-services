@@ -367,6 +367,8 @@ html, body {
 @media (max-width: 480px) {
   .home__form {
     padding: 20px; }
+    .home__form h1 {
+      font-size: 14px; }
     .home__form h4 {
       font-size: 14px; }
   .home__form__columns {
@@ -380,7 +382,9 @@ html, body {
     font-size: 14px; }
   .home__form__input input,
   .home__form__input textarea {
-    font-size: 14px; } }
+    font-size: 14px; }
+  .home__form__div {
+    margin: 0px -20px 20px; } }
 
 .home__tabs {
   background: #C7E6FF;
