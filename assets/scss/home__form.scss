@@ -1,0 +1,145 @@
+.home__form {
+  padding: 40px;
+
+  h1 {
+    margin: 0 0 20px;
+    color: #CC7D27;
+    font-size: 20px;
+    text-transform: uppercase;
+    i {
+      margin-right: 5px;
+    }
+  }
+  h4 {
+    color: #1F1F1F;
+    display: block;
+    font-size: 16px;
+    letter-spacing: 0.3px;
+    margin: 0 0 20px;
+  }
+}
+
+.home__form__input {
+  margin-bottom: 20px;
+  label {
+    color: #1F1F1F;
+    display: block;
+    font-size: 16px;
+    letter-spacing: 0.3px;
+    margin-bottom: 10px;
+    span {
+      color: #FF7749;
+    }
+    i {
+      color: #52B3FF;
+    }
+  }
+  input,
+  textarea {
+    background: #F7F8FA;
+    border-radius: 4px;
+    border: 1px solid #C3CFD6;
+    box-sizing: border-box;
+    display: block;
+    font-size: 16px;
+    line-height: 44px;
+    width: 100%;
+    padding: 0 10px;
+  }
+  .tooltip {
+    display: inline-block;
+    position: relative;
+    p {
+      background: #1F1F1F;
+      color: white;
+      display: none;
+      font-size: 13px;
+      left: 30px;
+      margin: 0;
+      padding: 30px;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 220px;
+    }
+    p:after {
+      right: 100%;
+      top: 50%;
+      border: solid transparent;
+      content: " ";
+      height: 0;
+      width: 0;
+      position: absolute;
+      pointer-events: none;
+      border-color: rgba(31, 31, 31, 0);
+      border-right-color: #1F1F1F;
+      border-width: 7px;
+      margin-top: -7px;
+    }
+    a:hover + p {
+      display: block;
+    }
+  }
+  small {
+    font-size: 12px;
+    color: #555555;
+    letter-spacing: 0;
+  }
+}
+.home__form__columns {
+  display: flex;
+  .home__form__input {
+    margin-right: 30px;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+.home__form__input--half {
+  flex: 0.5;
+}
+.home__form__input--quarter {
+  flex: 0.25;
+}
+
+.home__form__tabs {
+  border: 2px solid #E7EBEE;
+  border-radius: 4px;
+  margin-top: 60px;
+  nav {
+    position: relative;
+    top: -41px;
+    left: -2px;
+
+    a {
+      display: inline-block;
+      border: 2px solid #E7EBEE;
+      border-radius: 4px;
+      width: 61px;
+      line-height: 37px;
+      text-decoration: none;
+      text-align: center;
+
+      font-size: 16px;
+      color: #797C80;
+      letter-spacing: 0.2px;
+      background: #E8EBF0;
+
+      &.active {
+        background: white;
+        border-bottom: 2px solid white;
+        opacity: 1;
+      }
+    }
+  }
+  & > div {
+    padding: 20px;
+    margin-top: -50px;
+  }
+}
+
+.home__form__div {
+  height: 6px;
+  background: #C3CFD6;
+  margin: 20px -20px 40px;
+}

@@ -205,16 +205,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/assets\/scss\/footer.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/assets\/scss\/footer-min.css",
-		"oF": 0,
-		"oS": 3
-		},
 	"\/assets\/scss\/home.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -225,6 +215,19 @@
 		"oA": 0,
 		"oAP": "\/assets\/css\/home.css",
 		"oF": 2,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/scss\/home__form.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/home__form.css",
+		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
