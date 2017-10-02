@@ -116,8 +116,11 @@
 
 .home__wizard__check {
   position: absolute;
+  display: block;
   left: calc(50% + 10px);
   top: -10px;
+  width: 26px;
+  height: 27px;
 }
 
 @media (max-width: 480px) {
