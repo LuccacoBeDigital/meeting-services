@@ -19,4 +19,7 @@ $(function() {
       hasClickedOutside();
     }
   });
+
+  // enable tooltips
+  $('[data-toggle="tooltip"]').tooltip();
 });

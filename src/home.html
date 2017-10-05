@@ -7,17 +7,23 @@
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
+    <!-- vendor scripts -->
+    <script src="../vendors/jquery/dist/jquery.min.js"></script>
+    <script src="../vendors/modernizr/modernizr-2.8.3.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+
     <!-- vendor styles -->
     <link rel="stylesheet" href="../assets/css/normalize.min.css" />
     <link rel="stylesheet" href="../vendors/font-awesome/css/font-awesome.min.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto" />
 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+
     <!-- page styles  -->
     <link rel="stylesheet" href="../assets/css/home.css" />
-
-    <!-- vendor scripts -->
-    <script src="../vendors/jquery/dist/jquery.min.js"></script>
-    <script src="../vendors/modernizr/modernizr-2.8.3.min.js"></script>
 
   </head>
   <body>
@@ -102,9 +108,18 @@
 
         <div class="content__wrapper">
 
-          <div class="home__form">
+          <form class="home__form">
             <section>
               <h1><i class="fa fa-user"></i> Basic Information</h1>
+
+              <div class="form-group">
+                <label for="client_organization">
+                  Client Organization: 
+                  <span>*</span>
+                  <a href="" data-toggle="tooltip" data-placement="right" title="Tooltip on right"><i class="fa fa-question-circle"></i></a>
+                </label>
+                <input type="text" class="form-control" id="client_organization" placeholder="start typing to select available client organization">
+              </div>
 
               <div class="home__form__input">
                 <label for="">
@@ -120,29 +135,33 @@
 
               <h4>Requestor Information</h4>
 
-              <div class="home__form__columns">
-                <div class="home__form__input home__form__input--half">
-                  <label for="">
-                    Name: 
-                    <span>*</span>
-                  </label>
-                  <input type="text" placeholder="start typing to enter new contact or find existing">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="name">
+                      Name: 
+                      <span>*</span>
+                    </label>
+                    <input type="text" class="form-control" id="name" placeholder="start typing to enter new contact or find existing">
+                  </div>
                 </div>
-  
-                <div class="home__form__input home__form__input--quarter">
-                  <label for="">
-                    E-mail: 
-                    <span>*</span>
-                  </label>
-                  <input type="text">
+                <div class="col-md-3">
+                  <div class="form-group">
+                    <label for="email">
+                      Email: 
+                      <span>*</span>
+                    </label>
+                    <input type="text" class="form-control" id="email">
+                  </div>
                 </div>
-  
-                <div class="home__form__input home__form__input--quarter">
-                  <label for="">
-                    Phone: 
-                    <span>*</span>
-                  </label>
-                  <input type="text">
+                <div class="col-md-3">
+                  <div class="form-group">
+                    <label for="phone">
+                      Phone: 
+                      <span>*</span>
+                    </label>
+                    <input type="text" class="form-control" id="phone">
+                  </div>
                 </div>
               </div>
               
@@ -159,84 +178,64 @@
                   <a href="">FR</a>
                 </nav>
                 <div class="visible">
-                  <div class="home__form__input">
-                    <label for="">
+
+                  <div class="form-group">
+                    <label for="meeting_title">
                       Meeting title: 
                       <span>*</span>
-                      <div class="tooltip">
-                        <a href=""><i class="fa fa-question-circle"></i></a>
-                        <p>This is how a tooltip would look like</p>
-                      </div>
+                      <a href="" data-toggle="tooltip" data-placement="right" title="This is how a tooltip would look like"><i class="fa fa-question-circle"></i></a>
                     </label>
-                    <textarea placeholder="Enter meeting title (255 characters)"></textarea>
+                    <textarea type="text" class="form-control" id="meeting_title" placeholder="start typing to select available client organization"></textarea>
                   </div>
-                  <div class="home__form__input">
-                    <label for="">
+
+                  <div class="form-group">
+                    <label for="door_display">
                       Door Display: 
                       <span>*</span>
-                      <div class="tooltip">
-                        <a href=""><i class="fa fa-question-circle"></i></a>
-                        <p>This is how a tooltip would look like</p>
-                      </div>
                     </label>
-                    <textarea placeholder="Enter door display title (60 characters)"></textarea>
-                    <small>The text entered will be displayed on the monitor outside the assigned conference room.</small>
+                    <textarea type="text" class="form-control" id="door_display" placeholder="Enter door display title (60 characters)"></textarea>
+                    <small class="form-text text-muted">The text entered will be displayed on the monitor outside the assigned conference room.</small>
                   </div>
-                  <div class="home__form__input">
-                    <label for="">
+
+                  <div class="form-group">
+                    <label for="door_display">
                       Calendar / Non Calendar Meeting: 
                       <span>*</span>
-                      <div class="tooltip">
-                        <a href=""><i class="fa fa-question-circle"></i></a>
-                        <p>This is how a tooltip would look like</p>
+                      <a href="" data-toggle="tooltip" data-placement="right" title="This is how a tooltip would look like"><i class="fa fa-question-circle"></i></a>
+                    </label>
+                    <div class="custom-controls">
+                      <label class="custom-control custom-radio">
+                        <input id="radio1" name="radio" type="radio" class="custom-control-input">
+                        <span class="custom-control-indicator"></span>
+                        <span class="custom-control-description">Calendar</span>
+                      </label>
+                      <label class="custom-control custom-radio">
+                        <input id="radio2" name="radio" type="radio" class="custom-control-input">
+                        <span class="custom-control-indicator"></span>
+                        <span class="custom-control-description">Non Calendar</span>
+                      </label>
+                    </div>
+                    <div class="custom-controls">
+                        <label class="custom-control custom-checkbox">
+                          <input id="checkbox1" name="checkbox" type="checkbox" class="custom-control-input">
+                          <span class="custom-control-indicator"></span>
+                          <span class="custom-control-description">As Required</span>
+                        </label>
                       </div>
-                    </label>
-                    <div class="radio">
-                      <input type="radio" name="calendar" checked>
-                      <label for="calendar">
-                        <span></span>
-                        Calendar
-                      </label>
-                    </div>
-                    <div class="radio">
-                      <input type="radio" name="calendar">
-                      <label for="calendar">
-                        <span></span>
-                        Non Calendar
-                      </label>
-                    </div>
-                    <div class="clearfix"></div>
-                    <div class="checkbox">
-                      <input type="checkbox" name="required">
-                      <label for="required">
-                        <span></span>
-                        As Required
-                      </label>
-                    </div>
-                    <div class="checkbox">
-                      <input type="checkbox" name="required" checked>
-                      <label for="required">
-                        <span></span>
-                        As Required
-                      </label>
-                    </div>
                   </div>
 
-                  <div class="home__form__input">
-                    <label for="">
-                      UMOJA Coding Block: 
+                  <div class="form-group">
+                    <label for="coding_block">
+                      UMOJA Coding Block:
                       <span>*</span>
-                      <a href=""><i class="fa fa-question-circle"></i></a>
+                      <a href="" data-toggle="tooltip" data-placement="right" title="Tooltip on right"><i class="fa fa-question-circle"></i></a>
                     </label>
-                    <input type="text">
+                    <input type="text" class="form-control" id="coding_block">
                   </div>
-                </div>
-                <div class="hidden">
-
-                </div>
+                
               </div>
             </section>
-          </div>
+          </form>
 
           <footer class="home__footer">
             <div class="home__wizard">

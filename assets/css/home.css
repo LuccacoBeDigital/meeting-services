@@ -192,10 +192,6 @@ html, body {
   font-size: 18px;
   font-family: "Roboto"; }
 
-.container {
-  max-width: 1140px;
-  margin: 0 auto; }
-
 .content {
   background: #F4F5F8; }
 
@@ -226,20 +222,26 @@ html, body {
     letter-spacing: 0.3px;
     margin: 0 0 20px; }
 
-.home__form__input {
+.home__form__input,
+.form-group {
   margin-bottom: 20px; }
-  .home__form__input label {
+  .home__form__input > label,
+  .form-group > label {
     color: #1F1F1F;
     display: block;
     font-size: 16px;
     letter-spacing: 0.3px;
     margin-bottom: 10px; }
-    .home__form__input label span {
+    .home__form__input > label span,
+    .form-group > label span {
       color: #FF7749; }
-    .home__form__input label i {
+    .home__form__input > label i,
+    .form-group > label i {
       color: #52B3FF; }
-  .home__form__input input,
-  .home__form__input textarea {
+  .home__form__input input[type=text],
+  .home__form__input textarea,
+  .form-group input[type=text],
+  .form-group textarea {
     background: #F7F8FA;
     border-radius: 4px;
     border: 1px solid #C3CFD6;
@@ -248,54 +250,11 @@ html, body {
     font-size: 16px;
     width: 100%;
     padding: 11px 10px; }
-  .home__form__input .tooltip {
-    display: inline-block;
-    position: relative; }
-    .home__form__input .tooltip p {
-      background: #1F1F1F;
-      color: white;
-      display: none;
-      font-size: 13px;
-      left: 30px;
-      margin: 0;
-      padding: 30px;
-      position: absolute;
-      top: 50%;
-      transform: translateY(-50%);
-      width: 220px; }
-    .home__form__input .tooltip p:after {
-      right: 100%;
-      top: 50%;
-      border: solid transparent;
-      content: " ";
-      height: 0;
-      width: 0;
-      position: absolute;
-      pointer-events: none;
-      border-color: rgba(31, 31, 31, 0);
-      border-right-color: #1F1F1F;
-      border-width: 7px;
-      margin-top: -7px; }
-    .home__form__input .tooltip a:hover + p,
-    .home__form__input .tooltip a:active + p {
-      display: block; }
-  .home__form__input small {
+  .home__form__input small,
+  .form-group small {
     font-size: 12px;
     color: #555555;
     letter-spacing: 0; }
-
-.home__form__columns {
-  display: flex; }
-  .home__form__columns .home__form__input {
-    margin-right: 30px; }
-    .home__form__columns .home__form__input:last-child {
-      margin-right: 0; }
-
-.home__form__input--half {
-  flex: 0.5; }
-
-.home__form__input--quarter {
-  flex: 0.25; }
 
 .home__form__tabs {
   border: 2px solid #E7EBEE;
@@ -330,38 +289,12 @@ html, body {
   background: #C3CFD6;
   margin: 20px -20px 40px; }
 
-.radio,
-.checkbox {
-  display: inline-block; }
-  .radio input[type="radio"],
-  .radio input[type="checkbox"],
-  .checkbox input[type="radio"],
-  .checkbox input[type="checkbox"] {
-    display: none; }
-  .radio label,
-  .checkbox label {
-    font-size: 14px;
-    cursor: pointer;
-    margin-right: 10px; }
-  .radio input[type="radio"] + label span,
-  .radio input[type="checkbox"] + label span,
-  .checkbox input[type="radio"] + label span,
-  .checkbox input[type="checkbox"] + label span {
-    background: url("../img/radio-off.svg") 0px center no-repeat;
-    display: inline-block;
-    height: 20px;
-    margin-top: -2px;
-    vertical-align: middle;
-    width: 20px; }
-  .radio input[type="checkbox"] + label span,
-  .checkbox input[type="checkbox"] + label span {
-    background: url("../img/check-off.svg") 0px center no-repeat; }
-  .radio input[type="radio"]:checked + label span,
-  .checkbox input[type="radio"]:checked + label span {
-    background-image: url("../img/radio-on.svg"); }
-  .radio input[type="checkbox"]:checked + label span,
-  .checkbox input[type="checkbox"]:checked + label span {
-    background-image: url("../img/check-on.svg"); }
+.custom-radio,
+.custom-checkbox {
+  font-size: 14px;
+  cursor: pointer;
+  display: inline-block;
+  margin: 3px 10px 0 0; }
 
 @media (max-width: 480px) {
   .home__form {
@@ -370,18 +303,6 @@ html, body {
       font-size: 14px; }
     .home__form h4 {
       font-size: 14px; }
-  .home__form__columns {
-    flex-direction: column; }
-    .home__form__columns .home__form__input {
-      margin-right: 0; }
-  .home__form__input--half,
-  .home__form__input--quarter {
-    flex: 1; }
-  .home__form__input label {
-    font-size: 14px; }
-  .home__form__input input,
-  .home__form__input textarea {
-    font-size: 14px; }
   .home__form__div {
     margin: 0px -20px 20px; } }
 
