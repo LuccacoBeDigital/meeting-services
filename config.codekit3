@@ -304,6 +304,12 @@
 		"oAP": "\/src\/basic_information.html",
 		"oF": 0
 		},
+	"\/src\/request_services.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/src\/request_services.html",
+		"oF": 0
+		},
 	"\/vendors\/font-awesome\/css\/font-awesome.css": {
 		"aP": 1,
 		"bl": 0,

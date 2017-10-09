@@ -260,16 +260,17 @@ html, body {
       border-radius: 100%;
       color: #7696B1;
       background: #EAF5FF; }
-    .request__wizard li.active {
+    .request__wizard li.active, .request__wizard li.done {
       text-transform: uppercase;
       font-weight: bold;
       color: #203C6C; }
-      .request__wizard li.active span {
+      .request__wizard li.active span, .request__wizard li.done span {
         color: white;
         background: #203C6C; }
-      .request__wizard li.active::before {
-        background: #203C6C;
-        background: linear-gradient(45deg, #203C6C, #203C6C, #EAF5FF, #EAF5FF); }
+      .request__wizard li.active::before, .request__wizard li.done::before {
+        background: #203C6C; }
+    .request__wizard li.active::before {
+      background: linear-gradient(45deg, #203C6C, #203C6C, #EAF5FF, #EAF5FF); }
   .request__wizard li::before {
     content: '';
     position: absolute;
@@ -356,8 +357,10 @@ html, body {
       color: #52B3FF; }
   .request__form__input input[type=text],
   .request__form__input textarea,
+  .request__form__input select,
   .form-group input[type=text],
-  .form-group textarea {
+  .form-group textarea,
+  .form-group select {
     background: #F7F8FA;
     border-radius: 4px;
     border: 1px solid #C3CFD6;
@@ -366,6 +369,13 @@ html, body {
     font-size: 16px;
     width: 100%;
     padding: 11px 10px; }
+  .request__form__input .form-control + .custom-controls,
+  .form-group .form-control + .custom-controls {
+    margin-top: 5px; }
+    .request__form__input .form-control + .custom-controls .custom-control-description,
+    .form-group .form-control + .custom-controls .custom-control-description {
+      display: inline-block;
+      margin-top: 3px; }
   .request__form__input small,
   .form-group small {
     font-size: 12px;
@@ -375,7 +385,7 @@ html, body {
 .request__form__tabs {
   border: 2px solid #E7EBEE;
   border-radius: 4px;
-  margin-top: 60px; }
+  margin: 60px 0 30px; }
   .request__form__tabs nav {
     position: relative;
     top: -41px;

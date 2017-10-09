@@ -60,7 +60,8 @@
       color: #7696B1;
       background: #EAF5FF;
     }
-    &.active {
+    &.active,
+    &.done {
       text-transform: uppercase;
       font-weight: bold;
       color: #203C6C;
@@ -70,8 +71,10 @@
       }
       &::before {
         background: #203C6C;
-        background: linear-gradient(45deg, #203C6C, #203C6C, #EAF5FF, #EAF5FF);
       }
+    }
+    &.active::before {
+      background: linear-gradient(45deg, #203C6C, #203C6C, #EAF5FF, #EAF5FF);
     }
   }
   

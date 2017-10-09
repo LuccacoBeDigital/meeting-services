@@ -36,7 +36,8 @@
     }
   }
   input[type=text],
-  textarea {
+  textarea,
+  select {
     background: #F7F8FA;
     border-radius: 4px;
     border: 1px solid #C3CFD6;
@@ -45,6 +46,14 @@
     font-size: 16px;
     width: 100%;
     padding: 11px 10px;
+  }
+
+  .form-control + .custom-controls {
+    margin-top: 5px;
+    .custom-control-description {
+      display: inline-block;
+      margin-top: 3px;
+    }
   }
 
   small {
@@ -57,7 +66,7 @@
 .request__form__tabs {
   border: 2px solid #E7EBEE;
   border-radius: 4px;
-  margin-top: 60px;
+  margin: 60px 0 30px;
   nav {
     position: relative;
     top: -41px;
