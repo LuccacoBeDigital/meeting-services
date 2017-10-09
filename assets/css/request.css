@@ -206,115 +206,15 @@ html, body {
   .desktop {
     display: none !important; } }
 
-.home__form {
-  padding: 40px; }
-  .home__form h1 {
-    margin: 0 0 20px;
-    color: #CC7D27;
-    font-size: 20px;
-    text-transform: uppercase; }
-    .home__form h1 i {
-      margin-right: 5px; }
-  .home__form h4 {
-    color: #1F1F1F;
-    display: block;
-    font-size: 16px;
-    letter-spacing: 0.3px;
-    margin: 0 0 20px; }
-
-.home__form__input,
-.form-group {
-  margin-bottom: 20px; }
-  .home__form__input > label,
-  .form-group > label {
-    color: #1F1F1F;
-    display: block;
-    font-size: 16px;
-    letter-spacing: 0.3px;
-    margin-bottom: 10px; }
-    .home__form__input > label span,
-    .form-group > label span {
-      color: #FF7749; }
-    .home__form__input > label i,
-    .form-group > label i {
-      color: #52B3FF; }
-  .home__form__input input[type=text],
-  .home__form__input textarea,
-  .form-group input[type=text],
-  .form-group textarea {
-    background: #F7F8FA;
-    border-radius: 4px;
-    border: 1px solid #C3CFD6;
-    box-sizing: border-box;
-    display: block;
-    font-size: 16px;
-    width: 100%;
-    padding: 11px 10px; }
-  .home__form__input small,
-  .form-group small {
-    font-size: 12px;
-    color: #555555;
-    letter-spacing: 0; }
-
-.home__form__tabs {
-  border: 2px solid #E7EBEE;
-  border-radius: 4px;
-  margin-top: 60px; }
-  .home__form__tabs nav {
-    position: relative;
-    top: -41px;
-    left: -2px; }
-    .home__form__tabs nav a {
-      display: inline-block;
-      border: 2px solid #E7EBEE;
-      border-radius: 4px;
-      width: 61px;
-      line-height: 37px;
-      text-decoration: none;
-      text-align: center;
-      font-size: 16px;
-      color: #797C80;
-      letter-spacing: 0.2px;
-      background: #E8EBF0; }
-      .home__form__tabs nav a.active {
-        background: white;
-        border-bottom: 2px solid white;
-        opacity: 1; }
-  .home__form__tabs > div {
-    padding: 20px;
-    margin-top: -50px; }
-
-.home__form__div {
-  height: 6px;
-  background: #C3CFD6;
-  margin: 20px -20px 40px; }
-
-.custom-radio,
-.custom-checkbox {
-  font-size: 14px;
-  cursor: pointer;
-  display: inline-block;
-  margin: 3px 10px 0 0; }
-
-@media (max-width: 480px) {
-  .home__form {
-    padding: 20px; }
-    .home__form h1 {
-      font-size: 14px; }
-    .home__form h4 {
-      font-size: 14px; }
-  .home__form__div {
-    margin: 0px -20px 20px; } }
-
-.home__tabs {
+.request__tabs {
   background: #C7E6FF;
   position: relative;
   z-index: 100; }
-  .home__tabs nav {
+  .request__tabs nav {
     position: absolute;
     top: -74px;
     display: flex; }
-    .home__tabs nav a {
+    .request__tabs nav a {
       background: #1871B7;
       color: white;
       display: block;
@@ -331,26 +231,26 @@ html, body {
       -webkit-border-top-left-radius: 20px;
       border-top-left-radius: 20px;
       background-clip: padding-box; }
-      .home__tabs nav a.active {
+      .request__tabs nav a.active {
         color: #1F3D69;
         background: #C7E6FF;
         opacity: 1; }
 
-.home__wizard {
+.request__wizard {
   padding: 50px 200px; }
-  .home__wizard ul {
+  .request__wizard ul {
     display: flex;
     margin: 0;
     padding: 0;
     list-style: none; }
-  .home__wizard li {
+  .request__wizard li {
     flex: 1;
     color: white;
     position: relative;
     text-align: center;
     color: #7696B1;
     font-size: 16px; }
-    .home__wizard li span {
+    .request__wizard li span {
       margin: 0 auto 15px;
       display: block;
       width: 52px;
@@ -360,17 +260,17 @@ html, body {
       border-radius: 100%;
       color: #7696B1;
       background: #EAF5FF; }
-    .home__wizard li.active {
+    .request__wizard li.active {
       text-transform: uppercase;
       font-weight: bold;
       color: #203C6C; }
-      .home__wizard li.active span {
+      .request__wizard li.active span {
         color: white;
         background: #203C6C; }
-      .home__wizard li.active::before {
+      .request__wizard li.active::before {
         background: #203C6C;
         background: linear-gradient(45deg, #203C6C, #203C6C, #EAF5FF, #EAF5FF); }
-  .home__wizard li::before {
+  .request__wizard li::before {
     content: '';
     position: absolute;
     top: 25px;
@@ -379,7 +279,7 @@ html, body {
     height: 4px;
     background: #EAF5FF;
     z-index: -1; }
-  .home__wizard li:last-child::before {
+  .request__wizard li:last-child::before {
     display: none; }
 
 .content__wrapper {
@@ -388,7 +288,7 @@ html, body {
   position: relative;
   z-index: 10; }
 
-.home__go-next {
+.request__go-next {
   display: block;
   margin: 0 auto;
   padding: 15px 30px;
@@ -398,10 +298,10 @@ html, body {
   color: white;
   font-size: 16px; }
 
-.home__footer {
+.request__footer {
   padding-bottom: 50px; }
 
-.home__wizard__check {
+.request__wizard__check {
   position: absolute;
   display: block;
   left: calc(50% + 10px);
@@ -410,14 +310,114 @@ html, body {
   height: 27px; }
 
 @media (max-width: 480px) {
-  .home__tabs nav {
+  .request__tabs nav {
     width: 100%;
     top: -54px; }
-    .home__tabs nav a {
+    .request__tabs nav a {
       font-size: 14px;
       width: 50%;
       line-height: 54px; }
-  .home__wizard {
+  .request__wizard {
     padding: 20px 0px; }
-    .home__wizard li {
+    .request__wizard li {
       font-size: 12px; } }
+
+.request__form {
+  padding: 40px; }
+  .request__form h1 {
+    margin: 0 0 20px;
+    color: #CC7D27;
+    font-size: 20px;
+    text-transform: uppercase; }
+    .request__form h1 i {
+      margin-right: 5px; }
+  .request__form h4 {
+    color: #1F1F1F;
+    display: block;
+    font-size: 16px;
+    letter-spacing: 0.3px;
+    margin: 0 0 20px; }
+
+.request__form__input,
+.form-group {
+  margin-bottom: 20px; }
+  .request__form__input > label,
+  .form-group > label {
+    color: #1F1F1F;
+    display: block;
+    font-size: 16px;
+    letter-spacing: 0.3px;
+    margin-bottom: 10px; }
+    .request__form__input > label span,
+    .form-group > label span {
+      color: #FF7749; }
+    .request__form__input > label i,
+    .form-group > label i {
+      color: #52B3FF; }
+  .request__form__input input[type=text],
+  .request__form__input textarea,
+  .form-group input[type=text],
+  .form-group textarea {
+    background: #F7F8FA;
+    border-radius: 4px;
+    border: 1px solid #C3CFD6;
+    box-sizing: border-box;
+    display: block;
+    font-size: 16px;
+    width: 100%;
+    padding: 11px 10px; }
+  .request__form__input small,
+  .form-group small {
+    font-size: 12px;
+    color: #555555;
+    letter-spacing: 0; }
+
+.request__form__tabs {
+  border: 2px solid #E7EBEE;
+  border-radius: 4px;
+  margin-top: 60px; }
+  .request__form__tabs nav {
+    position: relative;
+    top: -41px;
+    left: -2px; }
+    .request__form__tabs nav a {
+      display: inline-block;
+      border: 2px solid #E7EBEE;
+      border-radius: 4px;
+      width: 61px;
+      line-height: 37px;
+      text-decoration: none;
+      text-align: center;
+      font-size: 16px;
+      color: #797C80;
+      letter-spacing: 0.2px;
+      background: #E8EBF0; }
+      .request__form__tabs nav a.active {
+        background: white;
+        border-bottom: 2px solid white;
+        opacity: 1; }
+  .request__form__tabs > div {
+    padding: 20px;
+    margin-top: -50px; }
+
+.request__form__div {
+  height: 6px;
+  background: #C3CFD6;
+  margin: 20px -20px 40px; }
+
+.custom-radio,
+.custom-checkbox {
+  font-size: 14px;
+  cursor: pointer;
+  display: inline-block;
+  margin: 3px 10px 0 0; }
+
+@media (max-width: 480px) {
+  .request__form {
+    padding: 20px; }
+    .request__form h1 {
+      font-size: 14px; }
+    .request__form h4 {
+      font-size: 14px; }
+  .request__form__div {
+    margin: 0px -20px 20px; } }

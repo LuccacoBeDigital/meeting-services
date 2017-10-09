@@ -21,16 +21,6 @@
 		"oAP": "\/.gitignore",
 		"oF": 0
 		},
-	"\/assets\/css\/home.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/assets\/css\/home-min.css",
-		"oF": 0,
-		"oS": 3
-		},
 	"\/assets\/css\/normalize.min.css": {
 		"aP": 1,
 		"bl": 0,
@@ -38,6 +28,16 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "\/assets\/css\/normalize.min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/assets\/css\/request.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/assets\/css\/request-min.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -256,7 +256,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/assets\/scss\/home.scss": {
+	"\/assets\/scss\/request.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -264,12 +264,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/assets\/css\/home.css",
+		"oAP": "\/assets\/css\/request.css",
 		"oF": 2,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/assets\/scss\/home__form.scss": {
+	"\/assets\/scss\/request__basic.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -277,7 +277,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/scss\/home__form.css",
+		"oAP": "\/assets\/scss\/request__basic.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -298,10 +298,10 @@
 		"oO": 0,
 		"oS": 1
 		},
-	"\/src\/home.html": {
+	"\/src\/basic_information.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/src\/home.html",
+		"oAP": "\/src\/basic_information.html",
 		"oF": 0
 		},
 	"\/vendors\/font-awesome\/css\/font-awesome.css": {

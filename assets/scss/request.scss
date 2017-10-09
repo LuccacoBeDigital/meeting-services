@@ -1,7 +1,6 @@
 @import "_global.scss";
-@import "home__form.scss";
 
-.home__tabs {
+.request__tabs {
   background: #C7E6FF;
   position: relative;
   z-index: 100;
@@ -35,7 +34,7 @@
   }
 }
 
-.home__wizard {
+.request__wizard {
   padding: 50px 200px;
   ul {
     display: flex;
@@ -99,7 +98,7 @@
   z-index: 10;
 }
 
-.home__go-next {
+.request__go-next {
   display: block;
   margin: 0 auto;
   padding: 15px 30px;
@@ -110,11 +109,11 @@
   font-size: 16px;
 }
 
-.home__footer {
+.request__footer {
   padding-bottom: 50px;
 }
 
-.home__wizard__check {
+.request__wizard__check {
   position: absolute;
   display: block;
   left: calc(50% + 10px);
@@ -124,7 +123,7 @@
 }
 
 @media (max-width: 480px) {
-  .home__tabs {
+  .request__tabs {
    nav {
       width: 100%;
       top: -54px;
@@ -135,10 +134,13 @@
       }
     }
   } 
-  .home__wizard {
+  .request__wizard {
     padding: 20px 0px;
     li {
       font-size: 12px;
     }
   }
 }
+
+// screen dependencies
+@import "request__basic.scss";

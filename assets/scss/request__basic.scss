@@ -1,4 +1,4 @@
-.home__form {
+.request__form {
   padding: 40px;
 
   h1 {
@@ -19,7 +19,7 @@
   }
 }
 
-.home__form__input,
+.request__form__input,
 .form-group {
   margin-bottom: 20px;
   & > label {
@@ -54,7 +54,7 @@
   }
 }
 
-.home__form__tabs {
+.request__form__tabs {
   border: 2px solid #E7EBEE;
   border-radius: 4px;
   margin-top: 60px;
@@ -90,7 +90,7 @@
   }
 }
 
-.home__form__div {
+.request__form__div {
   height: 6px;
   background: #C3CFD6;
   margin: 20px -20px 40px;
@@ -105,7 +105,7 @@
 }
 
 @media (max-width: 480px) {
-  .home__form {
+  .request__form {
     padding: 20px;
     h1 {
       font-size: 14px;
@@ -114,7 +114,7 @@
       font-size: 14px;
     }
   }
-  .home__form__div {
+  .request__form__div {
    margin: 0px -20px 20px;
   }
 }
