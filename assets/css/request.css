@@ -206,6 +206,23 @@ html, body {
   .desktop {
     display: none !important; } }
 
+.datepicker {
+  max-width: 154px; }
+
+.custom-control-description {
+  display: inline-block;
+  margin-top: 3px; }
+
+.form-control + .input-group-addon {
+  background: white; }
+
+.with-vertical-margin {
+  margin: 10px 0; }
+
+small.orange {
+  color: #FF7749;
+  font-size: 14px; }
+
 .request__tabs {
   background: #C7E6FF;
   position: relative;
@@ -431,3 +448,12 @@ html, body {
       font-size: 14px; }
   .request__form__div {
     margin: 0px -20px 20px; } }
+
+.timeblock {
+  border: 1px solid #C3CFD6;
+  border-radius: 4px;
+  padding: 5px 20px; }
+  .timeblock header {
+    padding: 0 20px 10px;
+    margin: 0 -20px 10px;
+    border-bottom: 1px solid #C3CFD6; }

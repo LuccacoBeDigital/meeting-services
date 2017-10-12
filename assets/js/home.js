@@ -22,4 +22,17 @@ $(function() {
 
   // enable tooltips
   $('[data-toggle="tooltip"]').tooltip();
+
+  // date pickers
+  $('.datepicker').datetimepicker({
+    format: 'mm/dd/yy',
+    minView: 2,
+    autoclose: true
+  });
+  $('.timepicker').datetimepicker({
+    format: 'hh:ii',
+    startView: 1,
+    maxView: 1,
+    autoclose: true
+  });
 });

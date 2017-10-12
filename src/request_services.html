@@ -22,6 +22,10 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
 
+    <!-- datepicker -->
+    <script type="text/javascript" src="../vendors/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js"></script>
+    <link rel="stylesheet" href="../vendors/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css" />
+
     <!-- page styles  -->
     <link rel="stylesheet" href="../assets/css/request.css" />
 
@@ -183,71 +187,152 @@
             <div class="request__form__div"></div>
 
             <section>
-              <h1><i class="fa fa-question-circle"></i> Meeting Information</h1>
-
-              <div class="request__form__tabs">
-                <nav>
-                  <a href="" class="active">EN</a>
-                  <a href="">FR</a>
-                </nav>
-                <div class="visible">
-
-                  <div class="form-group">
-                    <label for="meeting_title">
-                      Meeting title: 
-                      <span>*</span>
-                      <a href="" data-toggle="tooltip" data-placement="right" title="This is how a tooltip would look like"><i class="fa fa-question-circle"></i></a>
-                    </label>
-                    <textarea type="text" class="form-control" id="meeting_title" placeholder="start typing to select available client organization"></textarea>
-                  </div>
-
+              <div class="row">
+                <div class="col-md-4">
                   <div class="form-group">
                     <label for="door_display">
-                      Door Display: 
+                      Date (from): 
                       <span>*</span>
                     </label>
-                    <textarea type="text" class="form-control" id="door_display" placeholder="Enter door display title (60 characters)"></textarea>
-                    <small class="form-text text-muted">The text entered will be displayed on the monitor outside the assigned conference room.</small>
-                  </div>
-
-                  <div class="form-group">
-                    <label for="door_display">
-                      Calendar / Non Calendar Meeting: 
-                      <span>*</span>
-                      <a href="" data-toggle="tooltip" data-placement="right" title="This is how a tooltip would look like"><i class="fa fa-question-circle"></i></a>
-                    </label>
-                    <div class="custom-controls">
-                      <label class="custom-control custom-radio">
-                        <input id="radio1" name="radio" type="radio" class="custom-control-input">
-                        <span class="custom-control-indicator"></span>
-                        <span class="custom-control-description">Calendar</span>
-                      </label>
-                      <label class="custom-control custom-radio">
-                        <input id="radio2" name="radio" type="radio" class="custom-control-input">
-                        <span class="custom-control-indicator"></span>
-                        <span class="custom-control-description">Non Calendar</span>
-                      </label>
+                    <div class="input-group">
+                      <input type="text" placeholder="__ / __ / __" class="form-control datepicker" />
+                      <span class="input-group-addon"><i class="fa fa-calendar-o"></i></span>
                     </div>
                     <div class="custom-controls">
                       <label class="custom-control custom-checkbox">
-                        <input id="checkbox1" name="checkbox" type="checkbox" class="custom-control-input">
+                        <input id="checkbox2" name="checkbox" type="checkbox" class="custom-control-input">
                         <span class="custom-control-indicator"></span>
-                        <span class="custom-control-description">As Required</span>
+                        <span class="custom-control-description">
+                          Meeting on Weekends & UN Holidays
+                        </span>
                       </label>
                     </div>
                   </div>
-
+                </div>
+                <div class="col-md-4">
                   <div class="form-group">
-                    <label for="coding_block">
-                      UMOJA Coding Block:
+                    <label for="door_display">
+                      Date (to): 
                       <span>*</span>
-                      <a href="" data-toggle="tooltip" data-placement="right" title="Tooltip on right"><i class="fa fa-question-circle"></i></a>
                     </label>
-                    <input type="text" class="form-control" id="coding_block">
+                    <div class="input-group">
+                      <input type="text" placeholder="__ / __ / __" class="form-control datepicker" />
+                      <span class="input-group-addon"><i class="fa fa-calendar-o"></i></span>
+                    </div>
                   </div>
-                
+                </div>
               </div>
+              <h4>Period:</h4>
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="timeblock">
+                    <header class="custom-controls">
+                      <label class="custom-control custom-checkbox">
+                        <input id="checkbox2" name="checkbox" type="checkbox" class="custom-control-input">
+                        <span class="custom-control-indicator"></span>
+                        <span class="custom-control-description">AM</span>
+                      </label>
+                    </header>
+                    <section class="row">
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <label for="door_display">from:</label>
+                          <div class="input-group">
+                            <input type="text" placeholder="__ : __" class="form-control timepicker" />
+                            <span class="input-group-addon"><i class="fa fa-clock-o"></i></span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <label for="door_display">to:</label>
+                          <div class="input-group">
+                            <input type="text" placeholder="__ : __" class="form-control timepicker" />
+                            <span class="input-group-addon"><i class="fa fa-clock-o"></i></span>
+                          </div>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="timeblock">
+                    <header class="custom-controls">
+                      <label class="custom-control custom-checkbox">
+                        <input id="checkbox2" name="checkbox" type="checkbox" class="custom-control-input">
+                        <span class="custom-control-indicator"></span>
+                        <span class="custom-control-description">Lunch</span>
+                      </label>
+                    </header>
+                    <section class="row">
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <label for="door_display">from:</label>
+                          <div class="input-group">
+                            <input type="text" placeholder="__ : __" class="form-control timepicker" />
+                            <span class="input-group-addon"><i class="fa fa-clock-o"></i></span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <label for="door_display">to:</label>
+                          <div class="input-group">
+                            <input type="text" placeholder="__ : __" class="form-control timepicker" />
+                            <span class="input-group-addon"><i class="fa fa-clock-o"></i></span>
+                          </div>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="timeblock">
+                    <header class="custom-controls">
+                      <label class="custom-control custom-checkbox">
+                        <input id="checkbox2" name="checkbox" type="checkbox" class="custom-control-input">
+                        <span class="custom-control-indicator"></span>
+                        <span class="custom-control-description">PM</span>
+                      </label>
+                    </header>
+                    <section class="row">
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <label for="door_display">from:</label>
+                          <div class="input-group">
+                            <input type="text" placeholder="__ : __" class="form-control timepicker" />
+                            <span class="input-group-addon"><i class="fa fa-clock-o"></i></span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <label for="door_display">to:</label>
+                          <div class="input-group">
+                            <input type="text" placeholder="__ : __" class="form-control timepicker" />
+                            <span class="input-group-addon"><i class="fa fa-clock-o"></i></span>
+                          </div>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </div>
+              </div>
+              <div class="custom-controls with-vertical-margin">
+                <label class="custom-control custom-checkbox">
+                  <input id="checkbox1" name="checkbox" type="checkbox" class="custom-control-input">
+                  <span class="custom-control-indicator"></span>
+                  <span class="custom-control-description">
+                    Block for Lunch
+                    <a href="" data-toggle="tooltip" data-placement="right" title="This is how a tooltip would look like"><i class="fa fa-question-circle"></i></a>
+                  </span>
+                </label>
+              </div>
+              <small class="orange">
+                Regular meeting hours are 10:00am - 13:00pm and 15:00pm - 18:00, Monday to Friday exclusive of holidays. Overtime charges may apply for services requested outside of these times.
+              </small>
             </section>
+            
           </form>
 
           <footer class="request__footer">
