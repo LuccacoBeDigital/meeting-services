@@ -22,7 +22,12 @@ html, body {
 }
 
 .datepicker {
+  width: auto;
   max-width: 154px;
+}
+
+.form-control.timepicker {
+  width: 80px !important;
 }
 
 .custom-control-description {
