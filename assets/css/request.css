@@ -580,7 +580,8 @@ small.orange {
   background: white;
   border: 1px solid #C3CFD6;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-  border-radius: 4px; }
+  border-radius: 4px;
+  margin-bottom: 10px; }
   .toggle-area header {
     padding: 10px;
     position: relative;
@@ -602,3 +603,14 @@ small.orange {
     padding: 10px; }
   .toggle-area .file-upload {
     margin-top: 30px; }
+  .toggle-area .badges {
+    position: absolute;
+    top: 10px;
+    right: 50px;
+    text-transform: uppercase; }
+    .toggle-area .badges .badge-required {
+      background: #FF7749; }
+    .toggle-area .badges .badge-costs {
+      border: 1px solid #6880A9;
+      color: #6880A9;
+      font-weight: normal; }
