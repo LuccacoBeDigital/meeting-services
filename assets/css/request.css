@@ -187,6 +187,85 @@
       padding-left: 50px;
       background-size: 41px 35px; } }
 
+.btn-switch {
+  width: 72px;
+  height: 28px;
+  border-radius: 28px;
+  overflow: hidden;
+  position: relative;
+  background: #DBE6EC; }
+
+.btn-switch:focus,
+.btn-switch:active {
+  outline: none !important; }
+
+.btn-switch.active {
+  background: #203C6C; }
+
+.btn-switch .handle {
+  width: 22px;
+  height: 22px;
+  background: white;
+  border-radius: 100%;
+  position: absolute;
+  top: 50%;
+  left: 2px;
+  transform: translateY(-50%);
+  transition: all 2s ease-out !important; }
+
+.btn-switch .handle:after,
+.btn-switch .handle:before {
+  font-family: "Roboto";
+  font-size: 14px;
+  display: block;
+  position: absolute;
+  top: 1px; }
+
+.btn-switch .handle:after {
+  content: "OFF";
+  left: 30px; }
+
+.btn-switch .handle:before {
+  content: "ON";
+  left: -30px; }
+
+.btn-switch.active .handle {
+  left: auto;
+  right: 2px; }
+
+.btn-switch.active .handle:before {
+  color: white; }
+
+.file-upload input[type=file] {
+  display: none; }
+
+.file-upload .list h2 {
+  color: #1F1F1F;
+  font-family: "Roboto";
+  font-size: 16px;
+  letter-spacing: 0.3px; }
+
+.file-upload .list b {
+  color: #0168E7;
+  font-size: 14px;
+  letter-spacing: 0; }
+
+.file-upload .list button {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 18px;
+  margin-left: 75px;
+  text-transform: uppercase; }
+
+.file-upload .btn-add {
+  border: 1px solid #52B3FF;
+  background: white;
+  font-size: 14px;
+  color: #52B3FF;
+  letter-spacing: 0; }
+
 html, body {
   background: #F4F5F8;
   font-size: 18px;
@@ -226,6 +305,12 @@ html, body {
 small.orange {
   color: #FF7749;
   font-size: 14px; }
+
+.cian {
+  background: #F0F8FF; }
+
+.m-bottom-20 {
+  margin-bottom: 20px; }
 
 .request__tabs {
   background: #C7E6FF;
@@ -486,3 +571,34 @@ small.orange {
     color: white; }
     .room-size.active p {
       color: white; }
+
+.content-off {
+  margin: 10px -40px 0;
+  padding: 40px; }
+
+.toggle-area {
+  background: white;
+  border: 1px solid #C3CFD6;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  border-radius: 4px; }
+  .toggle-area header {
+    padding: 10px;
+    position: relative;
+    border-bottom: 1px solid #C3CFD6; }
+    .toggle-area header h2 {
+      color: #1F1F1F;
+      display: inline-block;
+      font-family: "Roboto";
+      font-size: 16px;
+      letter-spacing: 0.3px;
+      margin-left: 20px; }
+    .toggle-area header a {
+      display: block;
+      position: absolute;
+      right: 20px;
+      top: 15px;
+      font-size: 14px; }
+  .toggle-area section {
+    padding: 10px; }
+  .toggle-area .file-upload {
+    margin-top: 30px; }

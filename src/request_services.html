@@ -26,8 +26,10 @@
     <script type="text/javascript" src="../vendors/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js"></script>
     <link rel="stylesheet" href="../vendors/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css" />
 
-    <!-- page styles  -->
+    <!-- page styles and scripts  -->
     <link rel="stylesheet" href="../assets/css/request.css" />
+    <script src="../assets/js/file-upload-min.js"></script>
+    <script src="../assets/js/request_services-min.js"></script>
 
   </head>
   <body>
@@ -378,6 +380,133 @@
               <small class="orange">
                   Note that these options will be taken into consideration, but are not a guarantee that the requested room can be reserved.
               </small>
+            </section>
+
+            <section class="cian content-off">
+              <h1><i class="fa fa-microphone"></i> Other Services</h1>
+
+              <div class="toggle-area">
+                <header>
+                  <button type="button" class="btn btn-xs btn-switch" data-elm="toggle">
+                    <div class="handle"></div>
+                  </button>
+                  <h2>1 - Interpretation</h2>
+                  <a href="" data-elm="toggle"><i class="fa fa-chevron-down"></i></a>
+                </header>
+                <section class="hidden">
+                  <div class="row m-bottom-20">
+                    <div class="col-md-1">
+                      <div class="custom-controls">
+                        <label class="custom-control custom-checkbox">
+                          <input id="checkbox2" name="checkbox" type="checkbox" class="custom-control-input">
+                          <span class="custom-control-indicator"></span>
+                          <span class="custom-control-description">
+                            All
+                          </span>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col-md-1">
+                      <div class="custom-controls">
+                        <label class="custom-control custom-checkbox">
+                          <input id="checkbox2" name="checkbox" type="checkbox" class="custom-control-input">
+                          <span class="custom-control-indicator"></span>
+                          <span class="custom-control-description">
+                            A
+                          </span>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col-md-1">
+                      <div class="custom-controls">
+                        <label class="custom-control custom-checkbox">
+                          <input id="checkbox2" name="checkbox" type="checkbox" class="custom-control-input">
+                          <span class="custom-control-indicator"></span>
+                          <span class="custom-control-description">
+                            C
+                          </span>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col-md-1">
+                      <div class="custom-controls">
+                        <label class="custom-control custom-checkbox">
+                          <input id="checkbox2" name="checkbox" type="checkbox" class="custom-control-input">
+                          <span class="custom-control-indicator"></span>
+                          <span class="custom-control-description">
+                            E
+                          </span>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col-md-1">
+                      <div class="custom-controls">
+                        <label class="custom-control custom-checkbox">
+                          <input id="checkbox2" name="checkbox" type="checkbox" class="custom-control-input">
+                          <span class="custom-control-indicator"></span>
+                          <span class="custom-control-description">
+                            F
+                          </span>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col-md-1">
+                      <div class="custom-controls">
+                        <label class="custom-control custom-checkbox">
+                          <input id="checkbox2" name="checkbox" type="checkbox" class="custom-control-input">
+                          <span class="custom-control-indicator"></span>
+                          <span class="custom-control-description">
+                            R
+                          </span>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col-md-1">
+                      <div class="custom-controls">
+                        <label class="custom-control custom-checkbox">
+                          <input id="checkbox2" name="checkbox" type="checkbox" class="custom-control-input">
+                          <span class="custom-control-indicator"></span>
+                          <span class="custom-control-description">
+                            S
+                          </span>
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="custom-controls">
+                    <label class="custom-control custom-radio">
+                      <input id="radio1" name="radio" type="radio" class="custom-control-input">
+                      <span class="custom-control-indicator"></span>
+                      <span class="custom-control-description">
+                        If Available
+                        <a href="" data-toggle="tooltip" data-placement="right" title="This is how a tooltip would look like"><i class="fa fa-question-circle"></i></a>
+                      </span>
+                    </label>
+                    <label class="custom-control custom-radio">
+                      <input id="radio2" name="radio" type="radio" class="custom-control-input">
+                      <span class="custom-control-indicator"></span>
+                      <span class="custom-control-description">
+                        Confirmed
+                      </span>
+                    </label>
+                  </div>
+                  <div class="file-upload">
+                    <input type="file" name="file">
+                    <div class="list hidden">
+                      <h2>Attachment</h2>
+                      <p>
+                        <b></b>
+                        <button class="btn btn-danger">
+                          <i class="fa fa-trash"></i> Delete
+                        </button>
+                      </p>
+                    </div>
+                    <button class="btn btn-default btn-add">
+                      <i class="fa fa-plus"></i> Add Attachment
+                    </button>
+                  </div>  
+                </section>
+              </div>
             </section>
 
           </form>

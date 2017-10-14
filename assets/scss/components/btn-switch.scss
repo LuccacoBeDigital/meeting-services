@@ -1,0 +1,57 @@
+.btn-switch {
+  width: 72px;
+  height: 28px;
+  border-radius: 28px;
+  overflow: hidden;
+  position: relative;
+  background: #DBE6EC;
+}
+
+.btn-switch:focus,
+.btn-switch:active {
+  outline: none !important;
+}
+
+.btn-switch.active {
+  background: #203C6C;
+}
+
+.btn-switch .handle {
+  width: 22px;
+  height: 22px;
+  background: white;
+  border-radius: 100%;
+  position: absolute;
+  top: 50%;
+  left: 2px;
+  transform: translateY(-50%);
+  transition: all 2s ease-out !important;
+}
+
+.btn-switch .handle:after,
+.btn-switch .handle:before {
+  font-family: "Roboto";
+  font-size: 14px;
+  display: block;
+  position: absolute;
+  top: 1px;
+}
+
+.btn-switch .handle:after {
+  content: "OFF";
+  left: 30px;
+}
+
+.btn-switch .handle:before {
+  content: "ON";
+  left: -30px;
+}
+
+.btn-switch.active .handle {
+  left: auto;
+  right: 2px;
+}
+
+.btn-switch.active .handle:before {
+  color: white;
+}

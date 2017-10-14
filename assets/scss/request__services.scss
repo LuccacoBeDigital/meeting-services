@@ -38,3 +38,42 @@
     }
   }
 }
+
+.content-off {
+  margin: 10px -40px 0;
+  padding: 40px;
+}
+
+.toggle-area {
+  background: white;
+  border: 1px solid #C3CFD6;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+
+  header {
+    padding: 10px;
+    position: relative;
+    border-bottom: 1px solid #C3CFD6;
+    h2 {
+      color: #1F1F1F;
+      display: inline-block;
+      font-family: "Roboto";
+      font-size: 16px;
+      letter-spacing: 0.3px;
+      margin-left: 20px;
+    }
+    a {
+      display: block;
+      position: absolute;
+      right: 20px;
+      top: 15px;
+      font-size: 14px;
+    }
+  }
+  section {
+    padding: 10px;
+  }
+  .file-upload {
+    margin-top: 30px;
+  }
+}
