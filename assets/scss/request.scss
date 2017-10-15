@@ -2,6 +2,7 @@
 // screen dependencies
 @import "request__basic.scss";
 @import "request__services.scss";
+@import "request__services__confirmation.scss";
 
 .request__tabs {
   background: #C7E6FF;
@@ -38,7 +39,7 @@
 }
 
 .request__wizard {
-  padding: 50px 200px;
+  padding: 50px 120px;
   ul {
     display: flex;
     margin: 0;

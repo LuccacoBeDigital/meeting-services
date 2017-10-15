@@ -541,6 +541,58 @@ small.orange {
       display: block;
       width: 100%; } }
 
+.request__services__confirmation h1.orange {
+  font-weight: bold;
+  font-size: 18px;
+  color: #FF7749;
+  letter-spacing: 0.32px; }
+
+.request__services__confirmation .list-actions .btn-outline-primary,
+.request__services__confirmation .list-actions .btn-primary {
+  font-size: 16px;
+  letter-spacing: 0;
+  text-transform: uppercase;
+  padding: 15px 20px; }
+
+.request__services__confirmation .btn-primary {
+  border-color: #52B3FF;
+  background: #52B3FF; }
+
+.request__services__confirmation .btn-outline-primary {
+  border-color: #52B3FF;
+  color: #52B3FF; }
+
+.request__services__confirmation .list-headers {
+  border-top: 3px solid #D5D5D5;
+  border-bottom: 1px solid #D5D5D5;
+  font-size: 16px;
+  color: #555555;
+  letter-spacing: 0.3px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 20px; }
+
+.request__services__confirmation .list-item {
+  border-bottom: 1px solid #D5D5D5;
+  padding-bottom: 10px;
+  margin-bottom: 30px; }
+  .request__services__confirmation .list-item h2 {
+    font-size: 18px;
+    color: #1F1F1F;
+    letter-spacing: 0.34px; }
+  .request__services__confirmation .list-item p {
+    font-size: 14px;
+    color: #1F1F1F;
+    letter-spacing: 0.26px; }
+  .request__services__confirmation .list-item .badge {
+    background: #CC7D27;
+    text-transform: uppercase;
+    padding: 5px;
+    display: inline-block; }
+  .request__services__confirmation .list-item .list-item-actions .btn {
+    width: 100%;
+    margin-bottom: 10px; }
+
 .request__tabs {
   background: #C7E6FF;
   position: relative;
@@ -572,7 +624,7 @@ small.orange {
         opacity: 1; }
 
 .request__wizard {
-  padding: 50px 200px; }
+  padding: 50px 120px; }
   .request__wizard ul {
     display: flex;
     margin: 0;
