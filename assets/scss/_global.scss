@@ -21,6 +21,11 @@ html, body {
 }
 @media (max-width: 480px) {
   .desktop { display: none !important; }
+  .content {
+    & > .container {
+      padding: 0;
+    }
+  }
 }
 
 .datepicker {

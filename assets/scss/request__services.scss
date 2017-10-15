@@ -100,3 +100,57 @@
     width: 18%;
   }
 }
+
+@media (max-width: 480px) {
+  .timeblock {
+    margin-bottom: 20px;
+  }
+  small {
+    font-size: 10px !important;
+  }
+
+  .room-size {
+    margin-bottom: 10px;
+    span, p {
+      font-size: 14px;
+      line-height: 19px;
+    }
+  }
+  .toggle-area {
+    
+    header {
+      padding-left: 80px;
+
+      .btn-switch {
+        position: absolute;
+        left: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+
+      &.with-badge {
+        padding-bottom: 35px;
+        .btn-switch {
+          top: 24px;
+        }
+      }
+      h2 {
+        font-size: 14px;
+        margin: 0 0 0 15px;
+        max-width: calc(100% - 120px);
+      }
+    }
+    .badges {
+      bottom: 10px;
+      top: auto;
+      right: auto;
+    }
+  }
+  .checkbox-list {
+    margin-bottom: 20px;
+    label {
+      display: block;
+      width: 100%;
+    }
+  }
+}
