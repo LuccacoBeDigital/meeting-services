@@ -158,13 +158,13 @@
                 </div>
               </div>
 
-              <div class="toggle-area toggle-area--blue">
+              <div class="toggle-area toggle-area--blue room-reservation-info">
                 <header>
                   <h2>Room Reservation 1 </h2>
                   <a href="" data-elm="toggle"><i class="fa fa-chevron-down"></i></a>
                 </header>
                 <section class="">
-                  <div class="row">
+                  <div class="row m-bottom-20">
                     <div class="col-md-4">
                       <b>Meeting Title</b><br/>
                       This is the conference title text
@@ -178,7 +178,7 @@
                       Official
                     </div>
                   </div>
-                  <div class="row">
+                  <div class="row m-bottom-20">
                     <div class="col-md-2">
                       <b>Date (from)</b><br/>
                       01/01/2017
@@ -197,54 +197,59 @@
                     </div>
                   </div>
 
-                  <div class="row">
-                    <div class="col-md-4">
+                  <div class="row m-bottom-20">
+                    <div class="col-md-12">
                       <b>Preferred Conference Room Size</b><br/>
                       Small-sized room (53 maximum capacity)
                     </div>
                   </div>
 
-                  <label>Options</label>
-                  <div class="custom-controls">
-                    <label class="custom-control custom-radio">
-                      <input id="radio2" name="radio" type="radio" class="custom-control-input">
-                      <span class="custom-control-indicator"></span>
-                      <span class="custom-control-description">
-                        Closed
-                      </span>
-                    </label>
-                    <label class="custom-control custom-radio">
-                      <input id="radio2" name="radio" type="radio" class="custom-control-input">
-                      <span class="custom-control-indicator"></span>
-                      <span class="custom-control-description">
-                        Display On Scrolling Boards
-                      </span>
-                    </label>
-                    <label class="custom-control custom-radio">
-                      <input id="radio2" name="radio" type="radio" class="custom-control-input">
-                      <span class="custom-control-indicator"></span>
-                      <span class="custom-control-description">
-                        Allow Tours
-                      </span>
-                    </label>
-                    <label class="custom-control custom-radio">
-                      <input id="radio2" name="radio" type="radio" class="custom-control-input">
-                      <span class="custom-control-indicator"></span>
-                      <span class="custom-control-description">
-                        Block for Lunch
-                      </span>
-                    </label>
+                  <div class="form-group">
+                    <b>Options</b>
+                    <div class="custom-controls">
+                      <label class="custom-control custom-radio">
+                        <input id="radio2" name="radio" type="radio" class="custom-control-input">
+                        <span class="custom-control-indicator"></span>
+                        <span class="custom-control-description">
+                          Closed
+                        </span>
+                      </label>
+                      <br/>
+                      <label class="custom-control custom-radio">
+                        <input id="radio2" name="radio" type="radio" class="custom-control-input">
+                        <span class="custom-control-indicator"></span>
+                        <span class="custom-control-description">
+                          Display On Scrolling Boards
+                        </span>
+                      </label>
+                      <br/>
+                      <label class="custom-control custom-radio">
+                        <input id="radio2" name="radio" type="radio" class="custom-control-input">
+                        <span class="custom-control-indicator"></span>
+                        <span class="custom-control-description">
+                          Allow Tours
+                        </span>
+                      </label>
+                      <br/>
+                      <label class="custom-control custom-radio">
+                        <input id="radio2" name="radio" type="radio" class="custom-control-input">
+                        <span class="custom-control-indicator"></span>
+                        <span class="custom-control-description">
+                          Block for Lunch
+                        </span>
+                      </label>
+                    </div>
                   </div>
 
                   <h4>REQUESTED SERVICES</h4>
 
-                  <div class="toggle-area">
+                  <div class="toggle-area toggle-area--no-icon">
                     <header>
                       <h2>Access and security related matters</h2>
                       <a href="" data-elm="toggle"><i class="fa fa-chevron-down"></i></a>
                     </header>
-                    <section class="">
-                      <div class="row">
+                    <section class="hidden">
+                      <div class="row m-bottom-20">
                         <div class="col-md-4">
                           <b>With UN Pass</b><br/>
                           20
@@ -260,18 +265,20 @@
                       </div>
                       <p>
                         <b>Notes</b><br/>
-                        World Food Day is being marked this year as global hunger rises for the first time in over a decade, affecting 815 million people or 11 per cent of the global population.
-                        The increase is largely due to the proliferation of violent conflicts and climate-related shocks which are also major drivers of distress migration.
+                        <small>
+                          World Food Day is being marked this year as global hunger rises for the first time in over a decade, affecting 815 million people or 11 per cent of the global population.
+                          The increase is largely due to the proliferation of violent conflicts and climate-related shocks which are also major drivers of distress migration.
+                        </small>
                       </p>
                     </section>
                   </div>
 
-                  <div class="toggle-area">
+                  <div class="toggle-area toggle-area--no-icon">
                     <header>
                       <h2>Nameplates, podium signs and room set-up</h2>
                       <a href="" data-elm="toggle"><i class="fa fa-chevron-down"></i></a>
                     </header>
-                    <section class="">
+                    <section class="hidden">
                       <div class="custom-controls">
                         <label class="custom-control custom-checkbox">
                           <input id="checkbox2" name="checkbox" type="checkbox" class="custom-control-input">
@@ -280,6 +287,7 @@
                             Gavel/Block
                           </span>
                         </label>
+                        <br/>
                         <label class="custom-control custom-checkbox">
                           <input id="checkbox2" name="checkbox" type="checkbox" class="custom-control-input">
                           <span class="custom-control-indicator"></span>
@@ -287,6 +295,7 @@
                             Pads/Pencils
                           </span>
                         </label>
+                        <br/>
                         <label class="custom-control custom-checkbox">
                           <input id="checkbox2" name="checkbox" type="checkbox" class="custom-control-input">
                           <span class="custom-control-indicator"></span>
@@ -294,6 +303,7 @@
                             Water on podium
                           </span>
                         </label>
+                        <br/>
                         <label class="custom-control custom-checkbox">
                           <input id="checkbox2" name="checkbox" type="checkbox" class="custom-control-input">
                           <span class="custom-control-indicator"></span>
@@ -305,12 +315,12 @@
                     </section>
                   </div>
 
-                  <div class="toggle-area">
+                  <div class="toggle-area toggle-area--no-icon">
                     <header>
                       <h2>Loaning of technological equipment</h2>
                       <a href="" data-elm="toggle"><i class="fa fa-chevron-down"></i></a>
                     </header>
-                    <section class="">
+                    <section class="hidden">
                       <div class="row">
                         <div class="col-md-2">
                           <label class="custom-control custom-checkbox">

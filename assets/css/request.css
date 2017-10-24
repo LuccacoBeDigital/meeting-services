@@ -564,6 +564,14 @@ small.orange {
 
 .request__form--review-submit {
   font-size: 16px; }
+  .request__form--review-submit h4 {
+    color: #1F1F1F;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0;
+    text-transform: uppercase; }
+  .request__form--review-submit .room-reservation-info {
+    margin-bottom: 30px; }
 
 .toggle-area {
   background: white;
@@ -574,7 +582,8 @@ small.orange {
   .toggle-area header {
     padding: 10px;
     position: relative;
-    border-bottom: 1px solid #C3CFD6; }
+    border-bottom: 1px solid #C3CFD6;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); }
     .toggle-area header h2 {
       color: #1F1F1F;
       display: inline-block;
@@ -603,6 +612,27 @@ small.orange {
       border: 1px solid #6880A9;
       color: #6880A9;
       font-weight: normal; }
+
+.toggle-area--blue > header h2 {
+  color: #203C6C;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 0.38px;
+  margin: 0 0 0 5px;
+  text-transform: uppercase; }
+
+.toggle-area--blue > header a {
+  top: 11px; }
+
+.toggle-area--blue > section {
+  padding: 20px;
+  background: #F7F7F7; }
+
+.toggle-area--no-icon > header h2 {
+  margin: 0 0 0 5px; }
+
+.toggle-area--no-icon > header a {
+  top: 11px; }
 
 .request__tabs {
   background: #C7E6FF;

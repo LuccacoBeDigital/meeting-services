@@ -1,10 +1,10 @@
 @import "_global.scss";
 
 // screen dependencies
-@import "request__basic.scss";
-@import "request__services.scss";
-@import "request__services__confirmation.scss";
-@import "request__review_submit.scss";
+@import "basic_information.scss";
+@import "request_services.scss";
+@import "request_services__confirmation.scss";
+@import "review_submit.scss";
 
 .toggle-area {
   background: white;
@@ -17,6 +17,7 @@
     padding: 10px;
     position: relative;
     border-bottom: 1px solid #C3CFD6;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     h2 {
       color: #1F1F1F;
       display: inline-block;
@@ -51,6 +52,37 @@
       border: 1px solid #6880A9;
       color: #6880A9;
       font-weight: normal;
+    }
+  }
+}
+
+.toggle-area--blue {
+  & > header {
+    h2 {
+      color: #203C6C;
+      font-size: 20px;
+      font-weight: bold;
+      letter-spacing: 0.38px;
+      margin: 0 0 0 5px;
+      text-transform: uppercase;
+    }
+    a {
+      top: 11px;
+    }
+  }
+  & > section {
+    padding: 20px;
+    background: #F7F7F7;
+  }
+}
+
+.toggle-area--no-icon {
+  & > header {
+    h2 {
+      margin: 0 0 0 5px;
+    }
+    a {
+      top: 11px;
     }
   }
 }
