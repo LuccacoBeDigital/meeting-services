@@ -320,6 +320,7 @@ small.orange {
     margin: 0 0 20px;
     color: #CC7D27;
     font-size: 20px;
+    font-weight: bold;
     text-transform: uppercase; }
     .request__form h1 i {
       margin-right: 5px; }
@@ -461,45 +462,6 @@ small.orange {
   margin: 10px -40px 0;
   padding: 40px; }
 
-.toggle-area {
-  background: white;
-  border: 1px solid #C3CFD6;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-  border-radius: 4px;
-  margin-bottom: 10px; }
-  .toggle-area header {
-    padding: 10px;
-    position: relative;
-    border-bottom: 1px solid #C3CFD6; }
-    .toggle-area header h2 {
-      color: #1F1F1F;
-      display: inline-block;
-      font-family: "Roboto";
-      font-size: 16px;
-      letter-spacing: 0.3px;
-      margin-left: 20px; }
-    .toggle-area header a {
-      display: block;
-      position: absolute;
-      right: 20px;
-      top: 15px;
-      font-size: 14px; }
-  .toggle-area section {
-    padding: 10px; }
-  .toggle-area .file-upload {
-    margin-top: 30px; }
-  .toggle-area .badges {
-    position: absolute;
-    top: 10px;
-    right: 50px;
-    text-transform: uppercase; }
-    .toggle-area .badges .badge-required {
-      background: #FF7749; }
-    .toggle-area .badges .badge-costs {
-      border: 1px solid #6880A9;
-      color: #6880A9;
-      font-weight: normal; }
-
 .checkbox-list {
   margin-bottom: 20px; }
   .checkbox-list label {
@@ -516,25 +478,6 @@ small.orange {
     .room-size span, .room-size p {
       font-size: 14px;
       line-height: 19px; }
-  .toggle-area header {
-    padding-left: 80px; }
-    .toggle-area header .btn-switch {
-      position: absolute;
-      left: 10px;
-      top: 50%;
-      transform: translateY(-50%); }
-    .toggle-area header.with-badge {
-      padding-bottom: 35px; }
-      .toggle-area header.with-badge .btn-switch {
-        top: 24px; }
-    .toggle-area header h2 {
-      font-size: 14px;
-      margin: 0 0 0 15px;
-      max-width: calc(100% - 120px); }
-  .toggle-area .badges {
-    bottom: 10px;
-    top: auto;
-    right: auto; }
   .checkbox-list {
     margin-bottom: 20px; }
     .checkbox-list label {
@@ -618,6 +561,48 @@ small.orange {
     .request__services__confirmation .list-actions .btn {
       font-size: 14px;
       padding: 15px; } }
+
+.request__form--review-submit {
+  font-size: 16px; }
+
+.toggle-area {
+  background: white;
+  border: 1px solid #C3CFD6;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  margin-bottom: 10px; }
+  .toggle-area header {
+    padding: 10px;
+    position: relative;
+    border-bottom: 1px solid #C3CFD6; }
+    .toggle-area header h2 {
+      color: #1F1F1F;
+      display: inline-block;
+      font-family: "Roboto";
+      font-size: 16px;
+      letter-spacing: 0.3px;
+      margin-left: 20px; }
+    .toggle-area header a {
+      display: block;
+      position: absolute;
+      right: 20px;
+      top: 15px;
+      font-size: 14px; }
+  .toggle-area section {
+    padding: 10px; }
+  .toggle-area .file-upload {
+    margin-top: 30px; }
+  .toggle-area .badges {
+    position: absolute;
+    top: 10px;
+    right: 50px;
+    text-transform: uppercase; }
+    .toggle-area .badges .badge-required {
+      background: #FF7749; }
+    .toggle-area .badges .badge-costs {
+      border: 1px solid #6880A9;
+      color: #6880A9;
+      font-weight: normal; }
 
 .request__tabs {
   background: #C7E6FF;
@@ -745,4 +730,23 @@ small.orange {
   .request__wizard {
     padding: 20px 0px; }
     .request__wizard li {
-      font-size: 12px; } }
+      font-size: 12px; }
+  .toggle-area header {
+    padding-left: 80px; }
+    .toggle-area header .btn-switch {
+      position: absolute;
+      left: 10px;
+      top: 50%;
+      transform: translateY(-50%); }
+    .toggle-area header.with-badge {
+      padding-bottom: 35px; }
+      .toggle-area header.with-badge .btn-switch {
+        top: 24px; }
+    .toggle-area header h2 {
+      font-size: 14px;
+      margin: 0 0 0 15px;
+      max-width: calc(100% - 120px); }
+  .toggle-area .badges {
+    bottom: 10px;
+    top: auto;
+    right: auto; } }
