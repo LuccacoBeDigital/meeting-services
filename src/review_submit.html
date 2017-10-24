@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>UN Meeting - Review and Submit</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- vendor scripts -->
+    <script src="../vendors/jquery/dist/jquery.min.js"></script>
+    <script src="../vendors/modernizr/modernizr-2.8.3.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+
+    <!-- vendor styles -->
+    <link rel="stylesheet" href="../assets/css/normalize.min.css" />
+    <link rel="stylesheet" href="../vendors/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700" />
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+
+    <!-- datepicker -->
+    <script type="text/javascript" src="../vendors/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js"></script>
+    <link rel="stylesheet" href="../vendors/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css" />
+
+    <!-- page styles  -->
+    <link rel="stylesheet" href="../assets/css/request.css" />
+
+  </head>
+  <body>
+
+    <div id="headerNavMobile" class="header__nav--mobile mobile hidden">
+      <ul>
+        <li><a href=""><strong class="fa fa-question-circle"></strong>Help</a></li>
+        <li><a href=""><strong class="fa fa-phone"></strong>Contact Us</a></li>
+        <li><a href=""><strong class="fa fa-user"></strong>Username</a></li>
+        <li>
+          <a href="" class="headerDropdownToggle"><strong class="fa fa-chevron-down"></strong>New York</a>
+          <div class="headerDropdown dropdown hidden">
+            <a href="">Geneva</a>
+            <a href="">Vienna</a>
+            <a href="">Nairobi</a>
+          </div>
+          <img src="../assets/img/dgacm-logo.svg" alt="" class="logo">
+        </li>
+      </ul>
+      <div class="overlay"></div>
+    </div>
+
+    <div class="header">
+      <div class="small">
+        <div class="container">
+          <a href="home.html"><strong class="fa fa-home"></strong> Welcome to the United Nations</a>
+        </div>
+      </div>
+      <nav>
+        <div class="container">
+          <h2>Request for Meeting Services</h2>
+          <ul class="header__nav--desktop desktop">
+            <li><a href=""><strong class="fa fa-question-circle"></strong>Help</a></li>
+            <li><a href=""><strong class="fa fa-phone"></strong>Contact Us</a></li>
+            <li><a href=""><strong class="fa fa-user"></strong>Username</a></li>
+            <li>
+              <a href="" class="headerDropdownToggle"><strong class="fa fa-chevron-down"></strong>New York</a>
+              <div class="headerDropdown dropdown hidden">
+                <a href="">Geneva</a>
+                <a href="">Vienna</a>
+                <a href="">Nairobi</a>
+              </div>
+            </li>
+          </ul>
+          <a href="" id="headerNavToggle" class="header__nav__toggle mobile">
+            <img src="../assets/img/nav-toggle-on.svg" alt="Open / Close Menu">
+          </a>
+        </div>
+      </nav>
+    </div>
+
+    <div class="content home">
+      <div class="container">
+        
+        <div class="request__tabs">
+          <nav>
+            <a href="" class="active">
+              <strong class="fa fa-plus-circle"></strong> New Request
+            </a>
+            <a href="">
+              <strong class="fa fa-archive"></strong> All my requests
+            </a>
+          </nav>
+
+          <div class="request__wizard">
+            <ul>
+              <li class="done">
+                <span>1</span>
+                Provide Basic Information
+              </li>
+              <li class="done">
+                <span>2</span>
+                Request services
+              </li>
+              <li class="active">
+                <img src="../assets/img/home-wizard-check.png" alt="" class="request__wizard__check">
+                <span>3</span>
+                Review and Submit Request
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="content__wrapper">
+
+          <form class="request__form">
+            <section>
+              <h1><i class="fa fa-desktop"></i> Review and Submit</h1>
+
+              <div class="row">
+                <div class="col-md-4">
+                  <b>Meeting Title</b><br/>
+                  This is the conference title text
+                </div>
+                <div class="col-md-4">
+                  <b>Door Display</b><br/>
+                  This is the door display text
+                </div>
+                <div class="col-md-4">
+                  <b>Umoja Coding Block</b><br/>
+                  0548426
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-4">
+                  <b>Calendar Meeting</b><br/>
+                  Yes
+                </div>
+                <div class="col-md-4">
+                  <b>As Required</b><br/>
+                  No
+                </div>
+              </div>
+              <hr>
+              <h4>Requesting Contacts</h4>
+              <div class="row">
+                <div class="col-md-4">
+                  <b>Name</b><br/>
+                  Alejandro Bianchi
+                </div>
+                <div class="col-md-4">
+                  <b>Email</b><br/>
+                  <a href="mailto:a.bianchi@unfpa.org">a.bianchi@unfpa.org</a>
+                </div>
+                <div class="col-md-4">
+                  <b>Phone</b><br/>
+                  212566759
+                </div>
+              </div>
+
+              <div class="toggle-area">
+                <header>
+                  <h2>Room Reservation 1 </h2>
+                  <a href="" data-elm="toggle"><i class="fa fa-chevron-down"></i></a>
+                </header>
+                <section class="">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <b>Meeting Title</b><br/>
+                      This is the conference title text
+                    </div>
+                    <div class="col-md-4">
+                      <b>Door Display</b><br/>
+                      This is the door display text
+                    </div>
+                    <div class="col-md-4">
+                      <b>Meeting Type</b><br/>
+                      Official
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-2">
+                      <b>Date (from)</b><br/>
+                      01/01/2017
+                    </div>
+                    <div class="col-md-2">
+                      <b>Date (to)</b><br/>
+                      10/01/2017
+                    </div>
+                    <div class="col-md-4">
+                      <b>Meeting on Weekends & UN Holidays</b><br/>
+                      No
+                    </div>
+                    <div class="col-md-4">
+                      <b>Room Remarks</b><br/>
+                      None
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-md-4">
+                      <b>Preferred Conference Room Size</b><br/>
+                      Small-sized room (53 maximum capacity)
+                    </div>
+                  </div>
+
+                  <label>Options</label>
+                  <div class="custom-controls">
+                    <label class="custom-control custom-radio">
+                      <input id="radio2" name="radio" type="radio" class="custom-control-input">
+                      <span class="custom-control-indicator"></span>
+                      <span class="custom-control-description">
+                        Closed
+                      </span>
+                    </label>
+                    <label class="custom-control custom-radio">
+                      <input id="radio2" name="radio" type="radio" class="custom-control-input">
+                      <span class="custom-control-indicator"></span>
+                      <span class="custom-control-description">
+                        Display On Scrolling Boards
+                      </span>
+                    </label>
+                    <label class="custom-control custom-radio">
+                      <input id="radio2" name="radio" type="radio" class="custom-control-input">
+                      <span class="custom-control-indicator"></span>
+                      <span class="custom-control-description">
+                        Allow Tours
+                      </span>
+                    </label>
+                    <label class="custom-control custom-radio">
+                      <input id="radio2" name="radio" type="radio" class="custom-control-input">
+                      <span class="custom-control-indicator"></span>
+                      <span class="custom-control-description">
+                        Block for Lunch
+                      </span>
+                    </label>
+                  </div>
+
+                  <h4>REQUESTED SERVICES</h4>
+
+                  <div class="toggle-area">
+                    <header>
+                      <h2>Access and security related matters</h2>
+                      <a href="" data-elm="toggle"><i class="fa fa-chevron-down"></i></a>
+                    </header>
+                    <section class="">
+                      <div class="row">
+                        <div class="col-md-4">
+                          <b>With UN Pass</b><br/>
+                          20
+                        </div>
+                        <div class="col-md-4">
+                          <b>Without UN Pass</b><br/>
+                          10
+                        </div>
+                        <div class="col-md-4">
+                          <b>Total</b><br/>
+                          30
+                        </div>
+                      </div>
+                      <p>
+                        <b>Notes</b><br/>
+                        World Food Day is being marked this year as global hunger rises for the first time in over a decade, affecting 815 million people or 11 per cent of the global population.
+                        The increase is largely due to the proliferation of violent conflicts and climate-related shocks which are also major drivers of distress migration.
+                      </p>
+                    </section>
+                  </div>
+
+                  <div class="toggle-area">
+                    <header>
+                      <h2>Nameplates, podium signs and room set-up</h2>
+                      <a href="" data-elm="toggle"><i class="fa fa-chevron-down"></i></a>
+                    </header>
+                    <section class="">
+                      <div class="custom-controls">
+                        <label class="custom-control custom-checkbox">
+                          <input id="checkbox2" name="checkbox" type="checkbox" class="custom-control-input">
+                          <span class="custom-control-indicator"></span>
+                          <span class="custom-control-description">
+                            Gavel/Block
+                          </span>
+                        </label>
+                        <label class="custom-control custom-checkbox">
+                          <input id="checkbox2" name="checkbox" type="checkbox" class="custom-control-input">
+                          <span class="custom-control-indicator"></span>
+                          <span class="custom-control-description">
+                            Pads/Pencils
+                          </span>
+                        </label>
+                        <label class="custom-control custom-checkbox">
+                          <input id="checkbox2" name="checkbox" type="checkbox" class="custom-control-input">
+                          <span class="custom-control-indicator"></span>
+                          <span class="custom-control-description">
+                            Water on podium
+                          </span>
+                        </label>
+                        <label class="custom-control custom-checkbox">
+                          <input id="checkbox2" name="checkbox" type="checkbox" class="custom-control-input">
+                          <span class="custom-control-indicator"></span>
+                          <span class="custom-control-description">
+                            Signs/Nameplates (Digital)
+                          </span>
+                        </label>
+                      </div>
+                    </section>
+                  </div>
+
+                  <div class="toggle-area">
+                    <header>
+                      <h2>Loaning of technological equipment</h2>
+                      <a href="" data-elm="toggle"><i class="fa fa-chevron-down"></i></a>
+                    </header>
+                    <section class="">
+                      <div class="row">
+                        <div class="col-md-2">
+                          <label class="custom-control custom-checkbox">
+                            <input id="checkbox2" name="checkbox" type="checkbox" class="custom-control-input">
+                            <span class="custom-control-indicator"></span>
+                            <span class="custom-control-description">
+                              Projector
+                            </span>
+                          </label>
+                        </div>
+                        <div class="col-md-2">
+                          <label class="custom-control custom-checkbox">
+                            <input id="checkbox2" name="checkbox" type="checkbox" class="custom-control-input">
+                            <span class="custom-control-indicator"></span>
+                            <span class="custom-control-description">
+                              Desktop
+                            </span>
+                          </label>
+                        </div>
+                        <div class="col-md-2">
+                          <label class="custom-control custom-checkbox">
+                            <input id="checkbox2" name="checkbox" type="checkbox" class="custom-control-input">
+                            <span class="custom-control-indicator"></span>
+                            <span class="custom-control-description">
+                              Laptop
+                            </span>
+                          </label>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-2">
+                          <label class="custom-control custom-checkbox">
+                            <input id="checkbox2" name="checkbox" type="checkbox" class="custom-control-input">
+                            <span class="custom-control-indicator"></span>
+                            <span class="custom-control-description">
+                              Telephone
+                            </span>
+                          </label>
+                        </div>
+                        <div class="col-md-2">
+                          <label class="custom-control custom-checkbox">
+                            <input id="checkbox2" name="checkbox" type="checkbox" class="custom-control-input">
+                            <span class="custom-control-indicator"></span>
+                            <span class="custom-control-description">
+                              Printer
+                            </span>
+                          </label>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+
+                  <div class="form-group">
+                    <label>Would you require installation set up?</label>
+                    <label class="custom-control custom-radio">
+                      <input id="radio2" name="radio" type="radio" class="custom-control-input">
+                      <span class="custom-control-indicator"></span>
+                      <span class="custom-control-description">
+                        Yes
+                      </span>
+                    </label>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-md-2">
+                      <b>Date</b><br/>
+                      26/08/2017
+                    </div>
+                    <div class="col-md-2">
+                      <b>Time</b><br/>
+                      10:30 AM
+                    </div>
+                  </div>
+
+                  <div class="form-group">
+                    <label>Attachment(s)</label>
+                    <a href="">file_name.pdf</a> (1.3mb)
+                  </div>
+
+                  
+                </section>
+              </div>
+
+              <h1><i class="fa fa-usd"></i> COST ESTIMATE FOR MEETING SERVICES</h1>
+
+              <div class="row">
+                <div class="col-md-6">
+                  <b>Requestor:</b> [12.0010] ACABQ<br/>
+                  <b>Umoja Coding Block:</b> 14524
+                </div>
+                <div class="col-md-6 text-right">
+                  <b>Date:</b> 25/09/2017<br/>
+                  <b>eMeets No. #:</b> NY174777A<br/>
+                  <b>Currency:</b> Dollars
+                </div>
+              </div>
+
+              <h4>Room Reservation 1</h4>
+              <table class="table table-striped">
+                <tr>
+                  <th>Item</th>
+                  <th>Service</th>
+                  <th>Estimated Amount</th>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>Access and Security Related Matters</td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>Nameplates, podium signs and room set-up</td>
+                  <td>$ 0,00</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>Audio visual services</td>
+                  <td>$ 14.568,00</td>
+                </tr>
+                <tr class="total">
+                  <td></td>
+                  <td class="text-right">Total</td>
+                  <td>$ 14.568,00</td>
+                </tr>
+              </table>
+
+              <h4>Room Reservation 2</h4>
+              <table class="table table-striped">
+                <tr>
+                  <th>Item</th>
+                  <th>Service</th>
+                  <th>Estimated Amount</th>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>Access and Security Related Matters</td>
+                  <td>-</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>Nameplates, podium signs and room set-up</td>
+                  <td>$ 0,00</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>Audio visual services</td>
+                  <td>$ 14.568,00</td>
+                </tr>
+                <tr class="total">
+                  <td></td>
+                  <td class="text-right">Total</td>
+                  <td>$ 14.568,00</td>
+                </tr>
+              </table>
+
+              <small>
+                NOTE: Food Day is being marked this year as global hunger rises for the first time in over a decade, affecting 815 million people or 11 per cent of the global population.
+                The increase is largely due to the proliferation which are also major drivers of distress migration. 
+              </small>
+              
+            </section>
+
+          </form>
+
+          <footer class="request__footer">
+            <div class="request__wizard">
+              <ul>
+                <li class="done">
+                  <span>1</span>
+                  Provide Basic Information
+                </li>
+                <li class="active">
+                  <img src="../assets/img/home-wizard-check.png" alt="" class="request__wizard__check">
+                  <span>2</span>
+                  Request services
+                </li>
+                <li>
+                  <span>3</span>
+                  Review and Submit Request
+                </li>
+              </ul>
+            </div>
+            <div class="request__footer__buttons">
+              <button class="request__go-next outline">Back</button>
+              <button class="request__go-next right">Next</button>
+              <button class="request__go-next outline right">Save</button>
+            </div>
+            
+          </footer>
+        </div>
+
+      </div>  
+    </div>
+
+    <footer class="footer content">
+      <div class="container">
+        <h1>UNITED NATIONS</h1>
+        <nav>
+          <a href="">A-Z Site Index</a>
+          <a href="">Contact</a>
+          <a href="">Copyright</a>
+          <a href="">FAQ</a>
+          <a href="">Fraud Alert</a>
+          <a href="">Privacy Notice</a>
+          <a href="">Terms of Use</a>
+        </nav>
+      </div>
+    </footer>
+
+    <script src="../assets/js/header.js"></script>
+    <script src="../assets/js/home.js"></script>
+    <script src="../assets/js/file-upload-min.js"></script>
+    <script src="../assets/js/review_submit-min.js"></script>
+  </body>
+</html>

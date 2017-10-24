@@ -408,6 +408,12 @@
 		"oAP": "\/src\/request_services_confirmation.html",
 		"oF": 0
 		},
+	"\/src\/review_submit.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/src\/review_submit.html",
+		"oF": 0
+		},
 	"\/vendors\/bootstrap-datetimepicker\/css\/bootstrap-datetimepicker.css": {
 		"aP": 1,
 		"bl": 0,
