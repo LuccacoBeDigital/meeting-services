@@ -782,4 +782,10 @@ small.orange {
   .toggle-area .badges {
     bottom: 10px;
     top: auto;
-    right: auto; } }
+    right: auto; }
+  .toggle-area--no-icon header,
+  .toggle-area--blue header {
+    padding: 10px; }
+    .toggle-area--no-icon header h2,
+    .toggle-area--blue header h2 {
+      margin: 0 0 0 5px; } }
