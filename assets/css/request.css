@@ -341,8 +341,8 @@ small.orange {
     font-size: 16px;
     letter-spacing: 0.3px;
     margin-bottom: 10px; }
-    .request__form__input > label span,
-    .form-group > label span {
+    .request__form__input > label span.orange,
+    .form-group > label span.orange {
       color: #FF7749; }
     .request__form__input > label i,
     .form-group > label i {
@@ -572,6 +572,9 @@ small.orange {
     text-transform: uppercase; }
   .request__form--review-submit .room-reservation-info {
     margin-bottom: 30px; }
+  .request__form--review-submit .table-striped {
+    border-top: 3px solid #D5D5D5;
+    border-bottom: 1px solid #D5D5D5; }
 
 .toggle-area {
   background: white;
