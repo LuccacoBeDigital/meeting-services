@@ -1018,6 +1018,16 @@
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
+		},
+	"\/vendors\/notify\/notify.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/vendors\/notify\/notify.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
 		}
 	},
 "hooks": [

@@ -12,7 +12,8 @@
     font-size: 12px;
     font-weight: bold;
     background: url("../img/un-logo-footer.png") transparent no-repeat left center;
-    background-size: 30px 26px; }
+    background-size: 30px 26px;
+    line-height: 25px; }
   .footer nav {
     flex: 1;
     text-align: right; }
@@ -300,6 +301,13 @@ html, body {
 
 .form-control + .input-group-addon {
   background: white; }
+
+.form-error label span {
+  color: #FF7749; }
+
+.form-error .form-control {
+  background: #FFF7F5 !important;
+  border: 1px solid #FF7749 !important; }
 
 .with-vertical-margin {
   margin: 10px 0; }
@@ -729,6 +737,8 @@ small.orange {
   border-radius: 4px;
   color: white;
   font-size: 16px; }
+  .request__go-next:hover {
+    background: #40A2EF; }
   .request__go-next.outline {
     border: 1px solid #52B3FF;
     background: white;
