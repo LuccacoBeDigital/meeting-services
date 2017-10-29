@@ -3,6 +3,7 @@
 @import "_header.scss";
 @import "components/btn-switch.scss";
 @import "components/file-upload.scss";
+@import "components/typeahead.scss";
 
 html, body {
   background: #F4F5F8;
@@ -63,6 +64,9 @@ html, body {
 }
 
 small.orange {
+  &.form-text {
+    font-size: 12px !important;
+  }
   color: #FF7749 !important;
 }
 
@@ -71,3 +75,11 @@ small.orange {
 }
 
 .m-bottom-20 { margin-bottom: 20px; }
+
+[data-toggle="tooltip"] {
+  color: #52B3FF;
+}
+
+.twitter-typeahead {
+  width: 100%;
+}

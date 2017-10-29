@@ -267,6 +267,20 @@
   color: #52B3FF;
   letter-spacing: 0; }
 
+.tt-menu {
+  background: white;
+  border-radius: 4px;
+  border: 1px solid #CCC;
+  min-width: 200px; }
+
+.tt-suggestion {
+  padding: 10px;
+  font-size: 14px;
+  display: block;
+  cursor: pointer; }
+  .tt-suggestion:hover {
+    background: #f2f2f2; }
+
 html, body {
   background: #F4F5F8;
   font-size: 18px;
@@ -314,12 +328,20 @@ html, body {
 
 small.orange {
   color: #FF7749 !important; }
+  small.orange.form-text {
+    font-size: 12px !important; }
 
 .cian {
   background: #F0F8FF; }
 
 .m-bottom-20 {
   margin-bottom: 20px; }
+
+[data-toggle="tooltip"] {
+  color: #52B3FF; }
+
+.twitter-typeahead {
+  width: 100%; }
 
 .request__form {
   padding: 40px; }
@@ -351,9 +373,6 @@ small.orange {
     .request__form__input > label span.orange,
     .form-group > label span.orange {
       color: #FF7749; }
-    .request__form__input > label i,
-    .form-group > label i {
-      color: #52B3FF; }
   .request__form__input input[type=text],
   .request__form__input textarea,
   .request__form__input select,

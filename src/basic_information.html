@@ -25,6 +25,9 @@
     <!-- datepicker -->
     <script type="text/javascript" src="../vendors/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js"></script>
     <link rel="stylesheet" href="../vendors/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css" />
+    
+    <!-- typeahead -->
+    <script type="text/javascript" src="../vendors/typeahead/typeahead.js"></script>
 
     <!-- page styles  -->
     <link rel="stylesheet" href="../assets/css/request.css" />
@@ -124,18 +127,6 @@
                   <a href="" data-toggle="tooltip" data-placement="right" title="Tooltip on right"><i class="fa fa-question-circle"></i></a>
                 </label>
                 <input type="text" class="form-control" id="client_organization" placeholder="start typing to select available client organization">
-              </div>
-
-              <div class="request__form__input">
-                <label for="">
-                  Client Organization: 
-                  <span>*</span>
-                  <div class="tooltip">
-                    <a href=""><i class="fa fa-question-circle"></i></a>
-                    <p>This is how a tooltip would look like</p>
-                  </div>
-                </label>
-                <input type="text" placeholder="start typing to select available client organization">
               </div>
 
               <h4>Requestor Information</h4>
@@ -286,5 +277,28 @@
 
     <script src="../assets/js/header.js"></script>
     <script src="../assets/js/request-min.js"></script>
+
+    <script>
+      var organizations = [{"company":"NSPIRE"},{"company":"EXOTECHNO"},{"company":"COMTEST"},{"company":"BIFLEX"},{"company":"CINESANCT"},{"company":"GEEKOLOGY"},{"company":"NETUR"},{"company":"NETROPIC"},{"company":"MEDALERT"},{"company":"COMTRAIL"},{"company":"FIBRODYNE"},{"company":"MEDMEX"},{"company":"SLUMBERIA"},{"company":"SOPRANO"},{"company":"SPLINX"},{"company":"EXOPLODE"},{"company":"TERSANKI"},{"company":"MAXEMIA"},{"company":"SENSATE"},{"company":"FRANSCENE"}];
+      var filterOrganizations = function() {
+        return function filtered(q, cb) {
+          var list = [];
+          for (var o in organizations) {
+            var org = organizations[o].company.toLowerCase();
+            if (org.indexOf(q.toLowerCase()) !== -1) {
+              list.push(org);
+            }
+          }
+          cb(list);
+        };
+      };
+      $("#client_organization").typeahead({
+        minLength: 1,
+        hint: true
+      },{
+        name: 'client_organization',
+        source: filterOrganizations()
+      });
+    </script>
   </body>
 </html>
