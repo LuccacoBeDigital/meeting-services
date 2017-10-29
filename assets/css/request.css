@@ -220,7 +220,7 @@
   font-size: 14px;
   display: block;
   position: absolute;
-  top: 1px; }
+  top: 2px; }
 
 .btn-switch .handle:after {
   content: "OFF";
