@@ -313,8 +313,7 @@ html, body {
   margin: 10px 0; }
 
 small.orange {
-  color: #FF7749;
-  font-size: 14px; }
+  color: #FF7749 !important; }
 
 .cian {
   background: #F0F8FF; }
