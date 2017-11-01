@@ -602,6 +602,15 @@ small.orange {
     border-top: 3px solid #D5D5D5;
     border-bottom: 1px solid #D5D5D5; }
 
+.myrequests .form-search-icon .form-control {
+  border-right: none; }
+
+.myrequests .form-search-icon .input-group-addon {
+  background: #F7F8FA; }
+
+.myrequests__filter {
+  padding: 30px 30px 20px; }
+
 .toggle-area {
   background: white;
   border: 1px solid #C3CFD6;
