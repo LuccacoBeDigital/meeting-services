@@ -620,7 +620,8 @@ small.orange.form-text {
   color: #203C6C;
   letter-spacing: 0;
   line-height: 18px;
-  border-color: #203C6C; }
+  border-color: #203C6C;
+  text-transform: uppercase; }
 
 .myrequests .content__wrapper {
   padding: 40px; }
@@ -697,6 +698,26 @@ small.orange.form-text {
       padding: 15px;
       background: white;
       font-size: 16px; }
+
+@media (max-width: 480px) {
+  .myrequests__filter {
+    padding: 20px 10px 20px; }
+    .myrequests__filter .datepicker {
+      max-width: 100% !important; }
+  .myrequests .content__wrapper {
+    padding: 10px; }
+  .myrequests .myrequests__buttons {
+    text-align: center !important;
+    display: flex; }
+    .myrequests .myrequests__buttons button {
+      margin: 0 5px;
+      width: calc(25% - 10px); }
+      .myrequests .myrequests__buttons button:first-child {
+        width: calc(25% - 5px);
+        margin-left: 0; }
+      .myrequests .myrequests__buttons button:last-child {
+        width: calc(25% - 5px);
+        margin-right: 0; } }
 
 .toggle-area {
   background: white;
