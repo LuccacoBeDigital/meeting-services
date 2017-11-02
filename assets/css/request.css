@@ -326,10 +326,14 @@ html, body {
 .with-vertical-margin {
   margin: 10px 0; }
 
-small.orange {
+.orange {
   color: #FF7749 !important; }
-  small.orange.form-text {
-    font-size: 12px !important; }
+
+.green {
+  color: #50A45F; }
+
+small.orange.form-text {
+  font-size: 12px !important; }
 
 .cian {
   background: #F0F8FF; }
@@ -342,6 +346,15 @@ small.orange {
 
 .twitter-typeahead {
   width: 100%; }
+
+.badges {
+  text-transform: uppercase; }
+  .badges .badge-required {
+    background: #CC7D27; }
+  .badges .badge-costs {
+    border: 1px solid #6880A9;
+    color: #6880A9;
+    font-weight: normal; }
 
 .request__form {
   padding: 40px; }
@@ -602,6 +615,23 @@ small.orange {
     border-top: 3px solid #D5D5D5;
     border-bottom: 1px solid #D5D5D5; }
 
+.myrequests__button {
+  font-size: 14px;
+  color: #203C6C;
+  letter-spacing: 0;
+  line-height: 18px;
+  border-color: #203C6C; }
+
+.myrequests .content__wrapper {
+  padding: 40px; }
+
+.myrequests .current-page {
+  font-size: 14px;
+  color: #555555;
+  letter-spacing: 0;
+  line-height: 39px;
+  margin: 0; }
+
 .myrequests .form-search-icon .form-control {
   border-right: none; }
 
@@ -610,6 +640,63 @@ small.orange {
 
 .myrequests__filter {
   padding: 30px 30px 20px; }
+
+.meetings-list__item {
+  background: #F7F7F7;
+  border: 1px solid #C3CFD6;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05);
+  border-radius: 4px; }
+  .meetings-list__item header {
+    background: white;
+    border-bottom: 1px solid #C3CFD6;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05);
+    border-radius: 4px 4px 0 0;
+    padding: 15px; }
+  .meetings-list__item > header h1 {
+    font-weight: bold;
+    font-size: 20px;
+    color: #203C6C;
+    letter-spacing: 0.38px;
+    margin: 0; }
+  .meetings-list__item > header .request-no {
+    text-align: right;
+    font-size: 16px;
+    color: #555555;
+    letter-spacing: 0.3px; }
+  .meetings-list__item > div {
+    padding: 20px; }
+    .meetings-list__item > div h2 {
+      font-size: 16px;
+      color: #1F1F1F;
+      letter-spacing: 0.3px; }
+      .meetings-list__item > div h2 .badge {
+        padding: 5px;
+        text-transform: uppercase;
+        background: white;
+        color: #203C6C;
+        letter-spacing: 0;
+        margin-left: 10px;
+        border: 1px solid #203C6C; }
+  .meetings-list__item .list-item__room {
+    border-radius: 4px;
+    border: 1px solid #C3CFD6;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05); }
+    .meetings-list__item .list-item__room header {
+      padding: 10px; }
+      .meetings-list__item .list-item__room header h3 {
+        font-family: Roboto-Medium;
+        font-size: 16px;
+        color: #1F1F1F;
+        letter-spacing: 0.3px;
+        margin: 0;
+        line-height: 38px; }
+      .meetings-list__item .list-item__room header button {
+        float: right; }
+    .meetings-list__item .list-item__room .content {
+      padding: 15px;
+      background: white;
+      font-size: 16px; }
 
 .toggle-area {
   background: white;
@@ -642,14 +729,7 @@ small.orange {
   .toggle-area .badges {
     position: absolute;
     top: 10px;
-    right: 50px;
-    text-transform: uppercase; }
-    .toggle-area .badges .badge-required {
-      background: #FF7749; }
-    .toggle-area .badges .badge-costs {
-      border: 1px solid #6880A9;
-      color: #6880A9;
-      font-weight: normal; }
+    right: 50px; }
 
 .toggle-area--blue > header h2 {
   color: #203C6C;

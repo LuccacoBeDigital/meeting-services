@@ -17,7 +17,7 @@
     <!-- vendor styles -->
     <link rel="stylesheet" href="../assets/css/normalize.min.css" />
     <link rel="stylesheet" href="../vendors/font-awesome/css/font-awesome.min.css" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,600,700" />
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
@@ -137,145 +137,128 @@
 
         <div class="content__wrapper">
 
-          <form class="request__form">
-            <section>
-              <h1><i class="fa fa-user"></i> My Requests</h1>
+          <div class="row m-bottom-20">
+            <div class="col-md-6">
+              <p class="current-page">
+                Showing 1 - 25 of 157 (Page 1 of 7)
+              </p>
+            </div>
+            <div class="col-md-6 text-right">
+              <button class="btn btn-outline-primary myrequests__button"><i class="fa fa-angle-double-left"></i> First</button>
+              <button class="btn btn-outline-primary myrequests__button"><i class="fa fa-angle-left"></i> Previous</button>
+              <button class="btn btn-outline-primary myrequests__button"><i class="fa fa-angle-right"></i> Next</button>
+              <button class="btn btn-outline-primary myrequests__button"><i class="fa fa-angle-double-right"></i> Last</button>
+            </div>
+          </div>
 
-              <div class="form-group">
-                <label for="client_organization">
-                  Client Organization: 
-                  <span>*</span>
-                  <a href="" data-toggle="tooltip" data-placement="right" title="Tooltip on right"><i class="fa fa-question-circle"></i></a>
-                </label>
-                <input type="text" class="form-control" id="client_organization" placeholder="start typing to select available client organization">
-              </div>
-
-              <h4>Requestor Information</h4>
-
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="form-group form-error">
-                    <label for="name">
-                      Name: 
-                      <span>*</span>
-                    </label>
-                    <input type="text" class="form-control" id="name" placeholder="start typing to enter new contact or find existing">
+          <div class="meetings-list">
+            <section class="meetings-list__item">
+              <header>
+                <div class="row">
+                  <div class="col-md-6">
+                    <h1>MEETING TITLE - 02/10/2017 <span>(New York)</span></h1>
+                  </div>
+                  <div class="col-md-6 request-no">
+                    Request No: NY174804A
                   </div>
                 </div>
-                <div class="col-md-3">
-                  <div class="form-group">
-                    <label for="email">
-                      Email: 
-                      <span>*</span>
-                    </label>
-                    <input type="text" class="form-control" id="email">
-                  </div>
-                </div>
-                <div class="col-md-3">
-                  <div class="form-group">
-                    <label for="phone">
-                      Phone: 
-                      <span>*</span>
-                    </label>
-                    <input type="text" class="form-control" id="phone">
-                  </div>
-                </div>
-              </div>
-              
-            </section>
-
-            <div class="request__form__div"></div>
-
-            <section>
-              <h1><i class="fa fa-question-circle"></i> Meeting Information</h1>
-
-              <div class="request__form__tabs">
-                <nav>
-                  <a href="" class="active">EN</a>
-                  <a href="">FR</a>
-                </nav>
-                <div class="visible">
-
-                  <div class="form-group">
-                    <label for="meeting_title">
-                      Meeting title: 
-                      <span>*</span>
-                      <a href="" data-toggle="tooltip" data-placement="right" title="This is how a tooltip would look like"><i class="fa fa-question-circle"></i></a>
-                    </label>
-                    <textarea type="text" class="form-control" id="meeting_title" placeholder="start typing to select available client organization"></textarea>
-                  </div>
-
-                  <div class="form-group">
-                    <label for="door_display">
-                      Door Display: 
-                      <span>*</span>
-                    </label>
-                    <textarea type="text" class="form-control" id="door_display" placeholder="Enter door display title (60 characters)"></textarea>
-                    <small class="form-text text-muted orange">The text entered will be displayed on the monitor outside the assigned conference room.</small>
-                  </div>
-
-                  <div class="form-group">
-                    <label for="door_display">
-                      Calendar / Non Calendar Meeting: 
-                      <span>*</span>
-                      <a href="" data-toggle="tooltip" data-placement="right" title="This is how a tooltip would look like"><i class="fa fa-question-circle"></i></a>
-                    </label>
-                    <div class="custom-controls">
-                      <label class="custom-control custom-radio">
-                        <input id="radio1" name="radio" type="radio" class="custom-control-input">
-                        <span class="custom-control-indicator"></span>
-                        <span class="custom-control-description">Calendar</span>
-                      </label>
-                      <label class="custom-control custom-radio">
-                        <input id="radio2" name="radio" type="radio" class="custom-control-input">
-                        <span class="custom-control-indicator"></span>
-                        <span class="custom-control-description">Non Calendar</span>
-                      </label>
-                    </div>
-                    <div class="custom-controls">
-                        <label class="custom-control custom-checkbox">
-                          <input id="checkbox1" name="checkbox" type="checkbox" class="custom-control-input">
-                          <span class="custom-control-indicator"></span>
-                          <span class="custom-control-description">As Required</span>
-                        </label>
+              </header>
+              <div>
+                <h2>Request Status <span class="badge badge-primary">Submitted</span></h2>
+                <section class="list-item__room">
+                  <header>
+                    <div class="row">
+                      <div class="col-md-6">
+                        <h3>Room 1</h3>
                       </div>
+                      <div class="col-md-6 text-right">
+                        <button class="btn btn-outline-primary myrequests__button">
+                          <i class="fa fa-pencil"></i> Edit
+                        </button>
+                      </div>
+                    </div>
+                  </header>
+                  <div class="content">
+                    <div class="row m-bottom-20">
+                      <div class="col-md-6">
+                        <b>Room Requested</b><br/>
+                        Medium-sized room (131 maximum capacity)
+                      </div>
+                      <div class="col-md-3">
+                        <b>Date</b><br/>
+                        25/09/2017 - 26/09/2017
+                      </div>
+                      <div class="col-md-3">
+                        <b>Time</b><br/>
+                        10:00 - 13:00<br/>
+                        15:00 - 18:00
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-6">
+                        <b>Status of requested services</b><br/>
+                        <div class="fa fa-circle orange"></div> Pending Approval
+                      </div>
+                      <div class="col-md-6">
+                        <b>Requested Services</b>
+                        <p class="badges">
+                          <span class="badge badge-required">Audiovisual</span>
+                          <span class="badge badge-required">Security</span>
+                        </p>
+                      </div>
+                    </div>
                   </div>
+                </section>
 
-                  <div class="form-group">
-                    <label for="coding_block">
-                      UMOJA Coding Block:
-                      <span>*</span>
-                      <a href="" data-toggle="tooltip" data-placement="right" title="Tooltip on right"><i class="fa fa-question-circle"></i></a>
-                    </label>
-                    <input type="text" class="form-control" id="coding_block">
+                <section class="list-item__room">
+                  <header>
+                    <div class="row">
+                      <div class="col-md-6">
+                        <h3>Room 2</h3>
+                      </div>
+                      <div class="col-md-6 text-right">
+                        <button class="btn btn-outline-primary myrequests__button">
+                          <i class="fa fa-pencil"></i> Edit
+                        </button>
+                      </div>
+                    </div>
+                  </header>
+                  <div class="content">
+                    <div class="row m-bottom-20">
+                      <div class="col-md-6">
+                        <b>Room Requested</b><br/>
+                        <i class="fa fa-check green"></i> Medium-sized room (131 maximum capacity)
+                      </div>
+                      <div class="col-md-3">
+                        <b>Date</b><br/>
+                        25/09/2017 - 26/09/2017
+                      </div>
+                      <div class="col-md-3">
+                        <b>Time</b><br/>
+                        10:00 - 13:00<br/>
+                        15:00 - 18:00
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-6">
+                        <b>Status of requested services</b><br/>
+                        <div class="fa fa-circle green"></div> Pending Approval
+                      </div>
+                      <div class="col-md-6">
+                        <b>Requested Services</b>
+                        <p class="badges">
+                          <span class="badge badge-required">Audiovisual</span>
+                          <span class="badge badge-required">Security</span>
+                        </p>
+                      </div>
+                    </div>
                   </div>
-                
+                </section>
               </div>
             </section>
-          </form>
+          </div>
 
-          <footer class="request__footer">
-            <div class="request__wizard">
-              <ul>
-                <li class="active">
-                  <img src="../assets/img/home-wizard-check.png" alt="" class="request__wizard__check">
-                  <span>1</span>
-                  Provide Basic Information
-                </li>
-                <li>
-                  <span>2</span>
-                  Request services
-                </li>
-                <li>
-                  <span>3</span>
-                  Review and Submit Request
-                </li>
-              </ul>
-            </div>
-            <div class="text-center">
-              <button class="request__go-next">Save and Go to Step 2</button>
-            </div>
-          </footer>
+          
         </div>
 
       </div>  

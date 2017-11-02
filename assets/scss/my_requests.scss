@@ -1,4 +1,23 @@
+.myrequests__button {
+  font-size: 14px;
+  color: #203C6C;
+  letter-spacing: 0;
+  line-height: 18px;
+  border-color: #203C6C;
+}
 .myrequests {
+  .content__wrapper {
+    padding: 40px;
+  }
+
+  .current-page {
+    font-size: 14px;
+    color: #555555;
+    letter-spacing: 0;
+    line-height: 39px;
+    margin: 0;
+  }
+
   .form-search-icon {
     .form-control {
       border-right: none;
@@ -11,4 +30,77 @@
 
 .myrequests__filter {
   padding: 30px 30px 20px;
+}
+
+.meetings-list__item {
+  background: #F7F7F7;
+  border: 1px solid #C3CFD6;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.05);
+  border-radius: 4px;
+  header {
+    background: white;
+    border-bottom: 1px solid #C3CFD6;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.05);
+    border-radius: 4px 4px 0 0;
+    padding: 15px;
+  }
+  & > header {
+    h1 {
+      font-weight: bold;
+      font-size: 20px;
+      color: #203C6C;
+      letter-spacing: 0.38px;
+      margin: 0;
+    }
+    .request-no {
+      text-align: right;
+      font-size: 16px;
+      color: #555555;
+      letter-spacing: 0.3px;
+    }
+  }
+  & > div {
+    padding: 20px;
+    h2 {
+      font-size: 16px;
+      color: #1F1F1F;
+      letter-spacing: 0.3px;
+      .badge {
+        padding: 5px;
+        text-transform: uppercase;
+
+        background: white;
+        color: #203C6C;
+        letter-spacing: 0;
+        margin-left: 10px;
+        border: 1px solid #203C6C;
+      }
+    }
+  }
+  .list-item__room {
+    border-radius: 4px;
+    border: 1px solid #C3CFD6;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.05);
+
+    header {
+      padding: 10px;
+      h3 {
+        font-family: Roboto-Medium;
+        font-size: 16px;
+        color: #1F1F1F;
+        letter-spacing: 0.3px;
+        margin: 0;
+        line-height: 38px;
+      }
+      button {
+        float: right;
+      }
+    }
+    .content {
+      padding: 15px;
+      background: white;
+      font-size: 16px;
+    }
+  }
 }

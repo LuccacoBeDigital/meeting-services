@@ -62,12 +62,18 @@ html, body {
 .with-vertical-margin {
   margin: 10px 0;
 }
+.orange {
+  color: #FF7749 !important;
+}
+
+.green {
+  color: #50A45F;
+}
 
 small.orange {
   &.form-text {
     font-size: 12px !important;
   }
-  color: #FF7749 !important;
 }
 
 .cian {
@@ -82,4 +88,16 @@ small.orange {
 
 .twitter-typeahead {
   width: 100%;
+}
+
+.badges {
+  text-transform: uppercase;
+  .badge-required {
+    background: #CC7D27;
+  }
+  .badge-costs {
+    border: 1px solid #6880A9;
+    color: #6880A9;
+    font-weight: normal;
+  }
 }
