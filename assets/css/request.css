@@ -47,13 +47,13 @@
       margin-right: 6px; }
 
 .header nav {
-  height: 200px;
+  height: 210px;
   background: #238DE1; }
   .header nav .container {
     position: relative; }
   .header nav h2 {
     position: relative;
-    top: 41px;
+    top: 51px;
     margin: 0;
     padding-left: 60px;
     background: url("../img/un-logo.png") transparent no-repeat left center;
@@ -66,7 +66,7 @@
 .header__nav--desktop {
   position: absolute;
   right: 5px;
-  top: 0px;
+  top: 10px;
   list-style: none;
   display: flex; }
   .header__nav--desktop li {
@@ -77,6 +77,28 @@
       font-size: 14px; }
       .header__nav--desktop li a strong {
         margin-right: 6px; }
+  .header__nav--desktop .logout-tooltip {
+    display: none;
+    position: absolute;
+    background: #1F3D69;
+    padding: 10px 45px;
+    top: 130%;
+    left: 50%;
+    transform: translateX(-50%); }
+  .header__nav--desktop .logout-tooltip:after {
+    bottom: 100%;
+    left: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-bottom-color: #1F3D69;
+    border-width: 5px;
+    margin-left: -5px; }
+  .header__nav--desktop .menu-username:focus + .logout-tooltip {
+    display: block; }
   .header__nav--desktop .dropdown {
     position: absolute;
     z-index: 200;
@@ -288,6 +310,9 @@ html, body {
 
 .content {
   background: #F4F5F8; }
+
+.relative {
+  position: relative !important; }
 
 .hidden {
   display: none !important; }
