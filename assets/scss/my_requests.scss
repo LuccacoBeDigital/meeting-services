@@ -134,4 +134,39 @@
       }
     }
   }
+  .meetings-list__item {
+    & > header {
+      h1 {
+        font-size: 14px;
+        margin-bottom: 10px;
+      }
+      .request-no {
+        text-align: left;
+        font-size: 14px;
+      }
+    }
+    & > div {
+      padding: 10px;
+      h2 {
+        font-size: 14px;
+        display: block;
+        margin: 10px 0 20px;
+      }
+    }
+    .list-item__room {
+      margin-top: 10px;
+      header {
+        h3 {
+          font-size: 14px;
+          margin-left: 5px;
+        }
+      }
+      .content {
+        font-size: 14px;
+      }
+    }
+  }
+  .meetings-list {
+    margin-bottom: 50px;
+  }
 }

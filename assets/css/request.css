@@ -717,7 +717,28 @@ small.orange.form-text {
         margin-left: 0; }
       .myrequests .myrequests__buttons button:last-child {
         width: calc(25% - 5px);
-        margin-right: 0; } }
+        margin-right: 0; }
+  .meetings-list__item > header h1 {
+    font-size: 14px;
+    margin-bottom: 10px; }
+  .meetings-list__item > header .request-no {
+    text-align: left;
+    font-size: 14px; }
+  .meetings-list__item > div {
+    padding: 10px; }
+    .meetings-list__item > div h2 {
+      font-size: 14px;
+      display: block;
+      margin: 10px 0 20px; }
+  .meetings-list__item .list-item__room {
+    margin-top: 10px; }
+    .meetings-list__item .list-item__room header h3 {
+      font-size: 14px;
+      margin-left: 5px; }
+    .meetings-list__item .list-item__room .content {
+      font-size: 14px; }
+  .meetings-list {
+    margin-bottom: 50px; } }
 
 .toggle-area {
   background: white;
