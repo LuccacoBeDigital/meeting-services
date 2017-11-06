@@ -343,6 +343,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/assets\/scss\/notifications_alerts.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/notifications_alerts.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/assets\/scss\/request.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -423,6 +436,13 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/src\/my_requests.html",
+		"oF": 0
+		},
+	"\/src\/notifications_alerts.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/src\/notifications_alerts.html",
 		"oF": 0
 		},
 	"\/src\/request_services.html": {

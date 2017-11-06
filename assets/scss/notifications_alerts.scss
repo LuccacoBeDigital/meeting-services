@@ -1,0 +1,29 @@
+.na-confirmation {
+  text-align: center;
+  padding: 50px 0;
+  h1 {
+    color: #1F1F1F;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0.32px;
+    text-transform: uppercase;
+  }
+  h2 {
+    background: #E3F2FF;
+    color: #203C6C;
+    display: inline-block;
+    font-size: 48px;
+    letter-spacing: 0;
+    margin: 20px 0;
+    padding: 5px 20px;
+    text-transform: uppercase;
+  }
+  p {
+    font-size: 14px;
+    color: #1F1F1F;
+    letter-spacing: 0.26px;
+    a {
+      font-weight: bold;
+    }
+  }
+}
