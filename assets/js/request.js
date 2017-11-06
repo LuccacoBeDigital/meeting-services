@@ -64,4 +64,16 @@ $(function() {
   $(".toggle-area").each(function(index, elm){
     setupToggleArea($(elm));
   });
+
+  // alerts
+  function setupNotificationAlerts($elm) {
+    $elm.find('.close').on('click', function(e) {
+      e.preventDefault();
+      $elm.toggleClass('hidden');
+    });
+  }
+
+  $(".na-alert").each(function(index, elm) {
+    setupNotificationAlerts($(elm));
+  })
 });

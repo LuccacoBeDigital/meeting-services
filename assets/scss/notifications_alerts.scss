@@ -69,3 +69,48 @@
     }
   }
 }
+
+.na-alert {
+  z-index: 100;
+  position: absolute;
+  right: 20px;
+  padding: 20px 44px;
+  box-shadow: 0 10px 12px 0 rgba(0,0,0,0.03);
+  border-radius: 4px;
+  max-width: 290px;
+  top: 200px;
+  p {
+    font-size: 14px;
+    letter-spacing: 0;
+    margin: 0;
+    a {
+      font-weight: bold;
+      text-decoration: underline;
+    }
+  }
+  a.close {
+    position: absolute;
+    font-size: 14px;
+    top: 10px;
+    right: 10px;
+  }
+  & > .fa {
+    position: absolute;
+    top: 22px;
+    left: 15px;
+  }
+}
+
+.na-alert-success {
+  color: white;
+  background: #5DAF70;
+}
+
+.na-alert-warning {
+  top: 300px;  // PLEASE REMOVE THIS WHEN USING MODAL 
+  background: #FFE749;
+  color: #1F1F1F;
+  a {
+    color: #1F1F1F;
+  }
+}

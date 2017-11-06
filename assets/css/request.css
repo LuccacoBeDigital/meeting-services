@@ -381,6 +381,14 @@ small.orange.form-text {
     color: #6880A9;
     font-weight: normal; }
 
+.form-group select {
+  font-size: 16px !important;
+  color: #555555 !important;
+  letter-spacing: 0 !important;
+  background: #FFFFFF !important;
+  border: 1px solid #C3CFD6 !important;
+  border-radius: 4px !important; }
+
 .request__form {
   padding: 40px; }
   .request__form h1 {
@@ -819,6 +827,43 @@ small.orange.form-text {
     .na-modal .btn.btn-primary {
       border-color: #52B3FF;
       background-color: #52B3FF; }
+
+.na-alert {
+  z-index: 100;
+  position: absolute;
+  right: 20px;
+  padding: 20px 44px;
+  box-shadow: 0 10px 12px 0 rgba(0, 0, 0, 0.03);
+  border-radius: 4px;
+  max-width: 290px;
+  top: 200px; }
+  .na-alert p {
+    font-size: 14px;
+    letter-spacing: 0;
+    margin: 0; }
+    .na-alert p a {
+      font-weight: bold;
+      text-decoration: underline; }
+  .na-alert a.close {
+    position: absolute;
+    font-size: 14px;
+    top: 10px;
+    right: 10px; }
+  .na-alert > .fa {
+    position: absolute;
+    top: 22px;
+    left: 15px; }
+
+.na-alert-success {
+  color: white;
+  background: #5DAF70; }
+
+.na-alert-warning {
+  top: 300px;
+  background: #FFE749;
+  color: #1F1F1F; }
+  .na-alert-warning a {
+    color: #1F1F1F; }
 
 .toggle-area {
   background: white;
