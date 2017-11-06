@@ -790,6 +790,36 @@ small.orange.form-text {
     .na-confirmation p a {
       font-weight: bold; }
 
+.na-modal {
+  display: block !important;
+  position: relative !important; }
+  .na-modal .modal-content {
+    background: #F4F5F8;
+    border: 1px solid #D9DADF;
+    box-shadow: 0 10px 12px 0 rgba(0, 0, 0, 0.03);
+    border-radius: 4px; }
+  .na-modal .modal-header,
+  .na-modal .modal-footer {
+    border: none; }
+  .na-modal .modal-title {
+    font-weight: bold; }
+  .na-modal .modal-content,
+  .na-modal .modal-title {
+    font-size: 14px;
+    color: #1F1F1F;
+    letter-spacing: 0;
+    line-height: 21px; }
+  .na-modal .btn {
+    font-size: 14px;
+    letter-spacing: 0;
+    text-transform: uppercase; }
+    .na-modal .btn.btn-outline-secondary {
+      border-color: #52B3FF;
+      color: #52B3FF; }
+    .na-modal .btn.btn-primary {
+      border-color: #52B3FF;
+      background-color: #52B3FF; }
+
 .toggle-area {
   background: white;
   border: 1px solid #C3CFD6;

@@ -27,3 +27,45 @@
     }
   }
 }
+
+.na-modal {
+  
+  display: block !important; // PLEASE REMOVE THIS WHEN USING MODAL
+  position: relative !important; // PLEASE REMOVE THIS WHEN USING MODAL
+
+  .modal-content {
+    background: #F4F5F8;
+    border: 1px solid #D9DADF;
+    box-shadow: 0 10px 12px 0 rgba(0,0,0,0.03);
+    border-radius: 4px;
+  }
+  .modal-header,
+  .modal-footer {
+    border: none;
+  }
+
+  .modal-title {
+    font-weight: bold;
+  }
+  .modal-content,
+  .modal-title {
+    font-size: 14px;
+    color: #1F1F1F;
+    letter-spacing: 0;
+    line-height: 21px;
+  }
+
+  .btn {
+    font-size: 14px;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    &.btn-outline-secondary {
+      border-color: #52B3FF;
+      color: #52B3FF;
+    }
+    &.btn-primary {
+      border-color: #52B3FF;
+      background-color: #52B3FF;
+    }
+  }
+}
