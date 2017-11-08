@@ -865,6 +865,56 @@ small.orange.form-text {
   .na-alert-warning a {
     color: #1F1F1F; }
 
+.contacts .content__wrapper {
+  padding: 40px; }
+
+.contacts h1 {
+  color: #CC7D27;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 0;
+  text-transform: uppercase; }
+  .contacts h1 i {
+    margin-right: 10px; }
+
+.contacts__list {
+  color: #555555;
+  font-size: 16px;
+  letter-spacing: 0;
+  margin-top: 30px;
+  width: 100%; }
+  .contacts__list th {
+    border-top: none; }
+
+.contacts__detail {
+  font-size: 14px; }
+  .contacts__detail .fa-envelope {
+    margin-right: 5px; }
+
+.contacts__phone {
+  position: relative; }
+  .contacts__phone i {
+    display: block;
+    position: absolute;
+    left: -2px;
+    top: 4px; }
+
+@media (max-width: 480px) {
+  .contacts .content__wrapper {
+    padding: 30px 10px 10px; }
+  .contacts h1 {
+    font-size: 14px; }
+  .contacts__list {
+    font-size: 14px;
+    margin-top: 10px; }
+  .contacts__phone {
+    margin-top: 10px;
+    position: relative; }
+    .contacts__phone p {
+      padding-left: 20px; }
+    .contacts__phone i {
+      left: 15px; } }
+
 .toggle-area {
   background: white;
   border: 1px solid #C3CFD6;
