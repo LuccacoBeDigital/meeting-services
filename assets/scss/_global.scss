@@ -94,14 +94,26 @@ small.orange {
 
 .badges {
   text-transform: uppercase;
-  .badge-required {
-    background: #CC7D27;
-  }
-  .badge-costs {
-    border: 1px solid #6880A9;
-    color: #6880A9;
-    font-weight: normal;
-  }
+}
+
+.badge-required {
+  background: #CC7D27;
+}
+.badge-costs {
+  border: 1px solid #6880A9;
+  color: #6880A9;
+  font-weight: normal;
+}
+
+.badge-primary-outline {
+  padding: 5px;
+  text-transform: uppercase;
+
+  background: white;
+  color: #203C6C;
+  letter-spacing: 0;
+  margin-left: 10px;
+  border: 1px solid #203C6C;
 }
 
 .form-group {

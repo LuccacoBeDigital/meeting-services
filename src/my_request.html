@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>UN Meeting - Review and Submit</title>
+    <title>UN Meeting - My Request</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -87,38 +87,21 @@
         
         <div class="request__tabs">
           <nav>
-            <a href="" class="active">
+            <a href="">
               <strong class="fa fa-plus-circle"></strong> New Request
             </a>
-            <a href="">
+            <a href="" class="active">
               <strong class="fa fa-archive"></strong> All my requests
             </a>
           </nav>
 
-          <div class="request__wizard">
-            <ul>
-              <li class="done">
-                <span>1</span>
-                Provide Basic Information
-              </li>
-              <li class="done">
-                <span>2</span>
-                Request services
-              </li>
-              <li class="active">
-                <img src="../assets/img/home-wizard-check.png" alt="" class="request__wizard__check">
-                <span>3</span>
-                Review and Submit Request
-              </li>
-            </ul>
-          </div>
         </div>
 
         <div class="content__wrapper">
 
           <form class="request__form request__form--review-submit">
             <section>
-              <h1><i class="fa fa-desktop"></i> Review and Submit</h1>
+              <h1><i class="fa fa-desktop"></i> Meeting Request Details</h1>
 
               <div class="row m-bottom-20">
                 <div class="col-md-4">
@@ -166,7 +149,7 @@
                   <h2>Room Reservation 1 </h2>
                   <a href="" data-elm="toggle"><i class="fa fa-chevron-down"></i></a>
                 </header>
-                <section class="hidden">
+                <section class="">
                   <div class="row m-bottom-20">
                     <div class="col-md-4">
                       <b>Meeting Title</b><br/>
@@ -214,7 +197,7 @@
                     <b>Options</b>
                     <div class="custom-controls">
                       <label class="custom-control custom-radio">
-                        <input id="radio2" name="radio" type="radio" class="custom-control-input">
+                        <input id="radio2" name="radio" readonly type="radio" class="custom-control-input">
                         <span class="custom-control-indicator"></span>
                         <span class="custom-control-description">
                           Closed
@@ -222,7 +205,7 @@
                       </label>
                       <br/>
                       <label class="custom-control custom-radio">
-                        <input id="radio2" name="radio" type="radio" class="custom-control-input">
+                        <input id="radio2" name="radio" readonly type="radio" class="custom-control-input">
                         <span class="custom-control-indicator"></span>
                         <span class="custom-control-description">
                           Display On Scrolling Boards
@@ -230,7 +213,7 @@
                       </label>
                       <br/>
                       <label class="custom-control custom-radio">
-                        <input id="radio2" name="radio" type="radio" class="custom-control-input">
+                        <input id="radio2" name="radio" readonly type="radio" class="custom-control-input">
                         <span class="custom-control-indicator"></span>
                         <span class="custom-control-description">
                           Allow Tours
@@ -238,7 +221,7 @@
                       </label>
                       <br/>
                       <label class="custom-control custom-radio">
-                        <input id="radio2" name="radio" type="radio" class="custom-control-input">
+                        <input id="radio2" name="radio" readonly type="radio" class="custom-control-input">
                         <span class="custom-control-indicator"></span>
                         <span class="custom-control-description">
                           Block for Lunch
@@ -251,10 +234,17 @@
 
                   <div class="toggle-area toggle-area--no-icon">
                     <header>
-                      <h2>Access and security related matters</h2>
+                      <h2>Access and security related matters <span class="badge badge-primary-outline">Pending</span></h2>
+                      <div class="my-request__service-actions">
+                        <a href="" class="comments"><i class="fa fa-comments"></i></a>
+                        <a class="btn btn-outline-primary">
+                          <i class="fa fa-pencil"></i>
+                          Edit
+                        </a>
+                      </div>
                       <a href="" data-elm="toggle"><i class="fa fa-chevron-down"></i></a>
                     </header>
-                    <section class="hidden">
+                    <section class="">
                       <div class="row m-bottom-20">
                         <div class="col-md-4">
                           <b>With UN Pass</b><br/>
@@ -284,7 +274,7 @@
                       <h2>Nameplates, podium signs and room set-up</h2>
                       <a href="" data-elm="toggle"><i class="fa fa-chevron-down"></i></a>
                     </header>
-                    <section class="hidden">
+                    <section class="">
                       <div class="custom-controls">
                         <label class="custom-control custom-checkbox">
                           <input id="checkbox2" name="checkbox" type="checkbox" class="custom-control-input">
@@ -326,7 +316,7 @@
                       <h2>Loaning of technological equipment</h2>
                       <a href="" data-elm="toggle"><i class="fa fa-chevron-down"></i></a>
                     </header>
-                    <section class="hidden">
+                    <section class="">
                       <div class="row">
                         <div class="col-md-2">
                           <label class="custom-control custom-checkbox">

@@ -374,12 +374,23 @@ small.orange.form-text {
 
 .badges {
   text-transform: uppercase; }
-  .badges .badge-required {
-    background: #CC7D27; }
-  .badges .badge-costs {
-    border: 1px solid #6880A9;
-    color: #6880A9;
-    font-weight: normal; }
+
+.badge-required {
+  background: #CC7D27; }
+
+.badge-costs {
+  border: 1px solid #6880A9;
+  color: #6880A9;
+  font-weight: normal; }
+
+.badge-primary-outline {
+  padding: 5px;
+  text-transform: uppercase;
+  background: white;
+  color: #203C6C;
+  letter-spacing: 0;
+  margin-left: 10px;
+  border: 1px solid #203C6C; }
 
 .form-group select {
   font-size: 16px !important;
@@ -773,6 +784,33 @@ small.orange.form-text {
   .meetings-list {
     margin-bottom: 50px; } }
 
+.my-request__service-actions {
+  position: absolute;
+  right: 50px;
+  top: 0;
+  height: 46px;
+  display: flex;
+  align-items: center; }
+  .my-request__service-actions .comments {
+    color: #203C6C;
+    font-size: 22px;
+    margin: 0px 22px 0 0;
+    display: inline-block;
+    height: 22px; }
+    .my-request__service-actions .comments i {
+      display: block; }
+  .my-request__service-actions .btn-outline-primary {
+    border-color: #203C6C;
+    color: #203C6C;
+    cursor: pointer;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 18px;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    display: inline-block;
+    height: 30px; }
+
 .na-confirmation {
   text-align: center;
   padding: 50px 0; }
@@ -933,11 +971,12 @@ small.orange.form-text {
       font-size: 16px;
       letter-spacing: 0.3px;
       margin-left: 20px; }
-    .toggle-area header a {
+    .toggle-area header a[data-elm="toggle"] {
+      color: #1F1F1F;
       display: block;
       position: absolute;
       right: 20px;
-      top: 15px;
+      top: 11px;
       font-size: 14px; }
   .toggle-area section {
     padding: 10px; }
@@ -956,9 +995,6 @@ small.orange.form-text {
   margin: 0 0 0 5px;
   text-transform: uppercase; }
 
-.toggle-area--blue > header a {
-  top: 11px; }
-
 .toggle-area--blue > section {
   padding: 20px;
   background: #F7F7F7; }
@@ -968,6 +1004,9 @@ small.orange.form-text {
 
 .toggle-area--no-icon > header a {
   top: 11px; }
+
+.toggle-area--switch > header a {
+  top: 15px !important; }
 
 .request__tabs {
   background: #C7E6FF;

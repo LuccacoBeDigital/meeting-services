@@ -6,6 +6,7 @@
 @import "request_services__confirmation.scss";
 @import "review_submit.scss";
 @import "my_requests.scss";
+@import "my_request.scss";
 @import "notifications_alerts.scss";
 @import "contacts.scss";
 
@@ -29,11 +30,12 @@
       letter-spacing: 0.3px;
       margin-left: 20px;
     }
-    a {
+    a[data-elm="toggle"] {
+      color: #1F1F1F;
       display: block;
       position: absolute;
       right: 20px;
-      top: 15px;
+      top: 11px;
       font-size: 14px;
     }
   }
@@ -60,9 +62,6 @@
       margin: 0 0 0 5px;
       text-transform: uppercase;
     }
-    a {
-      top: 11px;
-    }
   }
   & > section {
     padding: 20px;
@@ -77,6 +76,14 @@
     }
     a {
       top: 11px;
+    }
+  }
+}
+
+.toggle-area--switch {
+  & > header {
+    a {
+      top: 15px !important;
     }
   }
 }

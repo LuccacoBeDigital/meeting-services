@@ -43,6 +43,16 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"\/assets\/css\/roboto.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/assets\/css\/roboto-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/assets\/img\/check-off.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -343,6 +353,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/assets\/scss\/my_request.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/my_request.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/assets\/scss\/my_requests.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -449,6 +472,13 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/src\/contacts.html",
+		"oF": 0
+		},
+	"\/src\/my_request.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/src\/my_request.html",
 		"oF": 0
 		},
 	"\/src\/my_requests.html": {
@@ -986,6 +1016,26 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"\/vendors\/bootstrap\/bootstrap.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/vendors\/bootstrap\/bootstrap.min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/vendors\/bootstrap\/bootstrap.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/vendors\/bootstrap\/bootstrap.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"\/vendors\/font-awesome\/css\/font-awesome.css": {
 		"aP": 1,
 		"bl": 0,
@@ -1094,6 +1144,16 @@
 		"oA": 2,
 		"oAP": "\/vendors\/jquery\/dist\/jquery.min.map",
 		"oF": 0
+		},
+	"\/vendors\/jquery\/dist\/popper.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/vendors\/jquery\/dist\/popper.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
 		},
 	"\/vendors\/modernizr\/modernizr-2.8.3.min.js": {
 		"ft": 64,

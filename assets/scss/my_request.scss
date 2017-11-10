@@ -1,0 +1,30 @@
+.my-request__service-actions {
+  position: absolute;
+  right: 50px;
+  top: 0;
+  height: 46px;
+  display: flex;
+  align-items: center;
+  .comments {
+    color: #203C6C;
+    font-size: 22px;
+    margin: 0px 22px 0 0;
+    display: inline-block;
+    height: 22px;
+    i {
+      display: block;
+    }
+  }
+  .btn-outline-primary {
+    border-color: #203C6C;
+    color: #203C6C;
+    cursor: pointer;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 18px;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    display: inline-block;
+    height: 30px;
+  }
+}
