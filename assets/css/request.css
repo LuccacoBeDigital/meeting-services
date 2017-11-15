@@ -400,6 +400,25 @@ small.orange.form-text {
   border: 1px solid #C3CFD6 !important;
   border-radius: 4px !important; }
 
+form.horizontal {
+  padding-bottom: 30px; }
+  form.horizontal header h4 {
+    font-weight: bold;
+    font-size: 16px;
+    color: #1F1F1F;
+    letter-spacing: 0.3px; }
+  form.horizontal label {
+    font-size: 14px;
+    color: #555555; }
+  form.horizontal textarea,
+  form.horizontal input[type=text] {
+    font-size: 14px; }
+
+.clearfix::after {
+  display: block;
+  content: "";
+  clear: both; }
+
 .request__form {
   padding: 40px; }
   .request__form h1 {

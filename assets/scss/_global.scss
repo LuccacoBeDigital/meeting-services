@@ -127,3 +127,27 @@ small.orange {
     border-radius: 4px !important;
   }
 }
+
+form.horizontal {
+  padding-bottom: 30px;
+  header {
+    h4 {
+      font-weight: bold;
+      font-size: 16px;
+      color: #1F1F1F;
+      letter-spacing: 0.3px;
+    }
+  }
+  label {
+    font-size: 14px;
+    color: #555555;
+  }
+  textarea,
+  input[type=text] {
+    font-size: 14px;
+  }
+}
+
+.clearfix {
+  @include clearfix();
+}
