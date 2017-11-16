@@ -7,7 +7,7 @@
 		"uuidString": "9CC9A12B-39C2-4713-8B18-A6DABE349D52"
 		}
 	],
-"creatorBuild": "26097",
+"creatorBuild": "26148",
 "files": {
 	"\/.bowerrc": {
 		"cB": 0,
@@ -196,6 +196,26 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"\/assets\/js\/frk-select-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/frk-select-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/assets\/js\/frk-select.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/frk-select-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"\/assets\/js\/header-min.js": {
 		"ft": 64,
 		"ma": 0,
@@ -323,6 +343,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/assets\/scss\/components\/file-upload.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/scss\/components\/frk-select.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/components\/frk-select.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
