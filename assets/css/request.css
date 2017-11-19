@@ -1027,6 +1027,65 @@ form.horizontal {
     .contacts__phone i {
       left: 15px; } }
 
+.admin__sidebar {
+  float: left;
+  width: 200px;
+  /* checkbox aspect */ }
+  .admin__sidebar ul {
+    list-style: none;
+    padding: 0; }
+  .admin__sidebar p,
+  .admin__sidebar label {
+    font-size: 14px;
+    color: #555555;
+    letter-spacing: 0;
+    margin: 0; }
+  .admin__sidebar h2 {
+    font-weight: bold;
+    font-size: 20px;
+    color: #CC7D27;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    margin: 0 0 10px; }
+  .admin__sidebar section {
+    padding-top: 40px; }
+  .admin__sidebar [type="checkbox"]:not(:checked),
+  .admin__sidebar [type="checkbox"]:checked {
+    position: absolute;
+    left: -9999px; }
+  .admin__sidebar [type="checkbox"]:not(:checked) + label,
+  .admin__sidebar [type="checkbox"]:checked + label {
+    position: relative;
+    padding-left: 25px;
+    cursor: pointer; }
+  .admin__sidebar [type="checkbox"]:not(:checked) + label:before,
+  .admin__sidebar [type="checkbox"]:checked + label:before {
+    background: #F7F8FA;
+    border-radius: 2px;
+    border: 1px solid #C3CFD6;
+    content: '';
+    display: block;
+    height: 16px;
+    left: 0;
+    position: absolute;
+    top: 3px;
+    width: 16px; }
+  .admin__sidebar [type="checkbox"]:checked + label:after {
+    background: #52B3FF;
+    color: white;
+    content: "\f00c";
+    font-family: FontAwesome;
+    border-radius: 2px;
+    border: 1px solid #52B3FF;
+    display: block;
+    height: 16px;
+    left: 0;
+    position: absolute;
+    top: 3px;
+    width: 16px;
+    font-size: 10px;
+    text-align: center; }
+
 .toggle-area {
   background: white;
   border: 1px solid #C3CFD6;
