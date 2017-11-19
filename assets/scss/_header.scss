@@ -35,6 +35,15 @@
       font-size: 1.833rem;
       text-transform: uppercase;
       color: white;
+      span.off {
+        opacity: .5;
+      }
+    }
+  }
+
+  &--admin {
+    nav {
+      height: 145px;
     }
   }
 }

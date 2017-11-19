@@ -62,6 +62,11 @@
     font-size: 1.833rem;
     text-transform: uppercase;
     color: white; }
+    .header nav h2 span.off {
+      opacity: .5; }
+
+.header--admin nav {
+  height: 145px; }
 
 .header__nav--desktop {
   position: absolute;

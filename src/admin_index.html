@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>UN Meeting - Admin</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- vendor scripts -->
+    <script src="../vendors/jquery/dist/jquery.min.js"></script>
+    <script src="../vendors/modernizr/modernizr-2.8.3.min.js"></script>
+
+    <script src="../vendors/jquery/dist/popper.min.js"></script>
+
+    <!-- vendor styles -->
+    <link rel="stylesheet" href="../assets/css/roboto.css" />
+    <link rel="stylesheet" href="../assets/css/normalize.min.css" />
+    <link rel="stylesheet" href="../vendors/font-awesome/css/font-awesome.min.css" />
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,600,700" /> -->
+
+    <link rel="stylesheet" href="../vendors/bootstrap/bootstrap.min.css">
+    <script src="../vendors/bootstrap/bootstrap.min.js"></script>
+
+    <!-- datepicker -->
+    <script type="text/javascript" src="../vendors/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js"></script>
+    <link rel="stylesheet" href="../vendors/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css" />
+    
+    <!-- typeahead -->
+    <script type="text/javascript" src="../vendors/typeahead/typeahead.js"></script>
+
+    <!-- page styles  -->
+    <link rel="stylesheet" href="../assets/css/request.css" />
+
+  </head>
+  <body>
+
+    <div id="headerNavMobile" class="header__nav--mobile mobile hidden">
+      <ul>
+        <li><a href=""><strong class="fa fa-question-circle"></strong>Help</a></li>
+        <li><a href=""><strong class="fa fa-phone"></strong>Contact Us</a></li>
+        <li><a href=""><strong class="fa fa-user"></strong>Username</a></li>
+        <li>
+          <a href="" class="headerDropdownToggle"><strong class="fa fa-chevron-down"></strong>New York</a>
+          <div class="headerDropdown dropdown hidden">
+            <a href="">Geneva</a>
+            <a href="">Vienna</a>
+            <a href="">Nairobi</a>
+          </div>
+          <img src="../assets/img/dgacm-logo.svg" alt="" class="logo">
+        </li>
+      </ul>
+      <div class="overlay"></div>
+    </div>
+
+    <div class="header header--admin">
+      <div class="small">
+        <div class="container">
+          <a href="home.html"><strong class="fa fa-home"></strong> Welcome to the United Nations</a>
+        </div>
+      </div>
+      <nav>
+        <div class="container">
+          <h2>Request for Meeting Services <span class="off">. Admin</span></h2>
+          <ul class="header__nav--desktop desktop">
+            <li>
+              <a href="" class="headerDropdownToggle"><strong class="fa fa-chevron-down"></strong>oss.service</a>
+              <div class="headerDropdown dropdown hidden">
+                <a href="">Geneva</a>
+                <a href="">Vienna</a>
+                <a href="">Nairobi</a>
+              </div>
+            </li>
+          </ul>
+          <a href="" id="headerNavToggle" class="header__nav__toggle mobile">
+            <img src="../assets/img/nav-toggle-on.svg" alt="Open / Close Menu">
+          </a>
+        </div>
+      </nav>
+    </div>
+
+    <div class="content home">
+      <div class="container">
+
+        <div class="content__wrapper">
+          
+        </div>
+
+      </div>  
+    </div>
+
+    <footer class="footer content">
+      <div class="container">
+        <h1>UNITED NATIONS</h1>
+        <nav>
+          <a href="">A-Z Site Index</a>
+          <a href="">Contact</a>
+          <a href="">Copyright</a>
+          <a href="">FAQ</a>
+          <a href="">Fraud Alert</a>
+          <a href="">Privacy Notice</a>
+          <a href="">Terms of Use</a>
+        </nav>
+      </div>
+    </footer>
+
+    <script src="../assets/js/header.js"></script>
+    <script src="../assets/js/request-min.js"></script>
+
+    <script>
+      var organizations = [{"company":"NSPIRE"},{"company":"EXOTECHNO"},{"company":"COMTEST"},{"company":"BIFLEX"},{"company":"CINESANCT"},{"company":"GEEKOLOGY"},{"company":"NETUR"},{"company":"NETROPIC"},{"company":"MEDALERT"},{"company":"COMTRAIL"},{"company":"FIBRODYNE"},{"company":"MEDMEX"},{"company":"SLUMBERIA"},{"company":"SOPRANO"},{"company":"SPLINX"},{"company":"EXOPLODE"},{"company":"TERSANKI"},{"company":"MAXEMIA"},{"company":"SENSATE"},{"company":"FRANSCENE"}];
+      var filterOrganizations = function() {
+        return function filtered(q, cb) {
+          var list = [];
+          for (var o in organizations) {
+            var org = organizations[o].company.toLowerCase();
+            if (org.indexOf(q.toLowerCase()) !== -1) {
+              list.push(org);
+            }
+          }
+          cb(list);
+        };
+      };
+      $("#client_organization").typeahead({
+        minLength: 1,
+        hint: true
+      },{
+        name: 'client_organization',
+        source: filterOrganizations()
+      });
+    </script>
+  </body>
+</html>
