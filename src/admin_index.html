@@ -188,36 +188,16 @@
           <div class="col-md-9">
             <div class="content__wrapper">
 
-              <div class="admin__filter">
-                <div class="row">
+              <div class="admin__filter" id="adminFilters">
+                <div class="row" id="adminFiltersOutput">
                   <div class="col-md-4">
                     <label for="">Add Search Field</label>
-                    <select class="form-control">
+                    <select class="form-control" id="adminFiltersSelect">
                       <option value="">Select an option</option>
-                      <option value="">Job #</option>
-                      <option value="">Request Number</option>
-                      <option value="">Symbol 1</option>
+                      <option value="Job #">Job #</option>
+                      <option value="Request Number">Request Number</option>
+                      <option value="Symbol 1">Symbol 1</option>
                     </select>
-                  </div>
-                  <div class="col-md-4">
-                    <label for="">Add Search Field</label>
-                    <input type="text" class="form-control" />
-                    <a href=""><i class="fa fa-times-circle"></i></a>
-                  </div>
-                  <div class="col-md-4">
-                    <label for="">Add Search Field</label>
-                    <input type="text" class="form-control" />
-                    <a href=""><i class="fa fa-times-circle"></i></a>
-                  </div>
-                  <div class="col-md-4">
-                    <label for="">Add Search Field</label>
-                    <input type="text" class="form-control" />
-                    <a href=""><i class="fa fa-times-circle"></i></a>
-                  </div>
-                  <div class="col-md-4">
-                    <label for="">Add Search Field</label>
-                    <input type="text" class="form-control" />
-                    <a href=""><i class="fa fa-times-circle"></i></a>
                   </div>
                 </div>
               </div>
@@ -373,28 +353,6 @@
 
     <script src="../assets/js/header.js"></script>
     <script src="../assets/js/request-min.js"></script>
-
-    <script>
-      var organizations = [{"company":"NSPIRE"},{"company":"EXOTECHNO"},{"company":"COMTEST"},{"company":"BIFLEX"},{"company":"CINESANCT"},{"company":"GEEKOLOGY"},{"company":"NETUR"},{"company":"NETROPIC"},{"company":"MEDALERT"},{"company":"COMTRAIL"},{"company":"FIBRODYNE"},{"company":"MEDMEX"},{"company":"SLUMBERIA"},{"company":"SOPRANO"},{"company":"SPLINX"},{"company":"EXOPLODE"},{"company":"TERSANKI"},{"company":"MAXEMIA"},{"company":"SENSATE"},{"company":"FRANSCENE"}];
-      var filterOrganizations = function() {
-        return function filtered(q, cb) {
-          var list = [];
-          for (var o in organizations) {
-            var org = organizations[o].company.toLowerCase();
-            if (org.indexOf(q.toLowerCase()) !== -1) {
-              list.push(org);
-            }
-          }
-          cb(list);
-        };
-      };
-      $("#client_organization").typeahead({
-        minLength: 1,
-        hint: true
-      },{
-        name: 'client_organization',
-        source: filterOrganizations()
-      });
-    </script>
+    <script src="../assets/js/admin-min.js"></script>
   </body>
 </html>
