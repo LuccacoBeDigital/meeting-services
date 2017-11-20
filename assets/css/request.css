@@ -1028,8 +1028,6 @@ form.horizontal {
       left: 15px; } }
 
 .admin__sidebar {
-  float: left;
-  width: 200px;
   /* checkbox aspect */ }
   .admin__sidebar ul {
     list-style: none;
@@ -1085,6 +1083,23 @@ form.horizontal {
     width: 16px;
     font-size: 10px;
     text-align: center; }
+
+.admin__filter {
+  background: #C7E6FF;
+  font-size: 16px;
+  color: #1F1F1F;
+  letter-spacing: 0.3px;
+  padding: 30px 40px; }
+  .admin__filter .col-md-4 {
+    margin-bottom: 20px; }
+  .admin__filter a {
+    display: inline-block;
+    margin-left: 5px; }
+    .admin__filter a i {
+      color: #658CAB; }
+  .admin__filter .form-control {
+    width: calc(100% - 25px);
+    display: inline-block; }
 
 .toggle-area {
   background: white;

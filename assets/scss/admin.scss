@@ -1,6 +1,4 @@
 .admin__sidebar {
-  float: left;
-  width: 200px;
   ul {
     list-style: none;
     padding: 0;
@@ -66,48 +64,26 @@
     font-size: 10px;
     text-align: center;
   }
-  // /* checked mark aspect */
-  // [type="checkbox"]:not(:checked) + label:after,
-  // [type="checkbox"]:checked + label:after {
-  //   content: '✔';
-  //   position: absolute;
-  //   top: .1em; left: .3em;
-  //   font-size: 1.3em;
-  //   line-height: 0.8;
-  //   color: #09ad7e;
-  //   transition: all .2s;
-  // }
-  
-  // /* checked mark aspect changes */
-  // [type="checkbox"]:not(:checked) + label:after {
-  //   opacity: 0;
-  //   transform: scale(0);
-  // }
-  // [type="checkbox"]:checked + label:after {
-  //   opacity: 1;
-  //   transform: scale(1);
-  // }
-  // /* disabled checkbox */
-  // [type="checkbox"]:disabled:not(:checked) + label:before,
-  // [type="checkbox"]:disabled:checked + label:before {
-  //   box-shadow: none;
-  //   border-color: #bbb;
-  //   background-color: #ddd;
-  // }
-  // [type="checkbox"]:disabled:checked + label:after {
-  //   color: #999;
-  // }
-  // [type="checkbox"]:disabled + label {
-  //   color: #aaa;
-  // }
-  // /* accessibility */
-  // [type="checkbox"]:checked:focus + label:before,
-  // [type="checkbox"]:not(:checked):focus + label:before {
-  //   border: 2px dotted blue;
-  // }
-  
-  // /* hover style just for information */
-  // label:hover:before {
-  //   border: 2px solid #4778d9!important;
-  // }
+}
+
+.admin__filter {
+  background: #C7E6FF;
+  font-size: 16px;
+  color: #1F1F1F;
+  letter-spacing: 0.3px;
+  padding: 30px 40px;
+  .col-md-4 {
+    margin-bottom: 20px;
+  }
+  a {
+    display: inline-block;
+    margin-left: 5px;
+    i {
+      color: #658CAB;
+    }
+  }
+  .form-control {
+    width: calc(100% - 25px);
+    display: inline-block;
+  }
 }
