@@ -71,7 +71,7 @@
   font-size: 16px;
   color: #1F1F1F;
   letter-spacing: 0.3px;
-  padding: 30px 40px;
+  padding: 30px 40px 10px;
   .col-md-4 {
     margin-bottom: 20px;
   }
@@ -85,5 +85,58 @@
   .form-control {
     width: calc(100% - 25px);
     display: inline-block;
+  }
+}
+
+.admin__meetings__pagination {
+  padding-top: 30px;
+  .btn {
+    color: #203C6C;
+    border-color: #203C6C;
+    font-size: 14px;
+    color: #203C6C;
+    letter-spacing: 0;
+  }
+  p {
+    font-size: 14px;
+    color: #555555;
+    letter-spacing: 0;
+    line-height: 40px;
+  }
+}
+
+.admin__meetings__item {
+  margin: 10px 10px 30px;
+  border: 1px solid #C3CFD6;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.05);
+  border-radius: 4px;
+  header {
+    display: block;
+    border-bottom: 1px solid #C3CFD6;
+    padding: 0 10px;
+
+    h2, h3 {
+      line-height: 55px;
+      margin: 0;      
+    }
+    h2 {
+      font-weight: bold;
+      font-size: 20px;
+      color: #203C6C;
+      letter-spacing: 0.38px;
+    }
+    h3 {
+      font-size: 16px;
+      color: #555555;
+      letter-spacing: 0.3px;
+    }
+  }
+  section {
+    padding: 15px;
+    p {
+      font-size: 16px;
+      color: #555555;
+      letter-spacing: 0;
+    }
   }
 }
