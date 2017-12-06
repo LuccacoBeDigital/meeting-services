@@ -30,8 +30,10 @@
 
 .na-modal {
   
-  display: block !important; // PLEASE REMOVE THIS WHEN USING MODAL
-  position: relative !important; // PLEASE REMOVE THIS WHEN USING MODAL
+  &--demo {
+    display: block !important; // PLEASE REMOVE THIS WHEN USING MODAL
+    position: relative !important; // PLEASE REMOVE THIS WHEN USING MODAL
+  }
 
   .modal-content {
     background: #F4F5F8;

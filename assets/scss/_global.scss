@@ -153,3 +153,7 @@ form.horizontal {
 .clearfix {
   @include clearfix();
 }
+
+.flex-center {
+  justify-content: center;
+}

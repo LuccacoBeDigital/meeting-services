@@ -28,3 +28,29 @@
   color: #555555;
   letter-spacing: 0;
 }
+
+.edit-request__timeline {
+  font-size: 14px;
+  color: #1F1F1F;
+  letter-spacing: 0;
+  line-height: 36px;
+  list-style: none;
+
+  i.fa-circle {
+    margin-right: 10px;
+    color: #D5D5D5;
+    position: relative;
+    &.active {
+      color: #52B3FF;
+      &::after {
+        content: '';
+        position: absolute;
+        width: 2px;
+        height: 36px;
+        background-color: #52B3FF;
+        left: 5px;
+        top: 2px;
+      }
+    }
+  }
+}

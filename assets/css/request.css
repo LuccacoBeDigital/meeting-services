@@ -515,6 +515,9 @@ form.horizontal {
   content: "";
   clear: both; }
 
+.flex-center {
+  justify-content: center; }
+
 .request__form {
   padding: 40px; }
   .request__form h1 {
@@ -951,35 +954,40 @@ form.horizontal {
     .na-confirmation p a {
       font-weight: bold; }
 
-.na-modal {
+.na-modal--demo {
   display: block !important;
   position: relative !important; }
-  .na-modal .modal-content {
-    background: #F4F5F8;
-    border: 1px solid #D9DADF;
-    box-shadow: 0 10px 12px 0 rgba(0, 0, 0, 0.03);
-    border-radius: 4px; }
-  .na-modal .modal-header,
-  .na-modal .modal-footer {
-    border: none; }
-  .na-modal .modal-title {
-    font-weight: bold; }
-  .na-modal .modal-content,
-  .na-modal .modal-title {
-    font-size: 14px;
-    color: #1F1F1F;
-    letter-spacing: 0;
-    line-height: 21px; }
-  .na-modal .btn {
-    font-size: 14px;
-    letter-spacing: 0;
-    text-transform: uppercase; }
-    .na-modal .btn.btn-outline-secondary {
-      border-color: #52B3FF;
-      color: #52B3FF; }
-    .na-modal .btn.btn-primary {
-      border-color: #52B3FF;
-      background-color: #52B3FF; }
+
+.na-modal .modal-content {
+  background: #F4F5F8;
+  border: 1px solid #D9DADF;
+  box-shadow: 0 10px 12px 0 rgba(0, 0, 0, 0.03);
+  border-radius: 4px; }
+
+.na-modal .modal-header,
+.na-modal .modal-footer {
+  border: none; }
+
+.na-modal .modal-title {
+  font-weight: bold; }
+
+.na-modal .modal-content,
+.na-modal .modal-title {
+  font-size: 14px;
+  color: #1F1F1F;
+  letter-spacing: 0;
+  line-height: 21px; }
+
+.na-modal .btn {
+  font-size: 14px;
+  letter-spacing: 0;
+  text-transform: uppercase; }
+  .na-modal .btn.btn-outline-secondary {
+    border-color: #52B3FF;
+    color: #52B3FF; }
+  .na-modal .btn.btn-primary {
+    border-color: #52B3FF;
+    background-color: #52B3FF; }
 
 .na-alert {
   z-index: 100;
@@ -1173,6 +1181,27 @@ form.horizontal {
   font-size: 14px;
   color: #555555;
   letter-spacing: 0; }
+
+.edit-request__timeline {
+  font-size: 14px;
+  color: #1F1F1F;
+  letter-spacing: 0;
+  line-height: 36px;
+  list-style: none; }
+  .edit-request__timeline i.fa-circle {
+    margin-right: 10px;
+    color: #D5D5D5;
+    position: relative; }
+    .edit-request__timeline i.fa-circle.active {
+      color: #52B3FF; }
+      .edit-request__timeline i.fa-circle.active::after {
+        content: '';
+        position: absolute;
+        width: 2px;
+        height: 36px;
+        background-color: #52B3FF;
+        left: 5px;
+        top: 2px; }
 
 .toggle-area {
   background: white;

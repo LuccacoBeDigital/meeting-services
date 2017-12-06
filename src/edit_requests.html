@@ -119,7 +119,9 @@
                   <h1>MEETING TITLE - 02/10/2017 <span>(New York)</span></h1>
                 </div>
                 <div class="col-md-6 text-right myrequests__buttons">
-                  <button class="btn btn-outline-primary myrequests__button"><i class="fa fa-comments"></i> SEE REQUEST UPDATES</button>
+                  <button class="btn btn-outline-primary myrequests__button" data-toggle="modal" data-target="#requestUpdates">
+                    <i class="fa fa-comments"></i> SEE REQUEST UPDATES
+                  </button>
                 </div>
               </div>
             </header>
@@ -179,6 +181,38 @@
         </nav>
       </div>
     </footer>
+
+    <div class="na-modal modal" tabindex="-1" role="dialog" id="requestUpdates">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">History</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <ul class="edit-request__timeline">
+              <li>
+                <i class="fa fa-circle active"></i>
+                Information Required on 08/11/2017 at 18:45
+              </li>
+              <li>
+                <i class="fa fa-circle active"></i>
+                Information Provided on 09/11/2017 at 10:23
+              </li>
+              <li>
+                <i class="fa fa-circle"></i>
+                Waiting for review
+              </li>
+            </ul>
+          </div>
+          <div class="modal-footer flex-center">
+            <button type="button" data-dismiss="modal" class="btn btn-primary">OK</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <script src="../assets/js/header.js"></script>
     <script src="../assets/js/request-min.js"></script>
