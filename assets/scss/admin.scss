@@ -22,48 +22,6 @@
     padding-top: 40px;
   }
 
-  [type="checkbox"]:not(:checked),
-  [type="checkbox"]:checked {
-    position: absolute;
-    left: -9999px;
-  }
-  [type="checkbox"]:not(:checked) + label,
-  [type="checkbox"]:checked + label {
-    position: relative;
-    padding-left: 25px;
-    cursor: pointer;
-  }
-  
-  /* checkbox aspect */
-  [type="checkbox"]:not(:checked) + label:before,
-  [type="checkbox"]:checked + label:before {
-    background: #F7F8FA;
-    border-radius: 2px;
-    border: 1px solid #C3CFD6;
-    content: '';
-    display: block;
-    height: 16px;
-    left: 0;
-    position: absolute;
-    top: 3px;
-    width: 16px;
-  }
-  [type="checkbox"]:checked + label:after {
-    background: #52B3FF;
-    color: white;
-    content: "\f00c";
-    font-family: FontAwesome;
-    border-radius: 2px;
-    border: 1px solid #52B3FF;
-    display: block;
-    height: 16px;
-    left: 0;
-    position: absolute;
-    top: 3px;
-    width: 16px;
-    font-size: 10px;
-    text-align: center;
-  }
 }
 
 .admin__filter {
