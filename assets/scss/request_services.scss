@@ -1,16 +1,16 @@
 .timeblock {
-  border: 1px solid #C3CFD6;
+  border: 1px solid $loblolly;
   border-radius: 4px;
   padding: 5px 20px;
   header {
     padding: 0 20px 10px;
     margin: 0 -20px 10px;
-    border-bottom: 1px solid #C3CFD6;
+    border-bottom: 1px solid $loblolly;
   }
 }
 
 .room-size {
-  border: 1px solid #C3CFD6;
+  border: 1px solid $loblolly;
   border-radius: 4px;
   padding: 10px;
   text-align: center;

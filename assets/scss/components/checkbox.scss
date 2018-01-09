@@ -13,9 +13,9 @@
 /* checkbox aspect */
 .checkbox:not(:checked) + label:before,
 .checkbox:checked + label:before {
-  background: #F7F8FA;
+  background: $athensGray;
   border-radius: 2px;
-  border: 1px solid #C3CFD6;
+  border: 1px solid $loblolly;
   content: '';
   display: block;
   height: 16px;

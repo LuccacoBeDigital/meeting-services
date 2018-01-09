@@ -519,32 +519,32 @@ form.horizontal {
   justify-content: center; }
 
 .request__form {
-  padding: 40px; }
+  padding: 2.22rem; }
   .request__form h1 {
-    margin: 0 0 20px;
+    margin: 0 0 1.111rem;
     color: #CC7D27;
-    font-size: 20px;
+    font-size: 1.111rem;
     font-weight: bold;
     text-transform: uppercase; }
     .request__form h1 i {
-      margin-right: 5px; }
+      margin-right: 0.2778rem; }
   .request__form h4 {
     color: #1F1F1F;
     display: block;
-    font-size: 16px;
-    letter-spacing: 0.3px;
-    margin: 0 0 20px; }
+    font-size: 0.8889rem;
+    letter-spacing: 0 0.1667rem;
+    margin: 0 0 1.111rem; }
 
 .request__form__input,
 .form-group {
-  margin-bottom: 20px; }
+  margin-bottom: 1.111rem; }
   .request__form__input > label,
   .form-group > label {
     color: #1F1F1F;
     display: block;
-    font-size: 16px;
-    letter-spacing: 0.3px;
-    margin-bottom: 10px; }
+    font-size: 0.8889rem;
+    letter-spacing: 0 0.1667rem;
+    margin-bottom: 0.5556rem; }
     .request__form__input > label span.orange,
     .form-group > label span.orange {
       color: #FF7749; }
@@ -555,30 +555,30 @@ form.horizontal {
   .form-group textarea,
   .form-group select {
     background: #F7F8FA;
-    border-radius: 4px;
+    border-radius: 0.2222rem;
     border: 1px solid #C3CFD6;
     box-sizing: border-box;
     display: block;
-    font-size: 16px;
+    font-size: 0.8889rem;
     width: 100%;
-    padding: 11px 10px; }
+    padding: 0.6111rem 0.5556rem; }
   .request__form__input .form-control + .custom-controls,
   .form-group .form-control + .custom-controls {
     margin-top: 5px; }
     .request__form__input .form-control + .custom-controls .custom-control-description,
     .form-group .form-control + .custom-controls .custom-control-description {
       display: inline-block;
-      margin-top: 3px; }
+      margin-top: 0.1667rem; }
   .request__form__input small,
   .form-group small {
-    font-size: 12px;
+    font-size: 0.6667rem;
     color: #555555;
     letter-spacing: 0; }
 
 .request__form__tabs {
   border: 2px solid #E7EBEE;
-  border-radius: 4px;
-  margin: 60px 0 30px; }
+  border-radius: 0.2222rem;
+  margin: 3.333rem 0 1.667rem; }
   .request__form__tabs nav {
     position: relative;
     top: -41px;
@@ -586,12 +586,12 @@ form.horizontal {
     .request__form__tabs nav a {
       display: inline-block;
       border: 2px solid #E7EBEE;
-      border-radius: 4px;
+      border-radius: 0.2222rem;
       width: 61px;
       line-height: 37px;
       text-decoration: none;
       text-align: center;
-      font-size: 16px;
+      font-size: 0.8889rem;
       color: #797C80;
       letter-spacing: 0.2px;
       background: #E8EBF0; }
@@ -613,7 +613,7 @@ form.horizontal {
   font-size: 14px;
   cursor: pointer;
   display: inline-block;
-  margin: 3px 10px 0 0; }
+  margin: 0.1667rem 0.5556rem 0 0; }
 
 @media (max-width: 480px) {
   .request__form {

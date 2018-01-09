@@ -2,7 +2,7 @@
   text-align: center;
   padding: 50px 0;
   h1 {
-    color: #1F1F1F;
+    color: $mineShaft;
     font-size: 18px;
     font-weight: bold;
     letter-spacing: 0.32px;
@@ -20,7 +20,7 @@
   }
   p {
     font-size: 14px;
-    color: #1F1F1F;
+    color: $mineShaft;
     letter-spacing: 0.26px;
     a {
       font-weight: bold;
@@ -52,7 +52,7 @@
   .modal-content,
   .modal-title {
     font-size: 14px;
-    color: #1F1F1F;
+    color: $mineShaft;
     letter-spacing: 0;
     line-height: 21px;
   }
@@ -111,8 +111,8 @@
 .na-alert-warning {
   top: 300px;  // PLEASE REMOVE THIS WHEN USING MODAL 
   background: #FFE749;
-  color: #1F1F1F;
+  color: $mineShaft;
   a {
-    color: #1F1F1F;
+    color: $mineShaft;
   }
 }

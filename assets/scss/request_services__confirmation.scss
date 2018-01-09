@@ -2,7 +2,7 @@
   h1.orange {
     font-weight: bold;
     font-size: 18px;
-    color: #FF7749;
+    color: $coral;
     letter-spacing: 0.32px;
   }
   .list-actions {
@@ -42,16 +42,16 @@
     margin-bottom: 30px;
     h2 {
       font-size: 18px;
-      color: #1F1F1F;
+      color: $mineShaft;
       letter-spacing: 0.34px;
     }
     p {
       font-size: 14px;
-      color: #1F1F1F;
+      color: $mineShaft;
       letter-spacing: 0.26px;
     }
     .badge {
-      background: #CC7D27;
+      background: $orange;
       text-transform: uppercase;
       padding: 5px;
       display: inline-block;

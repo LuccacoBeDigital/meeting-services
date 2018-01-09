@@ -1,5 +1,5 @@
 .frk-select {
-  border: 1px solid #C3CFD6;
+  border: 1px solid $loblolly;
   border-radius: 4px;
   box-shadow: 0 2px 4px 0 rgba(0,0,0,0.05);
 }
@@ -8,7 +8,7 @@
   background: white;
   width: 100%;
   border-radius: 4px 4px 0 0;
-  border-bottom: 1px solid #C3CFD6;
+  border-bottom: 1px solid $loblolly;
   padding: 10px;
   position: relative;
   a {
@@ -28,12 +28,12 @@
 
 .frk-select__list {
   display: none;
-  background: #F7F8FA;
+  background: $athensGray;
   max-height: 270px;
   overflow-y: auto;
   & > div {
     padding: 10px 15px;
-    border-bottom: 1px solid #C3CFD6;
+    border-bottom: 1px solid $loblolly;
     cursor: pointer;
     &:last-child { border-bottom: none; }
     &:hover { background: #E2E7EC; }
