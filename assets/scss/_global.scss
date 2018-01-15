@@ -88,7 +88,7 @@ small.orange {
 .m-bottom-20 { margin-bottom: 1.111rem; }
 
 [data-toggle="tooltip"] {
-  color: #52B3FF;
+  color: $mayaBlue;
 }
 
 .twitter-typeahead {
@@ -122,7 +122,7 @@ small.orange {
 .form-group {
   select {
     font-size: 16px !important;
-    color: #555555 !important;
+    color: $mortar !important;
     letter-spacing: 0 !important;
 
     background: #FFFFFF !important;
@@ -143,7 +143,7 @@ form.horizontal {
   }
   label {
     font-size: 0.7778rem;
-    color: #555555;
+    color: $mortar;
   }
   textarea,
   input[type=text] {

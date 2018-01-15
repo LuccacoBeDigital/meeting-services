@@ -114,7 +114,7 @@
     padding: 20px 52px;
     text-align: center; }
     .header__nav--desktop .dropdown a {
-      line-height: 36px;
+      line-height: 2rem;
       display: block;
       letter-spacing: 0.47; }
   .header__nav--desktop .dropdown:after {
@@ -327,11 +327,11 @@
   border: 1px solid #C3CFD6;
   content: '';
   display: block;
-  height: 16px;
+  height: 0.8889rem;
   left: 0;
   position: absolute;
   top: 3px;
-  width: 16px; }
+  width: 0.8889rem; }
 
 .checkbox:checked + label:after {
   background: #52B3FF;
@@ -341,11 +341,11 @@
   border-radius: 2px;
   border: 1px solid #52B3FF;
   display: block;
-  height: 16px;
+  height: 0.8889rem;
   left: 0;
   position: absolute;
   top: 3px;
-  width: 16px;
+  width: 0.8889rem;
   font-size: 0.5556rem;
   text-align: center; }
 
@@ -393,7 +393,7 @@
     margin-bottom: 0.5556rem; }
   .frk-select__list small {
     font-size: 12px;
-    line-height: 16px;
+    line-height: 0.8889rem;
     display: block; }
 
 .frk-select__list--open {
@@ -853,7 +853,7 @@ form.horizontal {
         color: #1F1F1F;
         letter-spacing: 0.3px;
         margin: 0;
-        line-height: 38px; }
+        line-height: 2.111rem; }
       .meetings-list__item .list-item__room header button {
         float: right; }
     .meetings-list__item .list-item__room .content {
@@ -1158,7 +1158,7 @@ form.horizontal {
       letter-spacing: 0; }
 
 .edit-meeting {
-  background: #FFFFFF;
+  background: white;
   border: 1px solid #C3CFD6;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05);
   border-radius: 4px; }
@@ -1172,10 +1172,10 @@ form.horizontal {
       color: #1F1F1F;
       letter-spacing: 0.3px;
       margin: 0;
-      line-height: 38px; }
+      line-height: 2.111rem; }
   .edit-meeting > div {
     background: white;
-    padding: 16px; }
+    padding: 0.8889rem; }
 
 .edit-meeting__checkbox-list {
   font-size: 0.7778rem;
@@ -1186,7 +1186,7 @@ form.horizontal {
   font-size: 0.7778rem;
   color: #1F1F1F;
   letter-spacing: 0;
-  line-height: 36px;
+  line-height: 2rem;
   list-style: none; }
   .edit-request__timeline i.fa-circle {
     margin-right: 0.5556rem;
@@ -1198,7 +1198,7 @@ form.horizontal {
         content: '';
         position: absolute;
         width: 2px;
-        height: 36px;
+        height: 2rem;
         background-color: #52B3FF;
         left: 5px;
         top: 2px; }

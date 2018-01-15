@@ -13,7 +13,7 @@
 
   .current-page {
     font-size: 0.7778rem;
-    color: #555555;
+    color: $mortar;
     letter-spacing: 0;
     line-height: 39px;
     margin: 0;
@@ -56,7 +56,7 @@
     .request-no {
       text-align: right;
       font-size: 0.8889rem;
-      color: #555555;
+      color: $mortar;
       letter-spacing: 0.3px;
     }
   }
@@ -92,7 +92,7 @@
         color: $mineShaft;
         letter-spacing: 0.3px;
         margin: 0;
-        line-height: 38px;
+        line-height: 2.111rem;
       }
       button {
         float: right;

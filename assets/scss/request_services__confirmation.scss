@@ -16,19 +16,19 @@
     } 
   }
   .btn-primary {
-    border-color: #52B3FF;
-    background: #52B3FF;
+    border-color: $mayaBlue;
+    background: $mayaBlue;
   }
   .btn-outline-primary {
-    border-color: #52B3FF;
-    color: #52B3FF;
+    border-color: $mayaBlue;
+    color: $mayaBlue;
   }
   .list-headers {
-    border-top: 3px solid #D5D5D5;
-    border-bottom: 1px solid #D5D5D5;
+    border-top: 3px solid $lightGray;
+    border-bottom: 1px solid $lightGray;
 
     font-size: 0.8889rem;
-    color: #555555;
+    color: $mortar;
     letter-spacing: 0.3px;
 
     padding-top: 0.5556rem;
@@ -37,7 +37,7 @@
   }
 
   .list-item {
-    border-bottom: 1px solid #D5D5D5;
+    border-bottom: 1px solid $lightGray;
     padding-bottom: 0.5556rem;
     margin-bottom: 30px;
     h2 {
@@ -72,12 +72,12 @@
   .request__services__confirmation {
     h1.orange {
       font-size: 0.7778rem;
-      border-bottom: 3px solid #D5D5D5;
+      border-bottom: 3px solid $lightGray;
       padding-bottom: 1.111rem;
     }
     h4 {
       font-size: 0.8889rem;
-      color: #555555;
+      color: $mortar;
       letter-spacing: 0.3px;
     }
     .list-item {

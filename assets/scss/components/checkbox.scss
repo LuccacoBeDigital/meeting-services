@@ -18,25 +18,25 @@
   border: 1px solid $loblolly;
   content: '';
   display: block;
-  height: 16px;
+  height: 0.8889rem;
   left: 0;
   position: absolute;
   top: 3px;
-  width: 16px;
+  width: 0.8889rem;
 }
 .checkbox:checked + label:after {
-  background: #52B3FF;
+  background: $mayaBlue;
   color: white;
   content: "\f00c";
   font-family: FontAwesome;
   border-radius: 2px;
-  border: 1px solid #52B3FF;
+  border: 1px solid $mayaBlue;
   display: block;
-  height: 16px;
+  height: 0.8889rem;
   left: 0;
   position: absolute;
   top: 3px;
-  width: 16px;
+  width: 0.8889rem;
   font-size: 0.5556rem;
   text-align: center;
 }

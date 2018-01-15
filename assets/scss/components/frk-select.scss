@@ -14,7 +14,7 @@
   a {
     display: block;
     font-size: 0.8889rem;
-    color: #555555;
+    color: $mortar;
     letter-spacing: 0;
   }
   i {
@@ -40,13 +40,13 @@
   }
   p {
     font-size: 0.7778rem;
-    color: #555555;
+    color: $mortar;
     letter-spacing: 0;
     margin-bottom: 0.5556rem;
   }
   small {
     font-size: 12px;
-    line-height: 16px;
+    line-height: 0.8889rem;
     display: block;
   }
 }

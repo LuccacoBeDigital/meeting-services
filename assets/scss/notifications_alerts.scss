@@ -62,12 +62,12 @@
     letter-spacing: 0;
     text-transform: uppercase;
     &.btn-outline-secondary {
-      border-color: #52B3FF;
-      color: #52B3FF;
+      border-color: $mayaBlue;
+      color: $mayaBlue;
     }
     &.btn-primary {
-      border-color: #52B3FF;
-      background-color: #52B3FF;
+      border-color: $mayaBlue;
+      background-color: $mayaBlue;
     }
   }
 }

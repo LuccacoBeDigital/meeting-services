@@ -1,5 +1,5 @@
 .edit-meeting {
-  background: #FFFFFF;
+  background: white;
   border: 1px solid $loblolly;
   box-shadow: 0 2px 4px 0 rgba(0,0,0,0.05);
   border-radius: 4px;
@@ -14,18 +14,18 @@
       color: $mineShaft;
       letter-spacing: 0.3px;
       margin: 0;
-      line-height: 38px;
+      line-height: 2.111rem;
     }
   }
   & > div {
     background: white;
-    padding: 16px;
+    padding: 0.8889rem;
   }
 }
 
 .edit-meeting__checkbox-list {
   font-size: 0.7778rem;
-  color: #555555;
+  color: $mortar;
   letter-spacing: 0;
 }
 
@@ -33,21 +33,21 @@
   font-size: 0.7778rem;
   color: $mineShaft;
   letter-spacing: 0;
-  line-height: 36px;
+  line-height: 2rem;
   list-style: none;
 
   i.fa-circle {
     margin-right: 0.5556rem;
-    color: #D5D5D5;
+    color: $lightGray;
     position: relative;
     &.active {
-      color: #52B3FF;
+      color: $mayaBlue;
       &::after {
         content: '';
         position: absolute;
         width: 2px;
-        height: 36px;
-        background-color: #52B3FF;
+        height: 2rem;
+        background-color: $mayaBlue;
         left: 5px;
         top: 2px;
       }

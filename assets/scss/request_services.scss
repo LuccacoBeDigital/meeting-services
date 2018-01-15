@@ -28,10 +28,10 @@
   }
   &:hover {
     background: #F0F8FF;
-    border: 2px solid #52B3FF;
+    border: 2px solid $mayaBlue;
   }
   &.active {
-    background: #52B3FF;
+    background: $mayaBlue;
     color: white;
     p {
       color: white;
