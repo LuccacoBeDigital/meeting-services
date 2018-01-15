@@ -47,7 +47,7 @@
   }
 
   .form-control + .custom-controls {
-    margin-top: 5px;
+    margin-top: 0.2778rem;
     .custom-control-description {
       display: inline-block;
       margin-top: 0.1667rem;
@@ -62,7 +62,7 @@
 }
 
 .request__form__tabs {
-  border: 2px solid $romeGray;
+  border:0.1111rem solid $romeGray;
   border-radius: 0.2222rem;
   margin: 3.333rem 0 1.667rem;
   nav {
@@ -72,27 +72,27 @@
 
     a {
       display: inline-block;
-      border: 2px solid $romeGray;
+      border:0.1111rem solid $romeGray;
       border-radius: 0.2222rem;
-      width: 61px;
-      line-height: 37px;
+      width: 3.389rem;
+      line-height: 2.056rem;
       text-decoration: none;
       text-align: center;
 
       font-size: 0.8889rem;
-      color: #797C80;
+      color: $stormGray;
       letter-spacing: 0.2px;
-      background: #E8EBF0;
+      background: $romeGray;
 
       &.active {
         background: white;
-        border-bottom: 2px solid white;
+        border-bottom:0.1111rem solid white;
         opacity: 1;
       }
     }
   }
   & > div {
-    padding: 20px;
+    padding: 1.111rem;
     margin-top: -50px;
   }
 }
@@ -105,7 +105,7 @@
 
 .custom-radio,
 .custom-checkbox {
-  font-size: 14px;
+  font-size: 0.7778rem;
   cursor: pointer;
   display: inline-block;
   margin: 0.1667rem 0.5556rem 0 0;
@@ -113,12 +113,12 @@
 
 @media (max-width: 480px) {
   .request__form {
-    padding: 20px;
+    padding: 1.111rem;
     h1 {
-      font-size: 14px;
+      font-size: 0.7778rem;
     }
     h4 {
-      font-size: 14px;
+      font-size: 0.7778rem;
     }
   }
   .request__form__div {

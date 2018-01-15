@@ -564,7 +564,7 @@ form.horizontal {
     padding: 0.6111rem 0.5556rem; }
   .request__form__input .form-control + .custom-controls,
   .form-group .form-control + .custom-controls {
-    margin-top: 5px; }
+    margin-top: 0.2778rem; }
     .request__form__input .form-control + .custom-controls .custom-control-description,
     .form-group .form-control + .custom-controls .custom-control-description {
       display: inline-block;
@@ -576,7 +576,7 @@ form.horizontal {
     letter-spacing: 0; }
 
 .request__form__tabs {
-  border: 2px solid #E7EBEE;
+  border: 0.1111rem solid #E7EBEE;
   border-radius: 0.2222rem;
   margin: 3.333rem 0 1.667rem; }
   .request__form__tabs nav {
@@ -585,22 +585,22 @@ form.horizontal {
     left: -2px; }
     .request__form__tabs nav a {
       display: inline-block;
-      border: 2px solid #E7EBEE;
+      border: 0.1111rem solid #E7EBEE;
       border-radius: 0.2222rem;
-      width: 61px;
-      line-height: 37px;
+      width: 3.389rem;
+      line-height: 2.056rem;
       text-decoration: none;
       text-align: center;
       font-size: 0.8889rem;
       color: #797C80;
       letter-spacing: 0.2px;
-      background: #E8EBF0; }
+      background: #E7EBEE; }
       .request__form__tabs nav a.active {
         background: white;
-        border-bottom: 2px solid white;
+        border-bottom: 0.1111rem solid white;
         opacity: 1; }
   .request__form__tabs > div {
-    padding: 20px;
+    padding: 1.111rem;
     margin-top: -50px; }
 
 .request__form__div {
@@ -610,18 +610,18 @@ form.horizontal {
 
 .custom-radio,
 .custom-checkbox {
-  font-size: 14px;
+  font-size: 0.7778rem;
   cursor: pointer;
   display: inline-block;
   margin: 0.1667rem 0.5556rem 0 0; }
 
 @media (max-width: 480px) {
   .request__form {
-    padding: 20px; }
+    padding: 1.111rem; }
     .request__form h1 {
-      font-size: 14px; }
+      font-size: 0.7778rem; }
     .request__form h4 {
-      font-size: 14px; }
+      font-size: 0.7778rem; }
   .request__form__div {
     margin: 0px -20px 20px; } }
 
@@ -1271,7 +1271,7 @@ form.horizontal {
       color: white;
       display: block;
       font-weight: bold;
-      letter-spacing: 0.32;
+      letter-spacing: 0.32px;
       line-height: 74px;
       opacity: 0.5;
       text-align: center;

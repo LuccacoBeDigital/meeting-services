@@ -9,13 +9,13 @@
 @import "components/frk-select.scss";
 
 html, body {
-  background: #F4F5F8;
+  background: $solitude;
   font-size: 18px;
   font-family: "Roboto";
 }
 
 .content {
-  background: #F4F5F8;
+  background: $solitude;
 }
 
 .relative { position: relative !important; }
