@@ -5,14 +5,14 @@
   }
   p,
   label {
-    font-size: 14px;
+    font-size: 0.7778rem;
     color: #555555;
     letter-spacing: 0;
     margin: 0;
   }
   h2 {
     font-weight: bold;
-    font-size: 20px;
+    font-size: 1.111rem;
     color: $orange;
     letter-spacing: 0;
     text-transform: uppercase;
@@ -26,12 +26,12 @@
 
 .admin__filter {
   background: #C7E6FF;
-  font-size: 16px;
+  font-size: 0.8889rem;
   color: $mineShaft;
   letter-spacing: 0.3px;
   padding: 30px 40px 10px;
   .col-md-4 {
-    margin-bottom: 20px;
+    margin-bottom: 1.111rem;
   }
   a {
     display: inline-block;
@@ -51,12 +51,12 @@
   .btn {
     color: #203C6C;
     border-color: #203C6C;
-    font-size: 14px;
+    font-size: 0.7778rem;
     color: #203C6C;
     letter-spacing: 0;
   }
   p {
-    font-size: 14px;
+    font-size: 0.7778rem;
     color: #555555;
     letter-spacing: 0;
     line-height: 40px;
@@ -79,20 +79,20 @@
     }
     h2 {
       font-weight: bold;
-      font-size: 20px;
+      font-size: 1.111rem;
       color: #203C6C;
       letter-spacing: 0.38px;
     }
     h3 {
-      font-size: 16px;
+      font-size: 0.8889rem;
       color: #555555;
       letter-spacing: 0.3px;
     }
   }
   section {
-    padding: 15px;
+    padding: 0.8333rem;
     p {
-      font-size: 16px;
+      font-size: 0.8889rem;
       color: #555555;
       letter-spacing: 0;
     }

@@ -12,7 +12,7 @@
 .room-size {
   border: 1px solid $loblolly;
   border-radius: 4px;
-  padding: 10px;
+  padding: 0.5556rem;
   text-align: center;
   cursor: pointer;
   min-height: 80px;
@@ -21,7 +21,7 @@
   flex-direction: column;
   justify-content: space-around;
   p {
-    font-size: 14px;
+    font-size: 0.7778rem;
     letter-spacing: 0.26px;
     color: #555;
     margin: 0;
@@ -47,7 +47,7 @@
 
 
 .checkbox-list {
-  margin-bottom: 20px;
+  margin-bottom: 1.111rem;
   label {
     display: inline-block;
     width: 18%;
@@ -56,22 +56,22 @@
 
 @media (max-width: 480px) {
   .timeblock {
-    margin-bottom: 20px;
+    margin-bottom: 1.111rem;
   }
   small {
     font-size: 10px !important;
   }
 
   .room-size {
-    margin-bottom: 10px;
+    margin-bottom: 0.5556rem;
     span, p {
-      font-size: 14px;
+      font-size: 0.7778rem;
       line-height: 19px;
     }
   }
   
   .checkbox-list {
-    margin-bottom: 20px;
+    margin-bottom: 1.111rem;
     label {
       display: block;
       width: 100%;

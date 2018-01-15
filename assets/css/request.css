@@ -20,7 +20,7 @@
     .footer nav a {
       text-decoration: none;
       color: #1F1F1F;
-      margin-left: 20px; }
+      margin-left: 1.111rem; }
 
 @media (max-width: 480px) {
   .footer > .container {
@@ -71,7 +71,7 @@
 .header__nav--desktop {
   position: absolute;
   right: 17px;
-  top: 10px;
+  top: 0.5556rem;
   list-style: none;
   display: flex; }
   .header__nav--desktop li {
@@ -79,7 +79,7 @@
     .header__nav--desktop li a {
       color: white;
       text-decoration: none;
-      font-size: 14px; }
+      font-size: 0.7778rem; }
       .header__nav--desktop li a strong {
         margin-right: 6px; }
   .header__nav--desktop .logout-tooltip {
@@ -109,7 +109,7 @@
     z-index: 200;
     right: -4px;
     top: 100%;
-    margin-top: 10px;
+    margin-top: 0.5556rem;
     background: #1F3D69;
     padding: 20px 52px;
     text-align: center; }
@@ -170,15 +170,15 @@
     .header__nav--mobile ul a {
       color: white;
       text-decoration: none;
-      font-size: 14px;
+      font-size: 0.7778rem;
       display: block;
       line-height: 50px;
       letter-spacing: 0.5; }
       .header__nav--mobile ul a strong {
-        margin-right: 5px; }
+        margin-right: 0.2778rem; }
     .header__nav--mobile ul .dropdown {
       display: flex;
-      padding-left: 20px; }
+      padding-left: 1.111rem; }
       .header__nav--mobile ul .dropdown a {
         line-height: 30px;
         opacity: 0.6;
@@ -194,7 +194,7 @@
     pointer-events: none;
     border-color: rgba(31, 61, 105, 0);
     border-bottom-color: #1F3D69;
-    border-width: 10px;
+    border-width: 0.5556rem;
     margin-left: -10px; }
 
 .header__nav__toggle {
@@ -204,7 +204,7 @@
 
 @media (max-width: 480px) {
   .header .small {
-    padding-left: 15px; }
+    padding-left: 0.8333rem; }
   .header nav {
     height: 200px;
     padding: 0 10px; }
@@ -244,7 +244,7 @@
 .btn-switch .handle:after,
 .btn-switch .handle:before {
   font-family: "Roboto";
-  font-size: 14px;
+  font-size: 0.7778rem;
   display: block;
   position: absolute;
   top: 2px; }
@@ -270,17 +270,17 @@
 .file-upload .list h2 {
   color: #1F1F1F;
   font-family: "Roboto";
-  font-size: 16px;
+  font-size: 0.8889rem;
   letter-spacing: 0.3px; }
 
 .file-upload .list b {
   color: #0168E7;
-  font-size: 14px;
+  font-size: 0.7778rem;
   letter-spacing: 0; }
 
 .file-upload .list button {
   display: inline-block;
-  font-size: 14px;
+  font-size: 0.7778rem;
   font-weight: bold;
   letter-spacing: 0;
   line-height: 18px;
@@ -290,7 +290,7 @@
 .file-upload .btn-add {
   border: 1px solid #52B3FF;
   background: white;
-  font-size: 14px;
+  font-size: 0.7778rem;
   color: #52B3FF;
   letter-spacing: 0; }
 
@@ -301,8 +301,8 @@
   min-width: 200px; }
 
 .tt-suggestion {
-  padding: 10px;
-  font-size: 14px;
+  padding: 0.5556rem;
+  font-size: 0.7778rem;
   display: block;
   cursor: pointer; }
   .tt-suggestion:hover {
@@ -346,7 +346,7 @@
   position: absolute;
   top: 3px;
   width: 16px;
-  font-size: 10px;
+  font-size: 0.5556rem;
   text-align: center; }
 
 .frk-select {
@@ -359,17 +359,17 @@
   width: 100%;
   border-radius: 4px 4px 0 0;
   border-bottom: 1px solid #C3CFD6;
-  padding: 10px;
+  padding: 0.5556rem;
   position: relative; }
   .frk-select__placeholder a {
     display: block;
-    font-size: 16px;
+    font-size: 0.8889rem;
     color: #555555;
     letter-spacing: 0; }
   .frk-select__placeholder i {
     display: block;
     position: absolute;
-    right: 15px;
+    right: 0.8333rem;
     top: 50%;
     transform: translateY(-50%); }
 
@@ -387,10 +387,10 @@
     .frk-select__list > div:hover {
       background: #E2E7EC; }
   .frk-select__list p {
-    font-size: 14px;
+    font-size: 0.7778rem;
     color: #555555;
     letter-spacing: 0;
-    margin-bottom: 10px; }
+    margin-bottom: 0.5556rem; }
   .frk-select__list small {
     font-size: 12px;
     line-height: 16px;
@@ -460,7 +460,7 @@ small.orange.form-text {
   background: #F0F8FF; }
 
 .m-bottom-20 {
-  margin-bottom: 20px; }
+  margin-bottom: 1.111rem; }
 
 [data-toggle="tooltip"] {
   color: #52B3FF; }
@@ -485,7 +485,7 @@ small.orange.form-text {
   background: white;
   color: #203C6C;
   letter-spacing: 0;
-  margin-left: 10px;
+  margin-left: 0.5556rem;
   border: 1px solid #203C6C; }
 
 .form-group select {
@@ -500,15 +500,15 @@ form.horizontal {
   padding-bottom: 30px; }
   form.horizontal header h4 {
     font-weight: bold;
-    font-size: 16px;
+    font-size: 0.8889rem;
     color: #1F1F1F;
     letter-spacing: 0.3px; }
   form.horizontal label {
-    font-size: 14px;
+    font-size: 0.7778rem;
     color: #555555; }
   form.horizontal textarea,
   form.horizontal input[type=text] {
-    font-size: 14px; }
+    font-size: 0.7778rem; }
 
 .clearfix::after {
   display: block;
@@ -637,7 +637,7 @@ form.horizontal {
 .room-size {
   border: 1px solid #C3CFD6;
   border-radius: 4px;
-  padding: 10px;
+  padding: 0.5556rem;
   text-align: center;
   cursor: pointer;
   min-height: 80px;
@@ -646,7 +646,7 @@ form.horizontal {
   flex-direction: column;
   justify-content: space-around; }
   .room-size p {
-    font-size: 14px;
+    font-size: 0.7778rem;
     letter-spacing: 0.26px;
     color: #555;
     margin: 0; }
@@ -664,23 +664,23 @@ form.horizontal {
   padding: 40px; }
 
 .checkbox-list {
-  margin-bottom: 20px; }
+  margin-bottom: 1.111rem; }
   .checkbox-list label {
     display: inline-block;
     width: 18%; }
 
 @media (max-width: 480px) {
   .timeblock {
-    margin-bottom: 20px; }
+    margin-bottom: 1.111rem; }
   small {
     font-size: 10px !important; }
   .room-size {
-    margin-bottom: 10px; }
+    margin-bottom: 0.5556rem; }
     .room-size span, .room-size p {
-      font-size: 14px;
+      font-size: 0.7778rem;
       line-height: 19px; }
   .checkbox-list {
-    margin-bottom: 20px; }
+    margin-bottom: 1.111rem; }
     .checkbox-list label {
       display: block;
       width: 100%; } }
@@ -695,7 +695,7 @@ form.horizontal {
   text-align: right; }
   .request__services__confirmation .list-actions .btn-outline-primary,
   .request__services__confirmation .list-actions .btn-primary {
-    font-size: 16px;
+    font-size: 0.8889rem;
     letter-spacing: 0;
     text-transform: uppercase;
     padding: 15px 20px; }
@@ -711,23 +711,23 @@ form.horizontal {
 .request__services__confirmation .list-headers {
   border-top: 3px solid #D5D5D5;
   border-bottom: 1px solid #D5D5D5;
-  font-size: 16px;
+  font-size: 0.8889rem;
   color: #555555;
   letter-spacing: 0.3px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin-bottom: 20px; }
+  padding-top: 0.5556rem;
+  padding-bottom: 0.5556rem;
+  margin-bottom: 1.111rem; }
 
 .request__services__confirmation .list-item {
   border-bottom: 1px solid #D5D5D5;
-  padding-bottom: 10px;
+  padding-bottom: 0.5556rem;
   margin-bottom: 30px; }
   .request__services__confirmation .list-item h2 {
     font-size: 18px;
     color: #1F1F1F;
     letter-spacing: 0.34px; }
   .request__services__confirmation .list-item p {
-    font-size: 14px;
+    font-size: 0.7778rem;
     color: #1F1F1F;
     letter-spacing: 0.26px; }
   .request__services__confirmation .list-item .badge {
@@ -737,37 +737,37 @@ form.horizontal {
     display: inline-block; }
   .request__services__confirmation .list-item .list-item-actions .btn {
     width: 100%;
-    margin-bottom: 10px;
+    margin-bottom: 0.5556rem;
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 0.7778rem;
     font-weight: bold; }
 
 @media (max-width: 480px) {
   .request__services__confirmation h1.orange {
-    font-size: 14px;
+    font-size: 0.7778rem;
     border-bottom: 3px solid #D5D5D5;
-    padding-bottom: 20px; }
+    padding-bottom: 1.111rem; }
   .request__services__confirmation h4 {
-    font-size: 16px;
+    font-size: 0.8889rem;
     color: #555555;
     letter-spacing: 0.3px; }
   .request__services__confirmation .list-item h2 {
-    font-size: 16px;
+    font-size: 0.8889rem;
     font-weight: bold; }
   .request__services__confirmation .list-item .list-item-actions .btn {
     width: auto;
-    margin-bottom: 10px; }
+    margin-bottom: 0.5556rem; }
   .request__services__confirmation .list-actions {
     text-align: center; }
     .request__services__confirmation .list-actions .btn {
-      font-size: 14px;
-      padding: 15px; } }
+      font-size: 0.7778rem;
+      padding: 0.8333rem; } }
 
 .request__form--review-submit {
-  font-size: 16px; }
+  font-size: 0.8889rem; }
   .request__form--review-submit h4 {
     color: #1F1F1F;
-    font-size: 16px;
+    font-size: 0.8889rem;
     font-weight: bold;
     letter-spacing: 0;
     text-transform: uppercase; }
@@ -778,7 +778,7 @@ form.horizontal {
     border-bottom: 1px solid #D5D5D5; }
 
 .myrequests__button {
-  font-size: 14px;
+  font-size: 0.7778rem;
   color: #203C6C;
   letter-spacing: 0;
   line-height: 18px;
@@ -789,7 +789,7 @@ form.horizontal {
   padding: 40px; }
 
 .myrequests .current-page {
-  font-size: 14px;
+  font-size: 0.7778rem;
   color: #555555;
   letter-spacing: 0;
   line-height: 39px;
@@ -814,22 +814,22 @@ form.horizontal {
     border-bottom: 1px solid #C3CFD6;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05);
     border-radius: 4px 4px 0 0;
-    padding: 15px; }
+    padding: 0.8333rem; }
   .meetings-list__item > header h1 {
     font-weight: bold;
-    font-size: 20px;
+    font-size: 1.111rem;
     color: #203C6C;
     letter-spacing: 0.38px;
     margin: 0; }
   .meetings-list__item > header .request-no {
     text-align: right;
-    font-size: 16px;
+    font-size: 0.8889rem;
     color: #555555;
     letter-spacing: 0.3px; }
   .meetings-list__item > div {
-    padding: 20px; }
+    padding: 1.111rem; }
     .meetings-list__item > div h2 {
-      font-size: 16px;
+      font-size: 0.8889rem;
       color: #1F1F1F;
       letter-spacing: 0.3px; }
       .meetings-list__item > div h2 .badge {
@@ -838,18 +838,18 @@ form.horizontal {
         background: white;
         color: #203C6C;
         letter-spacing: 0;
-        margin-left: 10px;
+        margin-left: 0.5556rem;
         border: 1px solid #203C6C; }
   .meetings-list__item .list-item__room {
     border-radius: 4px;
     border: 1px solid #C3CFD6;
-    margin-bottom: 20px;
+    margin-bottom: 1.111rem;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05); }
     .meetings-list__item .list-item__room header {
-      padding: 10px; }
+      padding: 0.5556rem; }
       .meetings-list__item .list-item__room header h3 {
         font-family: Roboto-Medium;
-        font-size: 16px;
+        font-size: 0.8889rem;
         color: #1F1F1F;
         letter-spacing: 0.3px;
         margin: 0;
@@ -857,9 +857,9 @@ form.horizontal {
       .meetings-list__item .list-item__room header button {
         float: right; }
     .meetings-list__item .list-item__room .content {
-      padding: 15px;
+      padding: 0.8333rem;
       background: white;
-      font-size: 16px; }
+      font-size: 0.8889rem; }
 
 @media (max-width: 480px) {
   .myrequests__filter {
@@ -867,7 +867,7 @@ form.horizontal {
     .myrequests__filter .datepicker {
       max-width: 100% !important; }
   .myrequests .content__wrapper {
-    padding: 10px; }
+    padding: 0.5556rem; }
   .myrequests .myrequests__buttons {
     text-align: center !important;
     display: flex; }
@@ -881,24 +881,24 @@ form.horizontal {
         width: calc(25% - 5px);
         margin-right: 0; }
   .meetings-list__item > header h1 {
-    font-size: 14px;
-    margin-bottom: 10px; }
+    font-size: 0.7778rem;
+    margin-bottom: 0.5556rem; }
   .meetings-list__item > header .request-no {
     text-align: left;
-    font-size: 14px; }
+    font-size: 0.7778rem; }
   .meetings-list__item > div {
-    padding: 10px; }
+    padding: 0.5556rem; }
     .meetings-list__item > div h2 {
-      font-size: 14px;
+      font-size: 0.7778rem;
       display: block;
       margin: 10px 0 20px; }
   .meetings-list__item .list-item__room {
-    margin-top: 10px; }
+    margin-top: 0.5556rem; }
     .meetings-list__item .list-item__room header h3 {
-      font-size: 14px;
+      font-size: 0.7778rem;
       margin-left: 5px; }
     .meetings-list__item .list-item__room .content {
-      font-size: 14px; }
+      font-size: 0.7778rem; }
   .meetings-list {
     margin-bottom: 50px; } }
 
@@ -921,7 +921,7 @@ form.horizontal {
     border-color: #203C6C;
     color: #203C6C;
     cursor: pointer;
-    font-size: 14px;
+    font-size: 0.7778rem;
     letter-spacing: 0;
     line-height: 18px;
     padding: 5px 10px;
@@ -948,7 +948,7 @@ form.horizontal {
     padding: 5px 20px;
     text-transform: uppercase; }
   .na-confirmation p {
-    font-size: 14px;
+    font-size: 0.7778rem;
     color: #1F1F1F;
     letter-spacing: 0.26px; }
     .na-confirmation p a {
@@ -973,13 +973,13 @@ form.horizontal {
 
 .na-modal .modal-content,
 .na-modal .modal-title {
-  font-size: 14px;
+  font-size: 0.7778rem;
   color: #1F1F1F;
   letter-spacing: 0;
   line-height: 21px; }
 
 .na-modal .btn {
-  font-size: 14px;
+  font-size: 0.7778rem;
   letter-spacing: 0;
   text-transform: uppercase; }
   .na-modal .btn.btn-outline-secondary {
@@ -992,14 +992,14 @@ form.horizontal {
 .na-alert {
   z-index: 100;
   position: absolute;
-  right: 20px;
+  right: 1.111rem;
   padding: 20px 44px;
   box-shadow: 0 10px 12px 0 rgba(0, 0, 0, 0.03);
   border-radius: 4px;
   max-width: 290px;
   top: 200px; }
   .na-alert p {
-    font-size: 14px;
+    font-size: 0.7778rem;
     letter-spacing: 0;
     margin: 0; }
     .na-alert p a {
@@ -1007,13 +1007,13 @@ form.horizontal {
       text-decoration: underline; }
   .na-alert a.close {
     position: absolute;
-    font-size: 14px;
-    top: 10px;
-    right: 10px; }
+    font-size: 0.7778rem;
+    top: 0.5556rem;
+    right: 0.5556rem; }
   .na-alert > .fa {
     position: absolute;
     top: 22px;
-    left: 15px; }
+    left: 0.8333rem; }
 
 .na-alert-success {
   color: white;
@@ -1027,30 +1027,30 @@ form.horizontal {
     color: #1F1F1F; }
 
 .contacts .content__wrapper {
-  padding: 40px; }
+  padding: 2.222rem; }
 
 .contacts h1 {
   color: #CC7D27;
-  font-size: 20px;
+  font-size: 1.111rem;
   font-weight: bold;
   letter-spacing: 0;
   text-transform: uppercase; }
   .contacts h1 i {
-    margin-right: 10px; }
+    margin-right: 0.5556rem; }
 
 .contacts__list {
   color: #555555;
-  font-size: 16px;
+  font-size: 0.8889rem;
   letter-spacing: 0;
-  margin-top: 30px;
+  margin-top: 1.667rem;
   width: 100%; }
   .contacts__list th {
     border-top: none; }
 
 .contacts__detail {
-  font-size: 14px; }
+  font-size: 0.7778rem; }
   .contacts__detail .fa-envelope {
-    margin-right: 5px; }
+    margin-right: 0.2778rem; }
 
 .contacts__phone {
   position: relative; }
@@ -1064,17 +1064,17 @@ form.horizontal {
   .contacts .content__wrapper {
     padding: 30px 10px 10px; }
   .contacts h1 {
-    font-size: 14px; }
+    font-size: 0.7778rem; }
   .contacts__list {
-    font-size: 14px;
-    margin-top: 10px; }
+    font-size: 0.7778rem;
+    margin-top: 0.5556rem; }
   .contacts__phone {
-    margin-top: 10px;
+    margin-top: 0.5556rem;
     position: relative; }
     .contacts__phone p {
-      padding-left: 20px; }
+      padding-left: 1.111rem; }
     .contacts__phone i {
-      left: 15px; } }
+      left: 0.8333rem; } }
 
 .admin__sidebar ul {
   list-style: none;
@@ -1082,14 +1082,14 @@ form.horizontal {
 
 .admin__sidebar p,
 .admin__sidebar label {
-  font-size: 14px;
+  font-size: 0.7778rem;
   color: #555555;
   letter-spacing: 0;
   margin: 0; }
 
 .admin__sidebar h2 {
   font-weight: bold;
-  font-size: 20px;
+  font-size: 1.111rem;
   color: #CC7D27;
   letter-spacing: 0;
   text-transform: uppercase;
@@ -1100,12 +1100,12 @@ form.horizontal {
 
 .admin__filter {
   background: #C7E6FF;
-  font-size: 16px;
+  font-size: 0.8889rem;
   color: #1F1F1F;
   letter-spacing: 0.3px;
   padding: 30px 40px 10px; }
   .admin__filter .col-md-4 {
-    margin-bottom: 20px; }
+    margin-bottom: 1.111rem; }
   .admin__filter a {
     display: inline-block;
     margin-left: 5px; }
@@ -1120,11 +1120,11 @@ form.horizontal {
   .admin__meetings__pagination .btn {
     color: #203C6C;
     border-color: #203C6C;
-    font-size: 14px;
+    font-size: 0.7778rem;
     color: #203C6C;
     letter-spacing: 0; }
   .admin__meetings__pagination p {
-    font-size: 14px;
+    font-size: 0.7778rem;
     color: #555555;
     letter-spacing: 0;
     line-height: 40px; }
@@ -1143,17 +1143,17 @@ form.horizontal {
       margin: 0; }
     .admin__meetings__item header h2 {
       font-weight: bold;
-      font-size: 20px;
+      font-size: 1.111rem;
       color: #203C6C;
       letter-spacing: 0.38px; }
     .admin__meetings__item header h3 {
-      font-size: 16px;
+      font-size: 0.8889rem;
       color: #555555;
       letter-spacing: 0.3px; }
   .admin__meetings__item section {
-    padding: 15px; }
+    padding: 0.8333rem; }
     .admin__meetings__item section p {
-      font-size: 16px;
+      font-size: 0.8889rem;
       color: #555555;
       letter-spacing: 0; }
 
@@ -1168,7 +1168,7 @@ form.horizontal {
     border-radius: 4px 4px 0 0;
     padding: 9px 9px 9px 16px; }
     .edit-meeting header h1 {
-      font-size: 16px;
+      font-size: 0.8889rem;
       color: #1F1F1F;
       letter-spacing: 0.3px;
       margin: 0;
@@ -1178,18 +1178,18 @@ form.horizontal {
     padding: 16px; }
 
 .edit-meeting__checkbox-list {
-  font-size: 14px;
+  font-size: 0.7778rem;
   color: #555555;
   letter-spacing: 0; }
 
 .edit-request__timeline {
-  font-size: 14px;
+  font-size: 0.7778rem;
   color: #1F1F1F;
   letter-spacing: 0;
   line-height: 36px;
   list-style: none; }
   .edit-request__timeline i.fa-circle {
-    margin-right: 10px;
+    margin-right: 0.5556rem;
     color: #D5D5D5;
     position: relative; }
     .edit-request__timeline i.fa-circle.active {
@@ -1208,9 +1208,9 @@ form.horizontal {
   border: 1px solid #C3CFD6;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
   border-radius: 4px;
-  margin-bottom: 10px; }
+  margin-bottom: 0.5556rem; }
   .toggle-area header {
-    padding: 10px;
+    padding: 0.5556rem;
     position: relative;
     border-bottom: 1px solid #C3CFD6;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); }
@@ -1218,35 +1218,35 @@ form.horizontal {
       color: #1F1F1F;
       display: inline-block;
       font-family: "Roboto";
-      font-size: 16px;
+      font-size: 0.8889rem;
       letter-spacing: 0.3px;
-      margin-left: 20px; }
+      margin-left: 1.111rem; }
     .toggle-area header a[data-elm="toggle"] {
       color: #1F1F1F;
       display: block;
       position: absolute;
-      right: 20px;
+      right: 1.111rem;
       top: 11px;
-      font-size: 14px; }
+      font-size: 0.7778rem; }
   .toggle-area section {
-    padding: 10px; }
+    padding: 0.5556rem; }
   .toggle-area .file-upload {
-    margin-top: 30px; }
+    margin-top: 1.667rem; }
   .toggle-area .badges {
     position: absolute;
-    top: 10px;
+    top: 0.5556rem;
     right: 50px; }
 
 .toggle-area--blue > header h2 {
   color: #203C6C;
-  font-size: 20px;
+  font-size: 1.111rem;
   font-weight: bold;
   letter-spacing: 0.38px;
   margin: 0 0 0 5px;
   text-transform: uppercase; }
 
 .toggle-area--blue > section {
-  padding: 20px;
+  padding: 1.111rem;
   background: #F7F7F7; }
 
 .toggle-area--no-icon > header h2 {
@@ -1301,7 +1301,7 @@ form.horizontal {
     position: relative;
     text-align: center;
     color: #7696B1;
-    font-size: 16px; }
+    font-size: 0.8889rem; }
     .request__wizard li span {
       margin: 0 auto 15px;
       display: block;
@@ -1349,7 +1349,7 @@ form.horizontal {
   border: none;
   border-radius: 4px;
   color: white;
-  font-size: 16px; }
+  font-size: 0.8889rem; }
   .request__go-next:hover {
     background: #40A2EF; }
   .request__go-next.outline {
@@ -1358,7 +1358,7 @@ form.horizontal {
     color: #52B3FF; }
   .request__go-next.right {
     float: right;
-    margin-left: 20px; }
+    margin-left: 1.111rem; }
 
 .request__footer__buttons {
   max-width: 560px;
@@ -1382,7 +1382,7 @@ form.horizontal {
     width: 100%;
     top: -54px; }
     .request__tabs nav a {
-      font-size: 14px;
+      font-size: 0.7778rem;
       width: 50%;
       line-height: 54px; }
   .request__wizard {
@@ -1393,7 +1393,7 @@ form.horizontal {
     padding-left: 80px; }
     .toggle-area header .btn-switch {
       position: absolute;
-      left: 10px;
+      left: 0.5556rem;
       top: 50%;
       transform: translateY(-50%); }
     .toggle-area header.with-badge {
@@ -1401,16 +1401,16 @@ form.horizontal {
       .toggle-area header.with-badge .btn-switch {
         top: 24px; }
     .toggle-area header h2 {
-      font-size: 14px;
+      font-size: 0.7778rem;
       margin: 0 0 0 15px;
       max-width: calc(100% - 120px); }
   .toggle-area .badges {
-    bottom: 10px;
+    bottom: 0.5556rem;
     top: auto;
     right: auto; }
   .toggle-area--no-icon header,
   .toggle-area--blue header {
-    padding: 10px; }
+    padding: 0.5556rem; }
     .toggle-area--no-icon header h2,
     .toggle-area--blue header h2 {
       margin: 0 0 0 5px; } }

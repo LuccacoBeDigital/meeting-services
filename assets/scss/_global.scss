@@ -85,7 +85,7 @@ small.orange {
   background: #F0F8FF;
 }
 
-.m-bottom-20 { margin-bottom: 20px; }
+.m-bottom-20 { margin-bottom: 1.111rem; }
 
 [data-toggle="tooltip"] {
   color: #52B3FF;
@@ -115,7 +115,7 @@ small.orange {
   background: white;
   color: #203C6C;
   letter-spacing: 0;
-  margin-left: 10px;
+  margin-left: 0.5556rem;
   border: 1px solid #203C6C;
 }
 
@@ -136,18 +136,18 @@ form.horizontal {
   header {
     h4 {
       font-weight: bold;
-      font-size: 16px;
+      font-size: 0.8889rem;
       color: $mineShaft;
       letter-spacing: 0.3px;
     }
   }
   label {
-    font-size: 14px;
+    font-size: 0.7778rem;
     color: #555555;
   }
   textarea,
   input[type=text] {
-    font-size: 14px;
+    font-size: 0.7778rem;
   }
 }
 

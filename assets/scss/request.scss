@@ -17,10 +17,10 @@
   border: 1px solid $loblolly;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
   border-radius: 4px;
-  margin-bottom: 10px;
+  margin-bottom: 0.5556rem;
 
   header {
-    padding: 10px;
+    padding: 0.5556rem;
     position: relative;
     border-bottom: 1px solid $loblolly;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -28,28 +28,28 @@
       color: $mineShaft;
       display: inline-block;
       font-family: "Roboto";
-      font-size: 16px;
+      font-size: 0.8889rem;
       letter-spacing: 0.3px;
-      margin-left: 20px;
+      margin-left: 1.111rem;
     }
     a[data-elm="toggle"] {
       color: $mineShaft;
       display: block;
       position: absolute;
-      right: 20px;
+      right: 1.111rem;
       top: 11px;
-      font-size: 14px;
+      font-size: 0.7778rem;
     }
   }
   section {
-    padding: 10px;
+    padding: 0.5556rem;
   }
   .file-upload {
-    margin-top: 30px;
+    margin-top: 1.667rem;
   }
   .badges {
     position: absolute;
-    top: 10px;
+    top: 0.5556rem;
     right: 50px;
   }
 }
@@ -58,7 +58,7 @@
   & > header {
     h2 {
       color: #203C6C;
-      font-size: 20px;
+      font-size: 1.111rem;
       font-weight: bold;
       letter-spacing: 0.38px;
       margin: 0 0 0 5px;
@@ -66,7 +66,7 @@
     }
   }
   & > section {
-    padding: 20px;
+    padding: 1.111rem;
     background: #F7F7F7;
   }
 }
@@ -138,7 +138,7 @@
     position: relative;
     text-align: center;
     color: #7696B1;
-    font-size: 16px;
+    font-size: 0.8889rem;
     span {
       margin: 0 auto 15px;
       display: block;
@@ -199,7 +199,7 @@
   border: none;
   border-radius: 4px;
   color: white;
-  font-size: 16px;
+  font-size: 0.8889rem;
   &:hover {
     background: #40A2EF;
   }
@@ -210,7 +210,7 @@
   }
   &.right {
     float: right;
-    margin-left: 20px;
+    margin-left: 1.111rem;
   }
 }
 
@@ -241,7 +241,7 @@
       width: 100%;
       top: -54px;
       a {
-        font-size: 14px;
+        font-size: 0.7778rem;
         width: 50%;
         line-height: 54px;
       }
@@ -260,7 +260,7 @@
 
       .btn-switch {
         position: absolute;
-        left: 10px;
+        left: 0.5556rem;
         top: 50%;
         transform: translateY(-50%);
       }
@@ -272,13 +272,13 @@
         }
       }
       h2 {
-        font-size: 14px;
+        font-size: 0.7778rem;
         margin: 0 0 0 15px;
         max-width: calc(100% - 120px);
       }
     }
     .badges {
-      bottom: 10px;
+      bottom: 0.5556rem;
       top: auto;
       right: auto;
     }
@@ -287,7 +287,7 @@
   .toggle-area--no-icon,
   .toggle-area--blue {
     header {
-      padding: 10px;
+      padding: 0.5556rem;
       h2 {
         margin: 0 0 0 5px;
       }

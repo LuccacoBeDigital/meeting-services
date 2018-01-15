@@ -51,7 +51,7 @@
 .header__nav--desktop {
   position: absolute;
   right: 17px;
-  top: 10px;
+  top: 0.5556rem;
 
   list-style: none;
   display: flex;
@@ -60,7 +60,7 @@
     a {
       color: white;
       text-decoration: none;
-      font-size: 14px;
+      font-size: 0.7778rem;
       strong {
         margin-right: 6px;
       }
@@ -99,7 +99,7 @@
     z-index: 200;
     right: -4px;
     top: 100%;
-    margin-top: 10px;
+    margin-top: 0.5556rem;
     background: #1F3D69;
     padding: 20px 52px;
     text-align: center;
@@ -170,17 +170,17 @@
     a {
       color: white;
       text-decoration: none;
-      font-size: 14px;
+      font-size: 0.7778rem;
       display: block;
       line-height: 50px;
       letter-spacing: 0.5;
       strong {
-        margin-right: 5px;
+        margin-right: 0.2778rem;
       }
     }
     .dropdown {
       display: flex;
-      padding-left: 20px;
+      padding-left: 1.111rem;
       a {
         line-height: 30px;
         opacity: 0.6;
@@ -199,7 +199,7 @@
     pointer-events: none;
     border-color: rgba(31, 61, 105, 0);
     border-bottom-color: #1F3D69;
-    border-width: 10px;
+    border-width: 0.5556rem;
     margin-left: -10px;
   }
 }
@@ -213,7 +213,7 @@
 @media (max-width: 480px) {
   .header {
     .small {
-      padding-left: 15px;
+      padding-left: 0.8333rem;
     }
     nav {
       height: 200px;

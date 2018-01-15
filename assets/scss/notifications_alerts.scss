@@ -19,7 +19,7 @@
     text-transform: uppercase;
   }
   p {
-    font-size: 14px;
+    font-size: 0.7778rem;
     color: $mineShaft;
     letter-spacing: 0.26px;
     a {
@@ -51,14 +51,14 @@
   }
   .modal-content,
   .modal-title {
-    font-size: 14px;
+    font-size: 0.7778rem;
     color: $mineShaft;
     letter-spacing: 0;
     line-height: 21px;
   }
 
   .btn {
-    font-size: 14px;
+    font-size: 0.7778rem;
     letter-spacing: 0;
     text-transform: uppercase;
     &.btn-outline-secondary {
@@ -75,14 +75,14 @@
 .na-alert {
   z-index: 100;
   position: absolute;
-  right: 20px;
+  right: 1.111rem;
   padding: 20px 44px;
   box-shadow: 0 10px 12px 0 rgba(0,0,0,0.03);
   border-radius: 4px;
   max-width: 290px;
   top: 200px;
   p {
-    font-size: 14px;
+    font-size: 0.7778rem;
     letter-spacing: 0;
     margin: 0;
     a {
@@ -92,14 +92,14 @@
   }
   a.close {
     position: absolute;
-    font-size: 14px;
-    top: 10px;
-    right: 10px;
+    font-size: 0.7778rem;
+    top: 0.5556rem;
+    right: 0.5556rem;
   }
   & > .fa {
     position: absolute;
     top: 22px;
-    left: 15px;
+    left: 0.8333rem;
   }
 }
 

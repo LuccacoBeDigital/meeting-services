@@ -10,7 +10,7 @@
     border-radius: 4px 4px 0 0;
     padding: 9px 9px 9px 16px;
     h1 {
-      font-size: 16px;
+      font-size: 0.8889rem;
       color: $mineShaft;
       letter-spacing: 0.3px;
       margin: 0;
@@ -24,20 +24,20 @@
 }
 
 .edit-meeting__checkbox-list {
-  font-size: 14px;
+  font-size: 0.7778rem;
   color: #555555;
   letter-spacing: 0;
 }
 
 .edit-request__timeline {
-  font-size: 14px;
+  font-size: 0.7778rem;
   color: $mineShaft;
   letter-spacing: 0;
   line-height: 36px;
   list-style: none;
 
   i.fa-circle {
-    margin-right: 10px;
+    margin-right: 0.5556rem;
     color: #D5D5D5;
     position: relative;
     &.active {

@@ -9,18 +9,18 @@
   width: 100%;
   border-radius: 4px 4px 0 0;
   border-bottom: 1px solid $loblolly;
-  padding: 10px;
+  padding: 0.5556rem;
   position: relative;
   a {
     display: block;
-    font-size: 16px;
+    font-size: 0.8889rem;
     color: #555555;
     letter-spacing: 0;
   }
   i {
     display: block;
     position: absolute;
-    right: 15px;
+    right: 0.8333rem;
     top: 50%;
     transform: translateY(-50%);
   }
@@ -39,10 +39,10 @@
     &:hover { background: #E2E7EC; }
   }
   p {
-    font-size: 14px;
+    font-size: 0.7778rem;
     color: #555555;
     letter-spacing: 0;
-    margin-bottom: 10px;
+    margin-bottom: 0.5556rem;
   }
   small {
     font-size: 12px;
