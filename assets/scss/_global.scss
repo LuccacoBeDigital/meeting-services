@@ -10,7 +10,7 @@
 
 html, body {
   background: $solitude;
-  font-size: 18px;
+  font-size: 1rem;
   font-family: "Roboto";
 }
 
@@ -113,10 +113,10 @@ small.orange {
   text-transform: uppercase;
 
   background: white;
-  color: #203C6C;
+  color: $regalBlue;
   letter-spacing: 0;
   margin-left: 0.5556rem;
-  border: 1px solid #203C6C;
+  border: 1px solid $regalBlue;
 }
 
 .form-group {
@@ -132,7 +132,7 @@ small.orange {
 }
 
 form.horizontal {
-  padding-bottom: 30px;
+  padding-bottom: 1.667rem;
   header {
     h4 {
       font-weight: bold;

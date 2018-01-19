@@ -47,12 +47,12 @@
 }
 
 .admin__meetings__pagination {
-  padding-top: 30px;
+  padding-top: 1.667rem;
   .btn {
-    color: #203C6C;
-    border-color: #203C6C;
+    color: $regalBlue;
+    border-color: $regalBlue;
     font-size: 0.7778rem;
-    color: #203C6C;
+    color: $regalBlue;
     letter-spacing: 0;
   }
   p {
@@ -80,7 +80,7 @@
     h2 {
       font-weight: bold;
       font-size: 1.111rem;
-      color: #203C6C;
+      color: $regalBlue;
       letter-spacing: 0.38px;
     }
     h3 {

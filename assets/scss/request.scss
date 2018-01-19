@@ -50,14 +50,14 @@
   .badges {
     position: absolute;
     top: 0.5556rem;
-    right: 50px;
+    right: 2.778rem;
   }
 }
 
 .toggle-area--blue {
   & > header {
     h2 {
-      color: #203C6C;
+      color: $regalBlue;
       font-size: 1.111rem;
       font-weight: bold;
       letter-spacing: 0.38px;
@@ -154,17 +154,17 @@
     &.done {
       text-transform: uppercase;
       font-weight: bold;
-      color: #203C6C;
+      color: $regalBlue;
       span {
         color: white;
-        background: #203C6C;
+        background: $regalBlue;
       }
       &::before {
-        background: #203C6C;
+        background: $regalBlue;
       }
     }
     &.active::before {
-      background: linear-gradient(45deg, #203C6C, #203C6C, #EAF5FF, #EAF5FF);
+      background: linear-gradient(45deg, $regalBlue, $regalBlue, #EAF5FF, #EAF5FF);
     }
   }
   
@@ -223,7 +223,7 @@
 }
 
 .request__footer {
-  padding-bottom: 50px;
+  padding-bottom: 2.778rem;
 }
 
 .request__wizard__check {

@@ -13,12 +13,12 @@
 }
 
 .btn-switch.active {
-  background: #203C6C;
+  background: $regalBlue;
 }
 
 .btn-switch .handle {
-  width: 22px;
-  height: 22px;
+  width: 1.222rem;
+  height: 1.222rem;
   background: white;
   border-radius: 100%;
   position: absolute;
@@ -39,7 +39,7 @@
 
 .btn-switch .handle:after {
   content: "OFF";
-  left: 30px;
+  left: 1.667rem;
 }
 
 .btn-switch .handle:before {

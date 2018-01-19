@@ -3,14 +3,14 @@
   padding: 50px 0;
   h1 {
     color: $mineShaft;
-    font-size: 18px;
+    font-size: 1rem;
     font-weight: bold;
     letter-spacing: 0.32px;
     text-transform: uppercase;
   }
   h2 {
     background: #E3F2FF;
-    color: #203C6C;
+    color: $regalBlue;
     display: inline-block;
     font-size: 48px;
     letter-spacing: 0;
@@ -98,7 +98,7 @@
   }
   & > .fa {
     position: absolute;
-    top: 22px;
+    top: 1.222rem;
     left: 0.8333rem;
   }
 }

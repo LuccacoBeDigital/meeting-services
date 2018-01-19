@@ -2,7 +2,7 @@
 
   .small {
     background: #F2F2F2;
-    line-height: 46px;
+    line-height: 2.556rem;
     border-bottom: 4px solid #1F3D69;
 
     a {
@@ -150,8 +150,8 @@
   .logo {
     position: absolute;
     z-index: 1020;
-    bottom: 30px;
-    right: 30px;
+    bottom: 1.667rem;
+    right: 1.667rem;
   }
   ul {
     position: relative;
@@ -172,7 +172,7 @@
       text-decoration: none;
       font-size: 0.7778rem;
       display: block;
-      line-height: 50px;
+      line-height: 2.778rem;
       letter-spacing: 0.5;
       strong {
         margin-right: 0.2778rem;
@@ -182,9 +182,9 @@
       display: flex;
       padding-left: 1.111rem;
       a {
-        line-height: 30px;
+        line-height: 1.667rem;
         opacity: 0.6;
-        margin-right: 30px;
+        margin-right: 1.667rem;
       }
     }
   }
@@ -222,7 +222,7 @@
         top: 65px;
         font-size: 1rem;
         line-height: 2rem;
-        padding-left: 50px;
+        padding-left: 2.778rem;
         background-size: 41px 35px;
       }
     }
