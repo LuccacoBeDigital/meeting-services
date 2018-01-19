@@ -3,7 +3,7 @@
   .small {
     background: #F2F2F2;
     line-height: 2.556rem;
-    border-bottom: 4px solid #1F3D69;
+    border-bottom: 4px solid $regalBlue;
 
     a {
       color: #4D4D4D;
@@ -70,8 +70,8 @@
   .logout-tooltip {
     display: none;
     position: absolute;
-    background: #1F3D69;
-    padding: 10px 45px;
+    background: $regalBlue;
+    padding: 0.5556rem 45px;
     top: 130%;
     left: 50%;
     transform: translateX(-50%);
@@ -85,7 +85,7 @@
     width: 0;
     position: absolute;
     pointer-events: none;
-    border-bottom-color: #1F3D69;
+    border-bottom-color: $regalBlue;
     border-width: 5px;
     margin-left: -5px;
   }
@@ -100,8 +100,8 @@
     right: -4px;
     top: 100%;
     margin-top: 0.5556rem;
-    background: #1F3D69;
-    padding: 20px 52px;
+    background: $regalBlue;
+    padding: 1.111rem 52px;
     text-align: center;
 
     a {
@@ -120,7 +120,7 @@
     position: absolute;
     pointer-events: none;
     border-color: rgba(31, 61, 105, 0);
-    border-bottom-color: #1F3D69;
+    border-bottom-color: $regalBlue;
     border-width: 5px;
     margin-left: -5px;
   }
@@ -156,13 +156,13 @@
   ul {
     position: relative;
     z-index: 1010;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 5px 1.111rem rgba(0, 0, 0, 0.5);
     margin: 0;
-    padding: 10px 30px 80px;
+    padding: 0.5556rem 1.667rem 80px;
     list-style: none;
     color: white;
     position: relative;
-    background: #1F3D69;
+    background: $regalBlue;
     li {
       border-bottom: 1px solid #15243A;
       &:last-child { border-bottom: none; }
@@ -198,7 +198,7 @@
     position: absolute;
     pointer-events: none;
     border-color: rgba(31, 61, 105, 0);
-    border-bottom-color: #1F3D69;
+    border-bottom-color: $regalBlue;
     border-width: 0.5556rem;
     margin-left: -10px;
   }
@@ -217,7 +217,7 @@
     }
     nav {
       height: 200px;
-      padding: 0 10px;
+      padding: 0 0.5556rem;
       h2 {
         top: 65px;
         font-size: 1rem;

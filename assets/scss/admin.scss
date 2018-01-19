@@ -16,7 +16,7 @@
     color: $orange;
     letter-spacing: 0;
     text-transform: uppercase;
-    margin: 0 0 10px;
+    margin: 0 0 0.5556rem;
   }
   section {
     padding-top: 2.222rem;
@@ -25,11 +25,11 @@
 }
 
 .admin__filter {
-  background: #C7E6FF;
+  background: $lavenderBlue;
   font-size: 0.8889rem;
   color: $mineShaft;
   letter-spacing: 0.3px;
-  padding: 30px 40px 10px;
+  padding: 1.667rem 40px 0.5556rem;
   .col-md-4 {
     margin-bottom: 1.111rem;
   }
@@ -64,14 +64,14 @@
 }
 
 .admin__meetings__item {
-  margin: 10px 10px 30px;
+  margin: 0.5556rem 0.5556rem 1.667rem;
   border: 1px solid $loblolly;
   box-shadow: 0 2px 4px 0 rgba(0,0,0,0.05);
   border-radius: 4px;
   header {
     display: block;
     border-bottom: 1px solid $loblolly;
-    padding: 0 10px;
+    padding: 0 0.5556rem;
 
     h2, h3 {
       line-height: 55px;

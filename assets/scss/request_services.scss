@@ -1,10 +1,10 @@
 .timeblock {
   border: 1px solid $loblolly;
   border-radius: 4px;
-  padding: 5px 20px;
+  padding: 5px 1.111rem;
   header {
-    padding: 0 20px 10px;
-    margin: 0 -20px 10px;
+    padding: 0 1.111rem 0.5556rem;
+    margin: 0 -20px 0.5556rem;
     border-bottom: 1px solid $loblolly;
   }
 }
@@ -40,7 +40,7 @@
 }
 
 .content-off {
-  margin: 10px -40px 0;
+  margin: 0.5556rem -2.222rem 0;
   padding: 2.222rem;
 }
 
@@ -59,7 +59,7 @@
     margin-bottom: 1.111rem;
   }
   small {
-    font-size: 10px !important;
+    font-size: 0.5556rem !important;
   }
 
   .room-size {

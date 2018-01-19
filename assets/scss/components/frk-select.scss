@@ -32,7 +32,7 @@
   max-height: 270px;
   overflow-y: auto;
   & > div {
-    padding: 10px 15px;
+    padding: 0.5556rem 0.8333rem;
     border-bottom: 1px solid $loblolly;
     cursor: pointer;
     &:last-child { border-bottom: none; }
