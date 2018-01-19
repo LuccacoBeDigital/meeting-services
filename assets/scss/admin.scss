@@ -29,7 +29,7 @@
   font-size: 0.8889rem;
   color: $mineShaft;
   letter-spacing: 0.3px;
-  padding: 1.667rem 40px 0.5556rem;
+  padding: 1.667rem 2.2222rem 0.5556rem;
   .col-md-4 {
     margin-bottom: 1.111rem;
   }
@@ -41,7 +41,7 @@
     }
   }
   .form-control {
-    width: calc(100% - 25px);
+    width: calc(100% - 1.3889rem);
     display: inline-block;
   }
 }
@@ -74,7 +74,7 @@
     padding: 0 0.5556rem;
 
     h2, h3 {
-      line-height: 55px;
+      line-height: 3.0556rem;
       margin: 0;      
     }
     h2 {

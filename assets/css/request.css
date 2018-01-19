@@ -1103,7 +1103,7 @@ form.horizontal {
   font-size: 0.8889rem;
   color: #1F1F1F;
   letter-spacing: 0.3px;
-  padding: 1.667rem 40px 0.5556rem; }
+  padding: 1.667rem 2.2222rem 0.5556rem; }
   .admin__filter .col-md-4 {
     margin-bottom: 1.111rem; }
   .admin__filter a {
@@ -1112,7 +1112,7 @@ form.horizontal {
     .admin__filter a i {
       color: #658CAB; }
   .admin__filter .form-control {
-    width: calc(100% - 25px);
+    width: calc(100% - 1.3889rem);
     display: inline-block; }
 
 .admin__meetings__pagination {
@@ -1139,7 +1139,7 @@ form.horizontal {
     border-bottom: 1px solid #C3CFD6;
     padding: 0 0.5556rem; }
     .admin__meetings__item header h2, .admin__meetings__item header h3 {
-      line-height: 55px;
+      line-height: 3.0556rem;
       margin: 0; }
     .admin__meetings__item header h2 {
       font-weight: bold;
