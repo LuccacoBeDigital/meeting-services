@@ -1,6 +1,6 @@
 .na-confirmation {
   text-align: center;
-  padding: 50px 0;
+  padding: 2.778rem 0;
   h1 {
     color: $mineShaft;
     font-size: 1rem;
@@ -9,10 +9,10 @@
     text-transform: uppercase;
   }
   h2 {
-    background: #E3F2FF;
+    background: $aliceBlue;
     color: $regalBlue;
     display: inline-block;
-    font-size: 48px;
+    font-size: 2.667rem;
     letter-spacing: 0;
     margin: 20px 0;
     padding: 5px 20px;
@@ -37,7 +37,7 @@
 
   .modal-content {
     background: $solitude;
-    border: 1px solid #D9DADF;
+    border: 1px solid $linkWater;
     box-shadow: 0 10px 12px 0 rgba(0,0,0,0.03);
     border-radius: 4px;
   }
@@ -54,7 +54,7 @@
     font-size: 0.7778rem;
     color: $mineShaft;
     letter-spacing: 0;
-    line-height: 21px;
+    line-height: 1.167rem;
   }
 
   .btn {
@@ -76,7 +76,7 @@
   z-index: 100;
   position: absolute;
   right: 1.111rem;
-  padding: 20px 44px;
+  padding: 1.111rem 2.444rem;
   box-shadow: 0 10px 12px 0 rgba(0,0,0,0.03);
   border-radius: 4px;
   max-width: 290px;

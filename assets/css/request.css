@@ -37,7 +37,7 @@
 
 .header .small {
   background: #F2F2F2;
-  line-height: 46px;
+  line-height: 2.556rem;
   border-bottom: 4px solid #1F3D69; }
   .header .small a {
     color: #4D4D4D;
@@ -75,7 +75,7 @@
   list-style: none;
   display: flex; }
   .header__nav--desktop li {
-    margin-left: 40px; }
+    margin-left: 2.222rem; }
     .header__nav--desktop li a {
       color: white;
       text-decoration: none;
@@ -151,8 +151,8 @@
   .header__nav--mobile .logo {
     position: absolute;
     z-index: 1020;
-    bottom: 30px;
-    right: 30px; }
+    bottom: 1.667rem;
+    right: 1.667rem; }
   .header__nav--mobile ul {
     position: relative;
     z-index: 1010;
@@ -172,7 +172,7 @@
       text-decoration: none;
       font-size: 0.7778rem;
       display: block;
-      line-height: 50px;
+      line-height: 2.778rem;
       letter-spacing: 0.5; }
       .header__nav--mobile ul a strong {
         margin-right: 0.2778rem; }
@@ -180,9 +180,9 @@
       display: flex;
       padding-left: 1.111rem; }
       .header__nav--mobile ul .dropdown a {
-        line-height: 30px;
+        line-height: 1.667rem;
         opacity: 0.6;
-        margin-right: 30px; }
+        margin-right: 1.667rem; }
   .header__nav--mobile ul:after {
     bottom: 100%;
     right: 28px;
@@ -212,7 +212,7 @@
       top: 65px;
       font-size: 1rem;
       line-height: 2rem;
-      padding-left: 50px;
+      padding-left: 2.778rem;
       background-size: 41px 35px; } }
 
 .btn-switch {
@@ -231,8 +231,8 @@
   background: #203C6C; }
 
 .btn-switch .handle {
-  width: 22px;
-  height: 22px;
+  width: 1.222rem;
+  height: 1.222rem;
   background: white;
   border-radius: 100%;
   position: absolute;
@@ -251,7 +251,7 @@
 
 .btn-switch .handle:after {
   content: "OFF";
-  left: 30px; }
+  left: 1.667rem; }
 
 .btn-switch .handle:before {
   content: "ON";
@@ -283,7 +283,7 @@
   font-size: 0.7778rem;
   font-weight: bold;
   letter-spacing: 0;
-  line-height: 18px;
+  line-height: 1rem;
   margin-left: 75px;
   text-transform: uppercase; }
 
@@ -401,7 +401,7 @@
 
 html, body {
   background: #F4F5F8;
-  font-size: 18px;
+  font-size: 1rem;
   font-family: "Roboto"; }
 
 .content {
@@ -497,7 +497,7 @@ small.orange.form-text {
   border-radius: 4px !important; }
 
 form.horizontal {
-  padding-bottom: 30px; }
+  padding-bottom: 1.667rem; }
   form.horizontal header h4 {
     font-weight: bold;
     font-size: 0.8889rem;
@@ -661,7 +661,7 @@ form.horizontal {
 
 .content-off {
   margin: 10px -40px 0;
-  padding: 40px; }
+  padding: 2.222rem; }
 
 .checkbox-list {
   margin-bottom: 1.111rem; }
@@ -687,7 +687,7 @@ form.horizontal {
 
 .request__services__confirmation h1.orange {
   font-weight: bold;
-  font-size: 18px;
+  font-size: 1rem;
   color: #FF7749;
   letter-spacing: 0.32px; }
 
@@ -721,9 +721,9 @@ form.horizontal {
 .request__services__confirmation .list-item {
   border-bottom: 1px solid #D5D5D5;
   padding-bottom: 0.5556rem;
-  margin-bottom: 30px; }
+  margin-bottom: 1.667rem; }
   .request__services__confirmation .list-item h2 {
-    font-size: 18px;
+    font-size: 1rem;
     color: #1F1F1F;
     letter-spacing: 0.34px; }
   .request__services__confirmation .list-item p {
@@ -772,7 +772,7 @@ form.horizontal {
     letter-spacing: 0;
     text-transform: uppercase; }
   .request__form--review-submit .room-reservation-info {
-    margin-bottom: 30px; }
+    margin-bottom: 1.667rem; }
   .request__form--review-submit .table-striped {
     border-top: 3px solid #D5D5D5;
     border-bottom: 1px solid #D5D5D5; }
@@ -781,18 +781,18 @@ form.horizontal {
   font-size: 0.7778rem;
   color: #203C6C;
   letter-spacing: 0;
-  line-height: 18px;
+  line-height: 1rem;
   border-color: #203C6C;
   text-transform: uppercase; }
 
 .myrequests .content__wrapper {
-  padding: 40px; }
+  padding: 2.222rem; }
 
 .myrequests .current-page {
   font-size: 0.7778rem;
   color: #555555;
   letter-spacing: 0;
-  line-height: 39px;
+  line-height: 2.167rem;
   margin: 0; }
 
 .myrequests .form-search-icon .form-control {
@@ -802,10 +802,10 @@ form.horizontal {
   background: #F7F8FA; }
 
 .myrequests__filter {
-  padding: 30px 30px 20px; }
+  padding: 1.667rem 1.667rem 1.111rem; }
 
 .meetings-list__item {
-  background: #F7F7F7;
+  background: #F7F8FA;
   border: 1px solid #C3CFD6;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05);
   border-radius: 4px; }
@@ -900,21 +900,21 @@ form.horizontal {
     .meetings-list__item .list-item__room .content {
       font-size: 0.7778rem; }
   .meetings-list {
-    margin-bottom: 50px; } }
+    margin-bottom: 2.778rem; } }
 
 .my-request__service-actions {
   position: absolute;
-  right: 50px;
+  right: 2.778rem;
   top: 0;
-  height: 46px;
+  height: 2.556rem;
   display: flex;
   align-items: center; }
   .my-request__service-actions .comments {
     color: #203C6C;
-    font-size: 22px;
-    margin: 0px 22px 0 0;
+    font-size: 1.222rem;
+    margin: 0 1.222rem 0 0;
     display: inline-block;
-    height: 22px; }
+    height: 1.222rem; }
     .my-request__service-actions .comments i {
       display: block; }
   .my-request__service-actions .btn-outline-primary {
@@ -923,18 +923,18 @@ form.horizontal {
     cursor: pointer;
     font-size: 0.7778rem;
     letter-spacing: 0;
-    line-height: 18px;
+    line-height: 1rem;
     padding: 5px 10px;
     text-transform: uppercase;
     display: inline-block;
-    height: 30px; }
+    height: 1.667rem; }
 
 .na-confirmation {
   text-align: center;
-  padding: 50px 0; }
+  padding: 2.778rem 0; }
   .na-confirmation h1 {
     color: #1F1F1F;
-    font-size: 18px;
+    font-size: 1rem;
     font-weight: bold;
     letter-spacing: 0.32px;
     text-transform: uppercase; }
@@ -942,7 +942,7 @@ form.horizontal {
     background: #E3F2FF;
     color: #203C6C;
     display: inline-block;
-    font-size: 48px;
+    font-size: 2.667rem;
     letter-spacing: 0;
     margin: 20px 0;
     padding: 5px 20px;
@@ -976,7 +976,7 @@ form.horizontal {
   font-size: 0.7778rem;
   color: #1F1F1F;
   letter-spacing: 0;
-  line-height: 21px; }
+  line-height: 1.167rem; }
 
 .na-modal .btn {
   font-size: 0.7778rem;
@@ -993,7 +993,7 @@ form.horizontal {
   z-index: 100;
   position: absolute;
   right: 1.111rem;
-  padding: 20px 44px;
+  padding: 1.111rem 2.444rem;
   box-shadow: 0 10px 12px 0 rgba(0, 0, 0, 0.03);
   border-radius: 4px;
   max-width: 290px;
@@ -1012,7 +1012,7 @@ form.horizontal {
     right: 0.5556rem; }
   .na-alert > .fa {
     position: absolute;
-    top: 22px;
+    top: 1.222rem;
     left: 0.8333rem; }
 
 .na-alert-success {
@@ -1096,7 +1096,7 @@ form.horizontal {
   margin: 0 0 10px; }
 
 .admin__sidebar section {
-  padding-top: 40px; }
+  padding-top: 2.222rem; }
 
 .admin__filter {
   background: #C7E6FF;
@@ -1116,7 +1116,7 @@ form.horizontal {
     display: inline-block; }
 
 .admin__meetings__pagination {
-  padding-top: 30px; }
+  padding-top: 1.667rem; }
   .admin__meetings__pagination .btn {
     color: #203C6C;
     border-color: #203C6C;
@@ -1127,7 +1127,7 @@ form.horizontal {
     font-size: 0.7778rem;
     color: #555555;
     letter-spacing: 0;
-    line-height: 40px; }
+    line-height: 2.222rem; }
 
 .admin__meetings__item {
   margin: 10px 10px 30px;
@@ -1235,7 +1235,7 @@ form.horizontal {
   .toggle-area .badges {
     position: absolute;
     top: 0.5556rem;
-    right: 50px; }
+    right: 2.778rem; }
 
 .toggle-area--blue > header h2 {
   color: #203C6C;
@@ -1367,7 +1367,7 @@ form.horizontal {
     margin: 0 10px; }
 
 .request__footer {
-  padding-bottom: 50px; }
+  padding-bottom: 2.778rem; }
 
 .request__wizard__check {
   position: absolute;

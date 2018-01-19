@@ -8,14 +8,14 @@
 }
 .myrequests {
   .content__wrapper {
-    padding: 40px;
+    padding: 2.222rem;
   }
 
   .current-page {
     font-size: 0.7778rem;
     color: $mortar;
     letter-spacing: 0;
-    line-height: 39px;
+    line-height: 2.167rem;
     margin: 0;
   }
 
@@ -30,11 +30,11 @@
 }
 
 .myrequests__filter {
-  padding: 30px 30px 20px;
+  padding: 1.667rem 1.667rem 1.111rem;
 }
 
 .meetings-list__item {
-  background: #F7F7F7;
+  background: $athensGray;
   border: 1px solid $loblolly;
   box-shadow: 0 2px 4px 0 rgba(0,0,0,0.05);
   border-radius: 4px;
