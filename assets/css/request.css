@@ -266,7 +266,7 @@
 .file-upload input[type=file] {
   display: none; }
 
-.file-upload .list h6 {
+.file-upload .list p:first-child {
   color: #1F1F1F;
   font-family: "Roboto";
   letter-spacing: 0.3px; }

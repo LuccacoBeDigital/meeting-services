@@ -3,7 +3,7 @@
     display: none;
   }
   .list {
-    h6 {
+    p:first-child {
       color: $mineShaft;
       font-family: "Roboto";
       letter-spacing: 0.3px;
