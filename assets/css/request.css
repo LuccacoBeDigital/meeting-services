@@ -266,10 +266,9 @@
 .file-upload input[type=file] {
   display: none; }
 
-.file-upload .list h2 {
+.file-upload .list h6 {
   color: #1F1F1F;
   font-family: "Roboto";
-  font-size: 0.8889rem;
   letter-spacing: 0.3px; }
 
 .file-upload .list b {
@@ -961,7 +960,6 @@ form.horizontal {
 
 .na-modal .modal-content,
 .na-modal .modal-title {
-  font-size: 0.7778rem;
   color: #1F1F1F;
   letter-spacing: 0;
   line-height: 1.167rem; }
@@ -1153,8 +1151,7 @@ form.horizontal {
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05);
     border-radius: 4px 4px 0 0;
     padding: 9px 9px 9px 16px; }
-    .edit-meeting header h1 {
-      font-size: 0.8889rem;
+    .edit-meeting header h6 {
       color: #1F1F1F;
       letter-spacing: 0.3px;
       margin: 0;
