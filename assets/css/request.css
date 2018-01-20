@@ -1017,13 +1017,12 @@ form.horizontal {
 .contacts .content__wrapper {
   padding: 2.222rem; }
 
-.contacts h1 {
+.contacts h6 {
   color: #CC7D27;
-  font-size: 1.111rem;
   font-weight: bold;
   letter-spacing: 0;
   text-transform: uppercase; }
-  .contacts h1 i {
+  .contacts h6 i {
     margin-right: 0.5556rem; }
 
 .contacts__list {
@@ -1051,7 +1050,7 @@ form.horizontal {
 @media (max-width: 480px) {
   .contacts .content__wrapper {
     padding: 1.667rem 0.5556rem 0.5556rem; }
-  .contacts h1 {
+  .contacts h6 {
     font-size: 0.7778rem; }
   .contacts__list {
     font-size: 0.7778rem;
