@@ -46,9 +46,8 @@
     padding: 0.8333rem;
   }
   & > header {
-    h1 {
+    h6 {
       font-weight: bold;
-      font-size: 1.111rem;
       color: $regalBlue;
       letter-spacing: 0.38px;
       margin: 0;
@@ -62,7 +61,7 @@
   }
   & > div {
     padding: 1.111rem;
-    h2 {
+    p.request_status {
       font-size: 0.8889rem;
       color: $mineShaft;
       letter-spacing: 0.3px;
@@ -86,7 +85,7 @@
 
     header {
       padding: 0.5556rem;
-      h3 {
+      p {
         font-family: Roboto-Medium;
         font-size: 0.8889rem;
         color: $mineShaft;
@@ -136,7 +135,7 @@
   }
   .meetings-list__item {
     & > header {
-      h1 {
+      h6 {
         font-size: 0.7778rem;
         margin-bottom: 0.5556rem;
       }

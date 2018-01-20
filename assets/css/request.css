@@ -804,9 +804,8 @@ form.horizontal {
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05);
     border-radius: 4px 4px 0 0;
     padding: 0.8333rem; }
-  .meetings-list__item > header h1 {
+  .meetings-list__item > header h6 {
     font-weight: bold;
-    font-size: 1.111rem;
     color: #203C6C;
     letter-spacing: 0.38px;
     margin: 0; }
@@ -817,11 +816,11 @@ form.horizontal {
     letter-spacing: 0.3px; }
   .meetings-list__item > div {
     padding: 1.111rem; }
-    .meetings-list__item > div h2 {
+    .meetings-list__item > div p.request_status {
       font-size: 0.8889rem;
       color: #1F1F1F;
       letter-spacing: 0.3px; }
-      .meetings-list__item > div h2 .badge {
+      .meetings-list__item > div p.request_status .badge {
         padding: 5px;
         text-transform: uppercase;
         background: white;
@@ -836,7 +835,7 @@ form.horizontal {
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05); }
     .meetings-list__item .list-item__room header {
       padding: 0.5556rem; }
-      .meetings-list__item .list-item__room header h3 {
+      .meetings-list__item .list-item__room header p {
         font-family: Roboto-Medium;
         font-size: 0.8889rem;
         color: #1F1F1F;
@@ -869,7 +868,7 @@ form.horizontal {
       .myrequests .myrequests__buttons button:last-child {
         width: calc(25% - 5px);
         margin-right: 0; }
-  .meetings-list__item > header h1 {
+  .meetings-list__item > header h6 {
     font-size: 0.7778rem;
     margin-bottom: 0.5556rem; }
   .meetings-list__item > header .request-no {
