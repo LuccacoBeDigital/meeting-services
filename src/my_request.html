@@ -35,7 +35,7 @@
   </head>
   <body>
 
-    <div id="headerNavMobile" class="header__nav--mobile mobile hidden">
+    <div id="headerNavMobile" class="header__nav--mobile d-md-none hidden">
       <ul>
         <li><a href=""><strong class="fa fa-question-circle"></strong>Help</a></li>
         <li><a href=""><strong class="fa fa-phone"></strong>Contact Us</a></li>
@@ -66,8 +66,8 @@
       </div>
       <nav>
         <div class="container">
-          <h2>Request for Meeting Services</h2>
-          <ul class="header__nav--desktop desktop">
+          <h3>Request for Meeting Services</h3>
+          <ul class="header__nav--desktop d-none d-md-flex">
             <li><a href=""><strong class="fa fa-question-circle"></strong>Help</a></li>
             <li><a href=""><strong class="fa fa-phone"></strong>Contact Us</a></li>
             <li><a href=""><strong class="fa fa-user"></strong>Username</a></li>
@@ -80,7 +80,7 @@
               </div>
             </li>
           </ul>
-          <a href="" id="headerNavToggle" class="header__nav__toggle mobile">
+          <a href="" id="headerNavToggle" class="header__nav__toggle d-md-none">
             <img src="../assets/img/nav-toggle-on.svg" alt="Open / Close Menu">
           </a>
         </div>
@@ -106,7 +106,7 @@
 
           <form class="request__form request__form--review-submit">
             <section>
-              <h1><i class="fa fa-desktop"></i> Meeting Request Details</h1>
+              <h6 class="orange"><i class="fa fa-desktop"></i> Meeting Request Details</h6>
 
               <div class="row m-bottom-20">
                 <div class="col-md-4">
@@ -133,7 +133,7 @@
                 </div>
               </div>
               <hr>
-              <h4><b>Requesting Contacts</b></h4>
+              <p class="subheader">Requesting Contacts</p>
               <div class="row m-bottom-20">
                 <div class="col-md-4">
                   <b>Name</b><br/>
@@ -151,7 +151,7 @@
 
               <div class="toggle-area toggle-area--blue room-reservation-info">
                 <header>
-                  <h2>Room Reservation 1 </h2>
+                  <p>Room Reservation 1 </p>
                   <a href="" data-elm="toggle"><i class="fa fa-chevron-down"></i></a>
                 </header>
                 <section class="hidden">
@@ -235,11 +235,11 @@
                     </div>
                   </div>
 
-                  <h4>REQUESTED SERVICES</h4>
+                  <h6>REQUESTED SERVICES</h6>
 
                   <div class="toggle-area toggle-area--no-icon">
                     <header>
-                      <h2>Access and security related matters <span class="badge badge-primary-outline">Pending</span></h2>
+                      <p>Access and security related matters <span class="badge badge-primary-outline">Pending</span></p>
                       <div class="my-request__service-actions">
                         <a href="" class="comments"><i class="fa fa-comments"></i></a>
                         <a class="btn btn-outline-primary">
@@ -276,7 +276,7 @@
 
                   <div class="toggle-area toggle-area--no-icon">
                     <header>
-                      <h2>Nameplates, podium signs and room set-up <span class="badge badge-primary-outline">Approved</span></h2>
+                      <p>Nameplates, podium signs and room set-up <span class="badge badge-primary-outline">Approved</span></p>
                       <div class="my-request__service-actions">
                         <a href="" class="comments"><i class="fa fa-comments"></i></a>
                         <a class="btn btn-outline-primary">
@@ -325,7 +325,7 @@
 
                   <div class="toggle-area toggle-area--no-icon">
                     <header>
-                      <h2>Loaning of technological equipment <span class="badge badge-primary-outline">Pending</span></h2>
+                      <p>Loaning of technological equipment <span class="badge badge-primary-outline">Pending</span></p>
                       <div class="my-request__service-actions">
                         <a href="" class="comments"><i class="fa fa-comments"></i></a>
                         <a class="btn btn-outline-primary">
@@ -418,7 +418,7 @@
 
               <div class="toggle-area toggle-area--blue room-reservation-info">
                 <header>
-                  <h2>INFORMATION PROVIDED TO DGACM</h2>
+                  <p>INFORMATION PROVIDED TO DGACM</p>
                   <a href="" data-elm="toggle"><i class="fa fa-chevron-down"></i></a>
                 </header>
                 <section class="hidden">
@@ -463,7 +463,7 @@
                     test
                   </p>
                   <p>
-                    <small class="orange">
+                    <small class="coral">
                       (1) An entity other than the United Nations, departments or offices of the Secretariat, specialized agencies of the United Nations system, permanent and observer missions.
                     </small>
                   </p>
@@ -481,7 +481,7 @@
 
     <footer class="footer content">
       <div class="container">
-        <h1>UNITED NATIONS</h1>
+        <aside>UNITED NATIONS</aside>
         <nav>
           <a href="">A-Z Site Index</a>
           <a href="">Contact</a>

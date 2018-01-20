@@ -1,17 +1,15 @@
 .request__form {
   padding: 2.22rem;
 
-  h1 {
+  h6 {
     margin: 0 0 1.111rem;
-    color: $orange;
-    font-size: 1.111rem;
     font-weight: bold;
     text-transform: uppercase;
     i {
       margin-right: 0.2778rem;
     }
   }
-  h4 {
+  p.subheader {
     color: $mineShaft;
     display: block;
     font-size: 0.8889rem;
@@ -29,7 +27,7 @@
     font-size: 0.8889rem;
     letter-spacing: 0.0.1667rem;
     margin-bottom: 0.5556rem;
-    span.orange {
+    span.coral {
       color: $coral;
     }
   }
@@ -47,7 +45,7 @@
   }
 
   .form-control + .custom-controls {
-    margin-top: 5px;
+    margin-top: 0.2778rem;
     .custom-control-description {
       display: inline-block;
       margin-top: 0.1667rem;
@@ -56,13 +54,13 @@
 
   small {
     font-size: 0.6667rem;
-    color: #555555;
+    color: $mortar;
     letter-spacing: 0;
   }
 }
 
 .request__form__tabs {
-  border: 2px solid $romeGray;
+  border:0.1111rem solid $romeGray;
   border-radius: 0.2222rem;
   margin: 3.333rem 0 1.667rem;
   nav {
@@ -72,27 +70,27 @@
 
     a {
       display: inline-block;
-      border: 2px solid $romeGray;
+      border:0.1111rem solid $romeGray;
       border-radius: 0.2222rem;
-      width: 61px;
-      line-height: 37px;
+      width: 3.389rem;
+      line-height: 2.056rem;
       text-decoration: none;
       text-align: center;
 
       font-size: 0.8889rem;
-      color: #797C80;
+      color: $stormGray;
       letter-spacing: 0.2px;
-      background: #E8EBF0;
+      background: $romeGray;
 
       &.active {
         background: white;
-        border-bottom: 2px solid white;
+        border-bottom:0.1111rem solid white;
         opacity: 1;
       }
     }
   }
   & > div {
-    padding: 20px;
+    padding: 1.111rem;
     margin-top: -50px;
   }
 }
@@ -100,12 +98,12 @@
 .request__form__div {
   height: 6px;
   background: $loblolly;
-  margin: 20px -20px 40px;
+  margin: 1.111rem -20px 40px;
 }
 
 .custom-radio,
 .custom-checkbox {
-  font-size: 14px;
+  font-size: 0.7778rem;
   cursor: pointer;
   display: inline-block;
   margin: 0.1667rem 0.5556rem 0 0;
@@ -113,15 +111,15 @@
 
 @media (max-width: 480px) {
   .request__form {
-    padding: 20px;
+    padding: 1.111rem;
     h1 {
-      font-size: 14px;
+      font-size: 0.7778rem;
     }
     h4 {
-      font-size: 14px;
+      font-size: 0.7778rem;
     }
   }
   .request__form__div {
-   margin: 0px -20px 20px;
+   margin: 0px -20px 1.111rem;
   }
 }

@@ -35,7 +35,7 @@
   </head>
   <body>
 
-    <div id="headerNavMobile" class="header__nav--mobile mobile hidden">
+    <div id="headerNavMobile" class="header__nav--mobile d-md-none hidden">
       <ul>
         <li><a href=""><strong class="fa fa-question-circle"></strong>Help</a></li>
         <li><a href=""><strong class="fa fa-phone"></strong>Contact Us</a></li>
@@ -66,8 +66,8 @@
       </div>
       <nav>
         <div class="container">
-          <h2>Request for Meeting Services</h2>
-          <ul class="header__nav--desktop desktop">
+          <h3>Request for Meeting Services</h3>
+          <ul class="header__nav--desktop d-none d-md-flex">
             <li><a href=""><strong class="fa fa-question-circle"></strong>Help</a></li>
             <li><a href=""><strong class="fa fa-phone"></strong>Contact Us</a></li>
             <li><a href=""><strong class="fa fa-user"></strong>Username</a></li>
@@ -80,7 +80,7 @@
               </div>
             </li>
           </ul>
-          <a href="" id="headerNavToggle" class="header__nav__toggle mobile">
+          <a href="" id="headerNavToggle" class="header__nav__toggle d-md-none">
             <img src="../assets/img/nav-toggle-on.svg" alt="Open / Close Menu">
           </a>
         </div>
@@ -116,7 +116,7 @@
             <header>
               <div class="row">
                 <div class="col-md-6">
-                  <h1>MEETING TITLE - 02/10/2017 <span>(New York)</span></h1>
+                  <h6>MEETING TITLE - 02/10/2017 <span>(New York)</span></h6>
                 </div>
                 <div class="col-md-6 text-right myrequests__buttons">
                   <button class="btn btn-outline-primary myrequests__button" data-toggle="modal" data-target="#requestUpdates">
@@ -147,7 +147,7 @@
               <div class="file-upload">
                 <input type="file" name="file">
                 <div class="list hidden">
-                  <h2>Attachment</h2>
+                  <p>Attachment</p>
                   <p>
                     <b></b>
                     <button class="btn btn-danger">
@@ -169,7 +169,7 @@
 
     <footer class="footer content">
       <div class="container">
-        <h1>UNITED NATIONS</h1>
+        <aside>UNITED NATIONS</aside>
         <nav>
           <a href="">A-Z Site Index</a>
           <a href="">Contact</a>
@@ -186,7 +186,7 @@
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title">History</h5>
+            <p class="modal-title">History</p>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>

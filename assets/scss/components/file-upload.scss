@@ -3,32 +3,31 @@
     display: none;
   }
   .list {
-    h2 {
+    p:first-child {
       color: $mineShaft;
       font-family: "Roboto";
-      font-size: 16px;
       letter-spacing: 0.3px;
     }
     b {
       color: #0168E7;
-      font-size: 14px;
+      font-size: 0.7778rem;
       letter-spacing: 0;
     }
     button {
       display: inline-block;
-      font-size: 14px;
+      font-size: 0.7778rem;
       font-weight: bold;
       letter-spacing: 0;
-      line-height: 18px;
+      line-height: 1rem;
       margin-left: 75px;
       text-transform: uppercase;
     }
   }
   .btn-add {
-    border: 1px solid #52B3FF;
+    border: 1px solid $mayaBlue;
     background: white;
-    font-size: 14px;
-    color: #52B3FF;
+    font-size: 0.7778rem;
+    color: $mayaBlue;
     letter-spacing: 0;
   }
 }

@@ -9,30 +9,18 @@
 @import "components/frk-select.scss";
 
 html, body {
-  background: #F4F5F8;
+  background: $solitude;
   font-size: 18px;
   font-family: "Roboto";
 }
 
 .content {
-  background: #F4F5F8;
+  background: $solitude;
 }
 
 .relative { position: relative !important; }
 
 .hidden { display: none !important; }
-
-@media (min-width: 481px) {
-  .mobile { display: none !important; }
-}
-@media (max-width: 480px) {
-  .desktop { display: none !important; }
-  .content {
-    & > .container {
-      padding: 0;
-    }
-  }
-}
 
 .datepicker {
   width: auto;
@@ -65,17 +53,13 @@ html, body {
 }
 
 .with-vertical-margin {
-  margin: 10px 0;
+  margin: 0.5556rem 0;
 }
-.orange {
-  color: $coral !important;
-}
+.coral { color: $coral !important; }
+.orange { color: $orange !important; }
+.green { color: #50A45F; }
 
-.green {
-  color: #50A45F;
-}
-
-small.orange {
+small.coral {
   &.form-text {
     font-size: 12px !important;
   }
@@ -85,10 +69,10 @@ small.orange {
   background: #F0F8FF;
 }
 
-.m-bottom-20 { margin-bottom: 20px; }
+.m-bottom-20 { margin-bottom: 1.111rem; }
 
 [data-toggle="tooltip"] {
-  color: #52B3FF;
+  color: $mayaBlue;
 }
 
 .twitter-typeahead {
@@ -113,16 +97,16 @@ small.orange {
   text-transform: uppercase;
 
   background: white;
-  color: #203C6C;
+  color: $regalBlue;
   letter-spacing: 0;
-  margin-left: 10px;
-  border: 1px solid #203C6C;
+  margin-left: 0.5556rem;
+  border: 1px solid $regalBlue;
 }
 
 .form-group {
   select {
     font-size: 16px !important;
-    color: #555555 !important;
+    color: $mortar !important;
     letter-spacing: 0 !important;
 
     background: #FFFFFF !important;
@@ -132,22 +116,21 @@ small.orange {
 }
 
 form.horizontal {
-  padding-bottom: 30px;
+  padding-bottom: 1.667rem;
   header {
-    h4 {
+    h6 {
       font-weight: bold;
-      font-size: 16px;
       color: $mineShaft;
       letter-spacing: 0.3px;
     }
   }
   label {
-    font-size: 14px;
-    color: #555555;
+    font-size: 0.7778rem;
+    color: $mortar;
   }
   textarea,
   input[type=text] {
-    font-size: 14px;
+    font-size: 0.7778rem;
   }
 }
 

@@ -8,15 +8,15 @@
     display: flex;
   }
 
-  h1 {
+  aside {
     flex: 0.5;
     margin: 0;
     padding: 0 0 0 45px;
     font-size: 12px;
     font-weight: bold;
     background: url('../img/un-logo-footer.png') transparent no-repeat left center;
-    background-size: 30px 26px;
-    line-height: 25px;
+    background-size: 1.667rem 26px;
+    line-height: 1.389rem;
   }
   
   nav {
@@ -25,7 +25,7 @@
     a {
       text-decoration: none;
       color: $mineShaft;
-      margin-left: 20px;
+      margin-left: 1.111rem;
     }
   }
 }
@@ -34,7 +34,7 @@
   .footer {
     & > .container {
       flex-direction: column;
-      padding: 0 10px;
+      padding: 0 0.5556rem;
     }
   
     h1 {

@@ -35,7 +35,7 @@
   </head>
   <body>
 
-    <div id="headerNavMobile" class="header__nav--mobile mobile hidden">
+    <div id="headerNavMobile" class="header__nav--mobile d-md-none hidden">
       <ul>
         <li><a href=""><strong class="fa fa-question-circle"></strong>Help</a></li>
         <li><a href=""><strong class="fa fa-phone"></strong>Contact Us</a></li>
@@ -66,8 +66,8 @@
       </div>
       <nav>
         <div class="container">
-          <h2>Request for Meeting Services</h2>
-          <ul class="header__nav--desktop desktop">
+          <h3>Request for Meeting Services</h3>
+          <ul class="header__nav--desktop d-none d-md-flex">
             <li><a href=""><strong class="fa fa-question-circle"></strong>Help</a></li>
             <li><a href=""><strong class="fa fa-phone"></strong>Contact Us</a></li>
             <li><a href=""><strong class="fa fa-user"></strong>Username</a></li>
@@ -80,7 +80,7 @@
               </div>
             </li>
           </ul>
-          <a href="" id="headerNavToggle" class="header__nav__toggle mobile">
+          <a href="" id="headerNavToggle" class="header__nav__toggle d-md-none">
             <img src="../assets/img/nav-toggle-on.svg" alt="Open / Close Menu">
           </a>
         </div>
@@ -150,8 +150,8 @@
             </div>
             <div class="col-md-6 text-right myrequests__buttons">
               <button class="btn btn-outline-primary myrequests__button"><i class="fa fa-angle-double-left"></i> First</button>
-              <button class="btn btn-outline-primary myrequests__button desktop"><i class="fa fa-angle-left"></i> Previous</button>
-              <button class="btn btn-outline-primary myrequests__button mobile"><i class="fa fa-angle-left"></i> Prev</button>
+              <button class="btn btn-outline-primary myrequests__button d-none d-md-inline"><i class="fa fa-angle-left"></i> Previous</button>
+              <button class="btn btn-outline-primary myrequests__button d-md-none"><i class="fa fa-angle-left"></i> Prev</button>
               <button class="btn btn-outline-primary myrequests__button"><i class="fa fa-angle-right"></i> Next</button>
               <button class="btn btn-outline-primary myrequests__button"><i class="fa fa-angle-double-right"></i> Last</button>
             </div>
@@ -162,7 +162,7 @@
               <header>
                 <div class="row">
                   <div class="col-md-6">
-                    <h1>MEETING TITLE - 02/10/2017 <span>(New York)</span></h1>
+                    <h6>MEETING TITLE - 02/10/2017 <span>(New York)</span></h6>
                   </div>
                   <div class="col-md-6 request-no">
                     Request No: NY174804A
@@ -170,12 +170,12 @@
                 </div>
               </header>
               <div>
-                <h2>Request Status <span class="badge badge-primary">Submitted</span></h2>
+                <p class="request_status">Request Status <span class="badge badge-primary">Submitted</span></p>
                 <section class="list-item__room">
                   <header>
                     <div class="row">
                       <div class="col-6">
-                        <h3>Room 1</h3>
+                        <p>Room 1</p>
                       </div>
                       <div class="col-6 text-right">
                         <button class="btn btn-outline-primary myrequests__button">
@@ -203,7 +203,7 @@
                     <div class="row">
                       <div class="col-md-6">
                         <b>Status of requested services</b><br/>
-                        <div class="fa fa-circle orange"></div> Pending Approval
+                        <div class="fa fa-circle coral"></div> Pending Approval
                       </div>
                       <div class="col-md-6">
                         <b>Requested Services</b>
@@ -220,7 +220,7 @@
                   <header>
                     <div class="row">
                       <div class="col-6">
-                        <h3>Room 2</h3>
+                        <p>Room 2</p>
                       </div>
                       <div class="col-6 text-right">
                         <button class="btn btn-outline-primary myrequests__button">
@@ -272,7 +272,7 @@
 
     <footer class="footer content">
       <div class="container">
-        <h1>UNITED NATIONS</h1>
+        <aside>UNITED NATIONS</aside>
         <nav>
           <a href="">A-Z Site Index</a>
           <a href="">Contact</a>

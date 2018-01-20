@@ -1,52 +1,49 @@
 .request__services__confirmation {
-  h1.orange {
-    font-weight: bold;
-    font-size: 18px;
-    color: $coral;
+  h6.coral {
     letter-spacing: 0.32px;
   }
   .list-actions {
     text-align: right;
     .btn-outline-primary,
     .btn-primary {
-      font-size: 16px;
+      font-size: 0.8889rem;
       letter-spacing: 0;
       text-transform: uppercase;
-      padding: 15px 20px;
+      padding: 0.8333rem 1.111rem;
     } 
   }
   .btn-primary {
-    border-color: #52B3FF;
-    background: #52B3FF;
+    border-color: $mayaBlue;
+    background: $mayaBlue;
   }
   .btn-outline-primary {
-    border-color: #52B3FF;
-    color: #52B3FF;
+    border-color: $mayaBlue;
+    color: $mayaBlue;
   }
   .list-headers {
-    border-top: 3px solid #D5D5D5;
-    border-bottom: 1px solid #D5D5D5;
+    border-top: 3px solid $lightGray;
+    border-bottom: 1px solid $lightGray;
 
-    font-size: 16px;
-    color: #555555;
+    font-size: 0.8889rem;
+    color: $mortar;
     letter-spacing: 0.3px;
 
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-bottom: 20px;
+    padding-top: 0.5556rem;
+    padding-bottom: 0.5556rem;
+    margin-bottom: 1.111rem;
   }
 
   .list-item {
-    border-bottom: 1px solid #D5D5D5;
-    padding-bottom: 10px;
-    margin-bottom: 30px;
-    h2 {
-      font-size: 18px;
+    border-bottom: 1px solid $lightGray;
+    padding-bottom: 0.5556rem;
+    margin-bottom: 1.667rem;
+    p.title {
+      font-size: 1rem;
       color: $mineShaft;
       letter-spacing: 0.34px;
     }
     p {
-      font-size: 14px;
+      font-size: 0.7778rem;
       color: $mineShaft;
       letter-spacing: 0.26px;
     }
@@ -59,9 +56,9 @@
     .list-item-actions {
       .btn {
         width: 100%;
-        margin-bottom: 10px;
+        margin-bottom: 0.5556rem;
         text-transform: uppercase;
-        font-size: 14px;
+        font-size: 0.7778rem;
         font-weight: bold;
       }
     }
@@ -70,33 +67,32 @@
 
 @media (max-width: 480px) {
   .request__services__confirmation {
-    h1.orange {
-      font-size: 14px;
-      border-bottom: 3px solid #D5D5D5;
-      padding-bottom: 20px;
+    h6.coral {
+      font-size: 0.7778rem;
+      border-bottom: 3px solid $lightGray;
+      padding-bottom: 1.111rem;
     }
     h4 {
-      font-size: 16px;
-      color: #555555;
+      color: $mortar;
       letter-spacing: 0.3px;
     }
     .list-item {
-      h2 {
-        font-size: 16px;
+      p.title {
+        font-size: 0.8889rem;
         font-weight: bold;
       }
       .list-item-actions {
         .btn {
           width: auto;
-          margin-bottom: 10px;
+          margin-bottom: 0.5556rem;
         }
       }
     }
     .list-actions {
       text-align: center;
       .btn {
-        font-size: 14px;
-        padding: 15px;
+        font-size: 0.7778rem;
+        padding: 0.8333rem;
       }
     }
   }

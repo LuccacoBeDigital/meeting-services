@@ -35,7 +35,7 @@
   </head>
   <body>
 
-    <div id="headerNavMobile" class="header__nav--mobile mobile hidden">
+    <div id="headerNavMobile" class="header__nav--mobile d-md-none hidden">
       <ul>
         <li><a href=""><strong class="fa fa-question-circle"></strong>Help</a></li>
         <li><a href=""><strong class="fa fa-phone"></strong>Contact Us</a></li>
@@ -61,8 +61,8 @@
       </div>
       <nav>
         <div class="container">
-          <h2>Request for Meeting Services <span class="off">. Admin</span></h2>
-          <ul class="header__nav--desktop desktop">
+          <h3>Request for Meeting Services <span class="off">. Admin</span></h3>
+          <ul class="header__nav--desktop d-none d-md-flex">
             <li>
               <a href="" class="headerDropdownToggle"><strong class="fa fa-chevron-down"></strong>oss.service</a>
               <div class="headerDropdown dropdown hidden">
@@ -72,7 +72,7 @@
               </div>
             </li>
           </ul>
-          <a href="" id="headerNavToggle" class="header__nav__toggle mobile">
+          <a href="" id="headerNavToggle" class="header__nav__toggle d-md-none">
             <img src="../assets/img/nav-toggle-on.svg" alt="Open / Close Menu">
           </a>
         </div>
@@ -85,7 +85,7 @@
           <div class="col-md-3">
             <aside class="admin__sidebar">
               <section>
-                <h2>Webcast</h2>
+                <h6>Webcast</h6>
                 <p>
                   <b>Filter by</b>
                 </p>
@@ -118,7 +118,7 @@
               </section>
     
               <section>
-                <h2>Loaning of tech equipment</h2>
+                <h6>Loaning of tech equipment</h6>
                 <p>
                   <b>Filter by</b>
                 </p>
@@ -151,7 +151,7 @@
               </section>
     
               <section>
-                <h2>Audio Visual</h2>
+                <h6>Audio Visual</h6>
                 <p>
                   <b>Filter by</b>
                 </p>
@@ -225,10 +225,10 @@
                 <header>
                   <div class="row">
                     <div class="col-md-8">
-                      <h2>MEETING TITLE - 02/10/2017 <span>(New York)</span></h2>
+                      <h6>MEETING TITLE - 02/10/2017 <span>(New York)</span></h6>
                     </div>
                     <div class="col-md-4 text-right">
-                      <h3>Request No: NY174804A</h3>
+                      <p class="request_no">Request No: NY174804A</p>
                     </div>
                   </div>
                 </header>
@@ -258,7 +258,7 @@
                     <div class="col-md-6">
                       <p>
                         <b>Status of requested services</b><br/>
-                        <i class="fa fa-circle orange"></i> Pending Approval
+                        <i class="fa fa-circle coral"></i> Pending Approval
                       </p>
                     </div>
                     <div class="col-md-6">
@@ -278,10 +278,10 @@
                 <header>
                   <div class="row">
                     <div class="col-md-8">
-                      <h2>MEETING TITLE - 02/10/2017 <span>(New York)</span></h2>
+                      <h6>MEETING TITLE - 02/10/2017 <span>(New York)</span></h6>
                     </div>
                     <div class="col-md-4 text-right">
-                      <h3>Request No: NY174804A</h3>
+                      <p class="request_no">Request No: NY174804A</p>
                     </div>
                   </div>
                 </header>
@@ -311,7 +311,7 @@
                     <div class="col-md-6">
                       <p>
                         <b>Status of requested services</b><br/>
-                        <i class="fa fa-circle orange"></i> Pending Approval
+                        <i class="fa fa-circle coral"></i> Pending Approval
                       </p>
                     </div>
                     <div class="col-md-6">
@@ -338,7 +338,7 @@
 
     <footer class="footer content">
       <div class="container">
-        <h1>UNITED NATIONS</h1>
+        <aside>UNITED NATIONS</aside>
         <nav>
           <a href="">A-Z Site Index</a>
           <a href="">Contact</a>

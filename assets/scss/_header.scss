@@ -2,8 +2,8 @@
 
   .small {
     background: #F2F2F2;
-    line-height: 46px;
-    border-bottom: 4px solid #1F3D69;
+    line-height: 2.556rem;
+    border-bottom: 4px solid $regalBlue;
 
     a {
       color: #4D4D4D;
@@ -23,7 +23,7 @@
       position: relative;
     }
 
-    h2 {
+    h3 {
       position: relative;
       top: 51px;
       margin: 0;
@@ -32,7 +32,7 @@
       background-size: 50px 43px;
 
       font-weight: normal;
-      font-size: 1.833rem;
+      // font-size: 1.833rem;
       text-transform: uppercase;
       color: white;
       span.off {
@@ -51,16 +51,16 @@
 .header__nav--desktop {
   position: absolute;
   right: 17px;
-  top: 10px;
+  top: 0.5556rem;
 
   list-style: none;
   display: flex;
   li {
-    margin-left: 40px;
+    margin-left: 2.222rem;
     a {
       color: white;
       text-decoration: none;
-      font-size: 14px;
+      font-size: 0.7778rem;
       strong {
         margin-right: 6px;
       }
@@ -70,8 +70,8 @@
   .logout-tooltip {
     display: none;
     position: absolute;
-    background: #1F3D69;
-    padding: 10px 45px;
+    background: $regalBlue;
+    padding: 0.5556rem 45px;
     top: 130%;
     left: 50%;
     transform: translateX(-50%);
@@ -85,7 +85,7 @@
     width: 0;
     position: absolute;
     pointer-events: none;
-    border-bottom-color: #1F3D69;
+    border-bottom-color: $regalBlue;
     border-width: 5px;
     margin-left: -5px;
   }
@@ -99,13 +99,13 @@
     z-index: 200;
     right: -4px;
     top: 100%;
-    margin-top: 10px;
-    background: #1F3D69;
-    padding: 20px 52px;
+    margin-top: 0.5556rem;
+    background: $regalBlue;
+    padding: 1.111rem 52px;
     text-align: center;
 
     a {
-      line-height: 36px;
+      line-height: 2rem;
       display: block;
       letter-spacing: 0.47
     }
@@ -120,7 +120,7 @@
     position: absolute;
     pointer-events: none;
     border-color: rgba(31, 61, 105, 0);
-    border-bottom-color: #1F3D69;
+    border-bottom-color: $regalBlue;
     border-width: 5px;
     margin-left: -5px;
   }
@@ -150,19 +150,19 @@
   .logo {
     position: absolute;
     z-index: 1020;
-    bottom: 30px;
-    right: 30px;
+    bottom: 1.667rem;
+    right: 1.667rem;
   }
   ul {
     position: relative;
     z-index: 1010;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 5px 1.111rem rgba(0, 0, 0, 0.5);
     margin: 0;
-    padding: 10px 30px 80px;
+    padding: 0.5556rem 1.667rem 80px;
     list-style: none;
     color: white;
     position: relative;
-    background: #1F3D69;
+    background: $regalBlue;
     li {
       border-bottom: 1px solid #15243A;
       &:last-child { border-bottom: none; }
@@ -170,21 +170,21 @@
     a {
       color: white;
       text-decoration: none;
-      font-size: 14px;
+      font-size: 0.7778rem;
       display: block;
-      line-height: 50px;
+      line-height: 2.778rem;
       letter-spacing: 0.5;
       strong {
-        margin-right: 5px;
+        margin-right: 0.2778rem;
       }
     }
     .dropdown {
       display: flex;
-      padding-left: 20px;
+      padding-left: 1.111rem;
       a {
-        line-height: 30px;
+        line-height: 1.667rem;
         opacity: 0.6;
-        margin-right: 30px;
+        margin-right: 1.667rem;
       }
     }
   }
@@ -198,8 +198,8 @@
     position: absolute;
     pointer-events: none;
     border-color: rgba(31, 61, 105, 0);
-    border-bottom-color: #1F3D69;
-    border-width: 10px;
+    border-bottom-color: $regalBlue;
+    border-width: 0.5556rem;
     margin-left: -10px;
   }
 }
@@ -213,16 +213,16 @@
 @media (max-width: 480px) {
   .header {
     .small {
-      padding-left: 15px;
+      padding-left: 0.8333rem;
     }
     nav {
       height: 200px;
-      padding: 0 10px;
-      h2 {
+      padding: 0 0.5556rem;
+      h3 {
         top: 65px;
         font-size: 1rem;
         line-height: 2rem;
-        padding-left: 50px;
+        padding-left: 2.778rem;
         background-size: 41px 35px;
       }
     }

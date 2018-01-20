@@ -5,33 +5,32 @@
   }
   p,
   label {
-    font-size: 14px;
-    color: #555555;
+    font-size: 0.7778rem;
+    color: $mortar;
     letter-spacing: 0;
     margin: 0;
   }
-  h2 {
+  h6 {
     font-weight: bold;
-    font-size: 20px;
     color: $orange;
     letter-spacing: 0;
     text-transform: uppercase;
-    margin: 0 0 10px;
+    margin: 0 0 0.5556rem;
   }
   section {
-    padding-top: 40px;
+    padding-top: 2.222rem;
   }
 
 }
 
 .admin__filter {
-  background: #C7E6FF;
-  font-size: 16px;
+  background: $lavenderBlue;
+  font-size: 0.8889rem;
   color: $mineShaft;
   letter-spacing: 0.3px;
-  padding: 30px 40px 10px;
+  padding: 1.667rem 2.2222rem 0.5556rem;
   .col-md-4 {
-    margin-bottom: 20px;
+    margin-bottom: 1.111rem;
   }
   a {
     display: inline-block;
@@ -41,59 +40,59 @@
     }
   }
   .form-control {
-    width: calc(100% - 25px);
+    width: calc(100% - 1.3889rem);
     display: inline-block;
   }
 }
 
 .admin__meetings__pagination {
-  padding-top: 30px;
+  padding-top: 1.667rem;
   .btn {
-    color: #203C6C;
-    border-color: #203C6C;
-    font-size: 14px;
-    color: #203C6C;
+    color: $regalBlue;
+    border-color: $regalBlue;
+    font-size: 0.7778rem;
+    color: $regalBlue;
     letter-spacing: 0;
   }
   p {
-    font-size: 14px;
-    color: #555555;
+    font-size: 0.7778rem;
+    color: $mortar;
     letter-spacing: 0;
-    line-height: 40px;
+    line-height: 2.222rem;
   }
 }
 
 .admin__meetings__item {
-  margin: 10px 10px 30px;
+  margin: 0.5556rem 0.5556rem 1.667rem;
   border: 1px solid $loblolly;
   box-shadow: 0 2px 4px 0 rgba(0,0,0,0.05);
   border-radius: 4px;
   header {
     display: block;
     border-bottom: 1px solid $loblolly;
-    padding: 0 10px;
+    padding: 0 0.5556rem;
 
-    h2, h3 {
-      line-height: 55px;
+    h6, .request_no {
+      line-height: 3.0556rem;
       margin: 0;      
     }
-    h2 {
+    h6 {
       font-weight: bold;
-      font-size: 20px;
-      color: #203C6C;
+      color: $regalBlue;
       letter-spacing: 0.38px;
     }
-    h3 {
-      font-size: 16px;
-      color: #555555;
+    .request_no {
+      margin: 0;
+      font-size: 0.8889rem;
+      color: $mortar;
       letter-spacing: 0.3px;
     }
   }
   section {
-    padding: 15px;
+    padding: 0.8333rem;
     p {
-      font-size: 16px;
-      color: #555555;
+      font-size: 0.8889rem;
+      color: $mortar;
       letter-spacing: 0;
     }
   }
