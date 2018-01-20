@@ -1199,13 +1199,12 @@ form.horizontal {
     position: relative;
     border-bottom: 1px solid #C3CFD6;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); }
-    .toggle-area header h2 {
+    .toggle-area header p {
       color: #1F1F1F;
       display: inline-block;
       font-family: "Roboto";
-      font-size: 0.8889rem;
       letter-spacing: 0.3px;
-      margin-left: 1.111rem; }
+      margin: 0 0 0 1.111rem; }
     .toggle-area header a[data-elm="toggle"] {
       color: #1F1F1F;
       display: block;
@@ -1234,7 +1233,7 @@ form.horizontal {
   padding: 1.111rem;
   background: #F7F7F7; }
 
-.toggle-area--no-icon > header h2 {
+.toggle-area--no-icon > header p {
   margin: 0 0 0 5px; }
 
 .toggle-area--no-icon > header a {
