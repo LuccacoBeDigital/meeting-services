@@ -673,10 +673,7 @@ form.horizontal {
       display: block;
       width: 100%; } }
 
-.request__services__confirmation h1.coral {
-  font-weight: bold;
-  font-size: 1rem;
-  color: #FF7749;
+.request__services__confirmation h6.coral {
   letter-spacing: 0.32px; }
 
 .request__services__confirmation .list-actions {
@@ -710,7 +707,7 @@ form.horizontal {
   border-bottom: 1px solid #D5D5D5;
   padding-bottom: 0.5556rem;
   margin-bottom: 1.667rem; }
-  .request__services__confirmation .list-item h2 {
+  .request__services__confirmation .list-item p.title {
     font-size: 1rem;
     color: #1F1F1F;
     letter-spacing: 0.34px; }
@@ -731,15 +728,14 @@ form.horizontal {
     font-weight: bold; }
 
 @media (max-width: 480px) {
-  .request__services__confirmation h1.coral {
+  .request__services__confirmation h6.coral {
     font-size: 0.7778rem;
     border-bottom: 3px solid #D5D5D5;
     padding-bottom: 1.111rem; }
   .request__services__confirmation h4 {
-    font-size: 0.8889rem;
     color: #555555;
     letter-spacing: 0.3px; }
-  .request__services__confirmation .list-item h2 {
+  .request__services__confirmation .list-item p.title {
     font-size: 0.8889rem;
     font-weight: bold; }
   .request__services__confirmation .list-item .list-item-actions .btn {

@@ -1,8 +1,5 @@
 .request__services__confirmation {
-  h1.coral {
-    font-weight: bold;
-    font-size: 1rem;
-    color: $coral;
+  h6.coral {
     letter-spacing: 0.32px;
   }
   .list-actions {
@@ -40,7 +37,7 @@
     border-bottom: 1px solid $lightGray;
     padding-bottom: 0.5556rem;
     margin-bottom: 1.667rem;
-    h2 {
+    p.title {
       font-size: 1rem;
       color: $mineShaft;
       letter-spacing: 0.34px;
@@ -70,18 +67,17 @@
 
 @media (max-width: 480px) {
   .request__services__confirmation {
-    h1.coral {
+    h6.coral {
       font-size: 0.7778rem;
       border-bottom: 3px solid $lightGray;
       padding-bottom: 1.111rem;
     }
     h4 {
-      font-size: 0.8889rem;
       color: $mortar;
       letter-spacing: 0.3px;
     }
     .list-item {
-      h2 {
+      p.title {
         font-size: 0.8889rem;
         font-weight: bold;
       }
