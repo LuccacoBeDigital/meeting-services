@@ -7,9 +7,9 @@ $(function() {
 
   $headerNavToggle.on('click', function(e) {
     e.preventDefault();
-    var isHidden = $headerNavMobile.hasClass('invisible');
+    var isHidden = $headerNavMobile.hasClass('hidden');
 
-    $headerNavMobile.toggleClass('invisible');
+    $headerNavMobile.toggleClass('hidden');
     $headerNavToggleImg.attr('src', '../assets/img/nav-toggle-' + (isHidden ? 'off' : 'on') + '.svg');
 
     $('body').css('overflow-y', isHidden ? 'hidden' : 'visible');

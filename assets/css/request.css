@@ -219,7 +219,7 @@
   width: 72px;
   height: 28px;
   border-radius: 28px;
-  overflow: invisible;
+  overflow: hidden;
   position: relative;
   background: #DBE6EC; }
 
@@ -410,15 +410,8 @@ html, body {
 .relative {
   position: relative !important; }
 
-@media (min-width: 481px) {
-  .mobile {
-    display: none !important; } }
-
-@media (max-width: 480px) {
-  .desktop {
-    display: none !important; }
-  .content > .container {
-    padding: 0; } }
+.hidden {
+  display: none !important; }
 
 .datepicker {
   width: auto;

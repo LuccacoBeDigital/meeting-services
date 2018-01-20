@@ -20,17 +20,7 @@ html, body {
 
 .relative { position: relative !important; }
 
-@media (min-width: 481px) {
-  .mobile { display: none !important; }
-}
-@media (max-width: 480px) {
-  .desktop { display: none !important; }
-  .content {
-    & > .container {
-      padding: 0;
-    }
-  }
-}
+.hidden { display: none !important; }
 
 .datepicker {
   width: auto;
