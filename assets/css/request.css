@@ -1075,9 +1075,8 @@ form.horizontal {
   letter-spacing: 0;
   margin: 0; }
 
-.admin__sidebar h2 {
+.admin__sidebar h6 {
   font-weight: bold;
-  font-size: 1.111rem;
   color: #CC7D27;
   letter-spacing: 0;
   text-transform: uppercase;
@@ -1126,15 +1125,15 @@ form.horizontal {
     display: block;
     border-bottom: 1px solid #C3CFD6;
     padding: 0 0.5556rem; }
-    .admin__meetings__item header h2, .admin__meetings__item header h3 {
+    .admin__meetings__item header h6, .admin__meetings__item header .request_no {
       line-height: 3.0556rem;
       margin: 0; }
-    .admin__meetings__item header h2 {
+    .admin__meetings__item header h6 {
       font-weight: bold;
-      font-size: 1.111rem;
       color: #203C6C;
       letter-spacing: 0.38px; }
-    .admin__meetings__item header h3 {
+    .admin__meetings__item header .request_no {
+      margin: 0;
       font-size: 0.8889rem;
       color: #555555;
       letter-spacing: 0.3px; }
