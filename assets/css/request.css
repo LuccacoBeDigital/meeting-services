@@ -435,13 +435,16 @@ html, body {
 .with-vertical-margin {
   margin: 0.5556rem 0; }
 
-.orange {
+.coral {
   color: #FF7749 !important; }
+
+.orange {
+  color: #CC7D27 !important; }
 
 .green {
   color: #50A45F; }
 
-small.orange.form-text {
+small.coral.form-text {
   font-size: 12px !important; }
 
 .cian {
@@ -510,7 +513,6 @@ form.horizontal {
   padding: 2.22rem; }
   .request__form h6 {
     margin: 0 0 1.111rem;
-    color: #CC7D27;
     font-weight: bold;
     text-transform: uppercase; }
     .request__form h6 i {
@@ -532,8 +534,8 @@ form.horizontal {
     font-size: 0.8889rem;
     letter-spacing: 0 0.1667rem;
     margin-bottom: 0.5556rem; }
-    .request__form__input > label span.orange,
-    .form-group > label span.orange {
+    .request__form__input > label span.coral,
+    .form-group > label span.coral {
       color: #FF7749; }
   .request__form__input input[type=text],
   .request__form__input textarea,
@@ -672,7 +674,7 @@ form.horizontal {
       display: block;
       width: 100%; } }
 
-.request__services__confirmation h1.orange {
+.request__services__confirmation h1.coral {
   font-weight: bold;
   font-size: 1rem;
   color: #FF7749;
@@ -730,7 +732,7 @@ form.horizontal {
     font-weight: bold; }
 
 @media (max-width: 480px) {
-  .request__services__confirmation h1.orange {
+  .request__services__confirmation h1.coral {
     font-size: 0.7778rem;
     border-bottom: 3px solid #D5D5D5;
     padding-bottom: 1.111rem; }
@@ -752,7 +754,7 @@ form.horizontal {
 
 .request__form--review-submit {
   font-size: 0.8889rem; }
-  .request__form--review-submit h4 {
+  .request__form--review-submit .subheader {
     color: #1F1F1F;
     font-size: 0.8889rem;
     font-weight: bold;
@@ -1220,7 +1222,7 @@ form.horizontal {
     top: 0.5556rem;
     right: 2.778rem; }
 
-.toggle-area--blue > header h2 {
+.toggle-area--blue > header p {
   color: #203C6C;
   font-size: 1.111rem;
   font-weight: bold;

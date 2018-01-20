@@ -55,15 +55,11 @@ html, body {
 .with-vertical-margin {
   margin: 0.5556rem 0;
 }
-.orange {
-  color: $coral !important;
-}
+.coral { color: $coral !important; }
+.orange { color: $orange !important; }
+.green { color: #50A45F; }
 
-.green {
-  color: #50A45F;
-}
-
-small.orange {
+small.coral {
   &.form-text {
     font-size: 12px !important;
   }

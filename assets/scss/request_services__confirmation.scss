@@ -1,5 +1,5 @@
 .request__services__confirmation {
-  h1.orange {
+  h1.coral {
     font-weight: bold;
     font-size: 1rem;
     color: $coral;
@@ -70,7 +70,7 @@
 
 @media (max-width: 480px) {
   .request__services__confirmation {
-    h1.orange {
+    h1.coral {
       font-size: 0.7778rem;
       border-bottom: 3px solid $lightGray;
       padding-bottom: 1.111rem;
