@@ -1,17 +1,16 @@
 .request__form {
   padding: 2.22rem;
 
-  h1 {
+  h6 {
     margin: 0 0 1.111rem;
     color: $orange;
-    font-size: 1.111rem;
     font-weight: bold;
     text-transform: uppercase;
     i {
       margin-right: 0.2778rem;
     }
   }
-  h4 {
+  p.subheader {
     color: $mineShaft;
     display: block;
     font-size: 0.8889rem;
