@@ -10,9 +10,8 @@
     letter-spacing: 0;
     margin: 0;
   }
-  h2 {
+  h6 {
     font-weight: bold;
-    font-size: 1.111rem;
     color: $orange;
     letter-spacing: 0;
     text-transform: uppercase;
@@ -73,17 +72,17 @@
     border-bottom: 1px solid $loblolly;
     padding: 0 0.5556rem;
 
-    h2, h3 {
+    h6, .request_no {
       line-height: 3.0556rem;
       margin: 0;      
     }
-    h2 {
+    h6 {
       font-weight: bold;
-      font-size: 1.111rem;
       color: $regalBlue;
       letter-spacing: 0.38px;
     }
-    h3 {
+    .request_no {
+      margin: 0;
       font-size: 0.8889rem;
       color: $mortar;
       letter-spacing: 0.3px;
