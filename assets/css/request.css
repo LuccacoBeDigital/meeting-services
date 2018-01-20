@@ -489,9 +489,8 @@ small.coral.form-text {
 
 form.horizontal {
   padding-bottom: 1.667rem; }
-  form.horizontal header h4 {
+  form.horizontal header h6 {
     font-weight: bold;
-    font-size: 0.8889rem;
     color: #1F1F1F;
     letter-spacing: 0.3px; }
   form.horizontal label {
@@ -920,17 +919,15 @@ form.horizontal {
 .na-confirmation {
   text-align: center;
   padding: 2.778rem 0; }
-  .na-confirmation h1 {
+  .na-confirmation h6 {
     color: #1F1F1F;
-    font-size: 1rem;
     font-weight: bold;
     letter-spacing: 0.32px;
     text-transform: uppercase; }
-  .na-confirmation h2 {
+  .na-confirmation h1 {
     background: #E3F2FF;
     color: #203C6C;
     display: inline-block;
-    font-size: 2.667rem;
     letter-spacing: 0;
     margin: 1.111rem 0;
     padding: 5px 1.111rem;
