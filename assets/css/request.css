@@ -219,7 +219,7 @@
   width: 72px;
   height: 28px;
   border-radius: 28px;
-  overflow: hidden;
+  overflow: invisible;
   position: relative;
   background: #DBE6EC; }
 
@@ -401,7 +401,7 @@
 
 html, body {
   background: #F4F5F8;
-  font-size: 1rem;
+  font-size: 18px;
   font-family: "Roboto"; }
 
 .content {
@@ -409,9 +409,6 @@ html, body {
 
 .relative {
   position: relative !important; }
-
-.hidden {
-  display: none !important; }
 
 @media (min-width: 481px) {
   .mobile {
@@ -1264,7 +1261,7 @@ form.horizontal {
   z-index: 100; }
   .request__tabs nav {
     position: absolute;
-    top: -4.111rem;
+    top: -4.063rem;
     display: flex; }
     .request__tabs nav a {
       background: #1871B7;
@@ -1272,7 +1269,7 @@ form.horizontal {
       display: block;
       font-weight: bold;
       letter-spacing: 0.32px;
-      line-height: 4.111rem;
+      line-height: 4.063rem;
       opacity: 0.5;
       text-align: center;
       text-decoration: none;

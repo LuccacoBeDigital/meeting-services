@@ -6,12 +6,12 @@ function fileUpload($wrapper) {
   var $clearListBtn = $list.find('button');
   
   var setFileList = function(fileName) {
-    $list.removeClass('hidden');
+    $list.removeClass('invisible');
     $list.find('b').html(fileName);
   }
   
   var clearFileList = function() {
-    $list.addClass('hidden');
+    $list.addClass('invisible');
     $list.find('b').html('');
   };
 

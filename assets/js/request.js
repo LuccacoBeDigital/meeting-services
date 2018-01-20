@@ -5,16 +5,16 @@ $(function() {
   var $headerDropdownToggle = $('.headerDropdownToggle');
 
   function hasClickedOutside() {
-    $headerDropdown.addClass('hidden');
+    $headerDropdown.addClass('invisible');
     $(window).off('click', hasClickedOutside);
   }
   
   $headerDropdownToggle.on('click', function(event) {
     event.stopPropagation();
     event.preventDefault();
-    if ($headerDropdown.hasClass('hidden')) {
+    if ($headerDropdown.hasClass('invisible')) {
       $(window).on('click', hasClickedOutside);
-      $headerDropdown.removeClass('hidden');
+      $headerDropdown.removeClass('invisible');
     } else {
       hasClickedOutside();
     }
@@ -46,7 +46,7 @@ $(function() {
 
     $toggleSwitch.on('click', function(e) {
       e.preventDefault();
-      var isClosed = $section.hasClass('hidden');
+      var isClosed = $section.hasClass('invisible');
       if (isClosed) {
         $toggleArrow.find('i')
                     .removeClass('fa-chevron-down')
@@ -56,7 +56,7 @@ $(function() {
                     .removeClass('fa-chevron-up')
                     .addClass('fa-chevron-down');
       }
-      $section.toggleClass('hidden');
+      $section.toggleClass('invisible');
       $toggleButton.toggleClass('active');
     });
   }
@@ -69,7 +69,7 @@ $(function() {
   function setupNotificationAlerts($elm) {
     $elm.find('.close').on('click', function(e) {
       e.preventDefault();
-      $elm.toggleClass('hidden');
+      $elm.toggleClass('invisible');
     });
   }
 
