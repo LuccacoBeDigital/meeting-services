@@ -79,7 +79,7 @@
       </nav>
     </div>
 
-    <div class="content home">
+    <div class="content">
       <div class="container">
         <div class="row">
           <div class="col-md-3">
@@ -186,7 +186,7 @@
             </aside>
           </div>
           <div class="col-md-9">
-            <div class="content__wrapper">
+            <div class="admin__edit content__wrapper">
 
               <div class="container">
 
@@ -196,92 +196,99 @@
                   </div>
                 </div>
 
-                <h6 class="orange"><i class="fa fa-desktop"></i> <b>MEETING REQUEST DETAILS</b></h6>
+                <div class="admin__edit__description">
+                  <h6 class="orange"><i class="fa fa-desktop"></i> <b>MEETING REQUEST DETAILS</b></h6>
 
-                <div class="row m-bottom-20">
-                  <div class="col-md-6">
-                    <b>Meeting Title</b><br/>
-                    This is the conference title text
+                  <div class="row m-bottom-20">
+                    <div class="col-md-6">
+                      <b>Meeting Title</b><br/>
+                      This is the conference title text
+                    </div>
+                    <div class="col-md-6">
+                      <b>Meeting Status Request</b><br/>
+                      <span class="badge badge-gray">DRAFT</span>
+                    </div>
                   </div>
-                  <div class="col-md-6">
-                    <b>Meeting Status Request</b><br/>
-                    <button class="btn btn-outline-primary">DRAFT</button>
+                  <div class="row m-bottom-20">
+                    <div class="col-md-3">
+                      <b>Date (from)</b><br/>
+                      26/09/2017
+                    </div>
+                    <div class="col-md-3">
+                      <b>Date (to)</b><br/>
+                      31/11/2017
+                    </div>
+                    <div class="col-md-6">
+                      <b>Client Organization</b><br/>
+                      Advisory Commitee on Administrative and Budgetary Questions (12.0010)
+                    </div>
                   </div>
-                </div>
-                <div class="row m-bottom-20">
-                  <div class="col-md-3">
-                    <b>Date (from)</b><br/>
-                    26/09/2017
-                  </div>
-                  <div class="col-md-3">
-                    <b>Date (to)</b><br/>
-                    31/11/2017
-                  </div>
-                  <div class="col-md-6">
-                    <b>Client Organization</b><br/>
-                    Advisory Commitee on Administrative and Budgetary Questions (12.0010)
-                  </div>
-                </div>
-                <div class="row m-bottom-20">
-                  <div class="col-md-6">
-                    <b>Unique Number</b><br/>
-                    NY174932A
-                  </div>
-                  <div class="col-md-6">
-                    <b>Location</b><br/>
-                    New York
+                  <div class="row m-bottom-20">
+                    <div class="col-md-6">
+                      <b>Unique Number</b><br/>
+                      NY174932A
+                    </div>
+                    <div class="col-md-6">
+                      <b>Location</b><br/>
+                      New York
+                    </div>
                   </div>
                 </div>
 
-                <h6>Requesting Contacts</h6>
-                <table class="table table-striped">
-                  <tr>
-                    <th>#</th>
-                    <th>Name</th>
-                    <th>Email</th>
-                    <th>Phone Number</th>
-                  </tr>
-                  <tr>
-                    <td>1</td>
-                    <td>David Blanco</td>
-                    <td>
-                      <i class="fa fa-envelope"></i>
-                      <a href="">mail@un.org</a>
-                    </td>
-                    <td>
-                      <i class="fa fa-phone"></i>
-                      1 (212) 963-8114
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>1</td>
-                    <td>David Blanco</td>
-                    <td>
-                      <i class="fa fa-envelope"></i>
-                      <a href="">mail@un.org</a>
-                    </td>
-                    <td>
-                      <i class="fa fa-phone"></i>
-                      1 (212) 963-8114
-                    </td>
-                  </tr>
-                </table>
+                <div class="admin__edit__contacts">
+                  <h6>Requesting Contacts</h6>
+                  <table class="table table-striped">
+                    <tr>
+                      <th>#</th>
+                      <th>Name</th>
+                      <th>Email</th>
+                      <th>Phone Number</th>
+                    </tr>
+                    <tr>
+                      <td>1</td>
+                      <td>David Blanco</td>
+                      <td>
+                        <i class="fa fa-envelope"></i>
+                        <a href="">mail@un.org</a>
+                      </td>
+                      <td>
+                        <i class="fa fa-phone"></i>
+                        1 (212) 963-8114
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>1</td>
+                      <td>David Blanco</td>
+                      <td>
+                        <i class="fa fa-envelope"></i>
+                        <a href="">mail@un.org</a>
+                      </td>
+                      <td>
+                        <i class="fa fa-phone"></i>
+                        1 (212) 963-8114
+                      </td>
+                    </tr>
+                  </table>
+                </div>
 
                 <div class="meetings-list">
                   <section class="meetings-list__item">
                     <header>
                       <div class="row">
-                        <div class="col-md-6">
-                          <h6>Requested Services</h6>
+                        <div class="col-md-4">
+                          <h6 class="admin__edit__services">Requested Services</h6>
                         </div>
-                        <div class="col-md-6 request-no">
+                        <div class="col-md-8 admin__edit__approvals">
                           <a href="" class="btn btn-primary">
+                            <i class="fa fa-info"></i>
                             Request Services
                           </a>
                           <a href="" class="btn btn-warning">
+                            <i class="fa fa-times"></i>
                             Deny
                           </a>
                           <a href="" class="btn btn-success">
+                            <i class="fa fa-check"></i>
                             Approve
                           </a>
                         </div>
@@ -308,7 +315,7 @@
                             </div>
                             <div class="col-md-6">
                               <b>Requested Service Status</b><br/>
-                              <span class="badge badge-gray">Pending</span>
+                              <span class="badge badge-gray badge-gray--inverted">PENDING</span>
                             </div>  
                           </div>
                           <div class="row m-bottom-20">
@@ -334,8 +341,9 @@
                             <div class="visible">
                               <div class="row m-bottom-20">
                                 <div class="col-md-12">
-                                  <b>Date (from)</b><br/>
-                                  26/09/2017
+                                  <b>Type</b><br/>
+                                  Closed meeting with Limited Distribution for Webcast purposes
+                                  <a href="" data-toggle="tooltip" data-placement="right" title="" data-original-title="This is how a tooltip would look like"><i class="fa fa-question-circle"></i></a>
                                 </div>
                               </div>
                               <div class="row m-bottom-20">

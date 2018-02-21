@@ -92,6 +92,19 @@ small.coral {
   font-weight: normal;
 }
 
+.badge-gray {
+  border: 1px solid #6B6851;
+  color: #6B6851;
+  font-weight: bold;
+  font-size: 0.6667rem;
+  padding: 5px 10px;
+}
+
+.badge-gray--inverted {
+  color: white;
+  background: #6B6851;
+}
+
 .badge-primary-outline {
   padding: 5px;
   text-transform: uppercase;

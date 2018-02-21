@@ -470,6 +470,17 @@ small.coral.form-text {
   color: #6880A9;
   font-weight: normal; }
 
+.badge-gray {
+  border: 1px solid #6B6851;
+  color: #6B6851;
+  font-weight: bold;
+  font-size: 0.6667rem;
+  padding: 5px 10px; }
+
+.badge-gray--inverted {
+  color: white;
+  background: #6B6851; }
+
 .badge-primary-outline {
   padding: 5px;
   text-transform: uppercase;
@@ -1134,6 +1145,57 @@ form.horizontal {
       font-size: 0.8889rem;
       color: #555555;
       letter-spacing: 0; }
+
+.admin__meetings__item--gray {
+  background: #F7F7F7; }
+  .admin__meetings__item--gray > section {
+    background: white;
+    margin: 20px;
+    border: 1px solid #C3CFD6;
+    border-radius: 3px; }
+
+.admin__edit {
+  padding-top: 40px;
+  font-size: 0.8889rem; }
+
+.admin__edit__description h6 {
+  margin-bottom: 1rem; }
+
+.admin__edit__contacts {
+  margin-bottom: 2rem; }
+  .admin__edit__contacts h6 {
+    font-size: 0.8889rem;
+    font-weight: 600; }
+  .admin__edit__contacts table {
+    border-top: 3px solid #D5D5D5; }
+
+.admin__edit__approvals {
+  text-align: right; }
+  .admin__edit__approvals .btn {
+    background: white;
+    font-size: 0.7778rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-left: 1rem; }
+    .admin__edit__approvals .btn i {
+      margin-right: 0.2rem; }
+    .admin__edit__approvals .btn.btn-primary {
+      border-color: #0168E7;
+      color: #0168E7; }
+    .admin__edit__approvals .btn.btn-warning {
+      border-color: #FF4242;
+      color: #FF4242; }
+    .admin__edit__approvals .btn.btn-success {
+      border-color: #5DAF70;
+      color: #5DAF70; }
+
+.admin__edit__services {
+  color: #203C6C;
+  font-weight: bold;
+  letter-spacing: 0.38px;
+  line-height: 2rem;
+  margin: 0;
+  text-transform: uppercase; }
 
 .edit-meeting {
   background: white;

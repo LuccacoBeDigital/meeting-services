@@ -97,3 +97,70 @@
     }
   }
 }
+
+.admin__meetings__item--gray {
+  background: #F7F7F7;
+  & > section {
+    background: white;
+    margin: 20px;
+    border: 1px solid #C3CFD6;
+    border-radius: 3px;
+  }
+}
+
+.admin__edit {
+  padding-top: 40px;
+  font-size: 0.8889rem;
+}
+
+.admin__edit__description {
+  h6 {
+    margin-bottom: 1rem;
+  }
+}
+
+.admin__edit__contacts {
+  margin-bottom: 2rem;
+  h6 {
+    font-size: 0.8889rem;
+    font-weight: 600;
+  }
+  table {
+    border-top: 3px solid #D5D5D5;
+  }
+}
+
+.admin__edit__approvals {
+  text-align: right;
+  .btn {
+    background: white;
+    font-size: 0.7778rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-left: 1rem;
+    i {
+      margin-right: 0.2rem;
+    }
+    &.btn-primary {
+      border-color: #0168E7;
+      color: #0168E7;
+    }
+    &.btn-warning {
+      border-color: #FF4242;
+      color: #FF4242;
+    }
+    &.btn-success {
+      border-color: #5DAF70;
+      color: #5DAF70;
+    }
+  }
+}
+
+.admin__edit__services {
+  color: $regalBlue;
+  font-weight: bold;
+  letter-spacing: 0.38px;
+  line-height: 2rem;
+  margin: 0;      
+  text-transform: uppercase;
+}
