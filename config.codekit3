@@ -7,7 +7,7 @@
 		"uuidString": "9CC9A12B-39C2-4713-8B18-A6DABE349D52"
 		}
 	],
-"creatorBuild": "26148",
+"creatorBuild": "26268",
 "files": {
 	"\/.bowerrc": {
 		"cB": 0,
@@ -564,6 +564,13 @@
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
+		},
+	"\/src\/admin_edit.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/src\/admin_edit.html",
+		"oF": 0
 		},
 	"\/src\/admin_index.html": {
 		"cB": 0,
@@ -1311,6 +1318,7 @@
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
+	"autoprefixerEnableIEGrid": 0,
 	"babelAuxiliaryCommentAfter": "",
 	"babelAuxiliaryCommentBefore": "",
 	"babelConfigFileHandlingType": 0,
@@ -1874,6 +1882,10 @@
 		"id-match": {
 			"active": 0,
 			"optionString": "'^[a-z]+([A-Z][a-z]+)*$', {'properties': false, 'onlyDeclarations': true}"
+			},
+		"implicit-arrow-linebreak": {
+			"active": 0,
+			"optionString": "'beside'"
 			},
 		"indent": {
 			"active": 0,

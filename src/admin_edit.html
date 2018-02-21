@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>UN Meeting - Admin Edit</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- vendor scripts -->
+    <script src="../vendors/jquery/dist/jquery.min.js"></script>
+    <script src="../vendors/modernizr/modernizr-2.8.3.min.js"></script>
+
+    <script src="../vendors/jquery/dist/popper.min.js"></script>
+
+    <!-- vendor styles -->
+    <link rel="stylesheet" href="../assets/css/roboto.css" />
+    <link rel="stylesheet" href="../assets/css/normalize.min.css" />
+    <link rel="stylesheet" href="../vendors/font-awesome/css/font-awesome.min.css" />
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,600,700" /> -->
+
+    <link rel="stylesheet" href="../vendors/bootstrap/bootstrap.min.css">
+    <script src="../vendors/bootstrap/bootstrap.min.js"></script>
+
+    <!-- datepicker -->
+    <script type="text/javascript" src="../vendors/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js"></script>
+    <link rel="stylesheet" href="../vendors/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css" />
+    
+    <!-- typeahead -->
+    <script type="text/javascript" src="../vendors/typeahead/typeahead.js"></script>
+
+    <!-- page styles  -->
+    <link rel="stylesheet" href="../assets/css/request.css" />
+
+  </head>
+  <body>
+
+    <div id="headerNavMobile" class="header__nav--mobile d-md-none hidden">
+      <ul>
+        <li><a href=""><strong class="fa fa-question-circle"></strong>Help</a></li>
+        <li><a href=""><strong class="fa fa-phone"></strong>Contact Us</a></li>
+        <li><a href=""><strong class="fa fa-user"></strong>Username</a></li>
+        <li>
+          <a href="" class="headerDropdownToggle"><strong class="fa fa-chevron-down"></strong>New York</a>
+          <div class="headerDropdown dropdown hidden">
+            <a href="">Geneva</a>
+            <a href="">Vienna</a>
+            <a href="">Nairobi</a>
+          </div>
+          <img src="../assets/img/dgacm-logo.svg" alt="" class="logo">
+        </li>
+      </ul>
+      <div class="overlay"></div>
+    </div>
+
+    <div class="header header--admin">
+      <div class="small">
+        <div class="container">
+          <a href="home.html"><strong class="fa fa-home"></strong> Welcome to the United Nations</a>
+        </div>
+      </div>
+      <nav>
+        <div class="container">
+          <h3>Request for Meeting Services <span class="off">. Admin</span></h3>
+          <ul class="header__nav--desktop d-none d-md-flex">
+            <li>
+              <a href="" class="headerDropdownToggle"><strong class="fa fa-chevron-down"></strong>oss.service</a>
+              <div class="headerDropdown dropdown hidden">
+                <a href="">Geneva</a>
+                <a href="">Vienna</a>
+                <a href="">Nairobi</a>
+              </div>
+            </li>
+          </ul>
+          <a href="" id="headerNavToggle" class="header__nav__toggle d-md-none">
+            <img src="../assets/img/nav-toggle-on.svg" alt="Open / Close Menu">
+          </a>
+        </div>
+      </nav>
+    </div>
+
+    <div class="content home">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <aside class="admin__sidebar">
+              <section>
+                <h6>Webcast</h6>
+                <p>
+                  <b>Filter by</b>
+                </p>
+                <ul>
+                  <li>
+                    <input id="all" class="checkbox" type="checkbox" />
+                    <label for="all">All</label>
+                  </li>
+                  <li>
+                    <input id="pending" class="checkbox" type="checkbox" />
+                    <label for="pending">Pending</label>
+                  </li>
+                  <li>
+                    <input id="information_required" class="checkbox" type="checkbox" />
+                    <label for="information_required">Information Required</label>
+                  </li>
+                  <li>
+                    <input id="information_provided" class="checkbox" type="checkbox" />
+                    <label for="information_provided">Information Provided</label>
+                  </li>
+                  <li>
+                    <input id="approved" class="checkbox" type="checkbox" />
+                    <label for="approved">Approved</label>
+                  </li>
+                  <li>
+                    <input id="denied" class="checkbox" type="checkbox" />
+                    <label for="denied">Denied</label>
+                  </li>
+                </ul>
+              </section>
+    
+              <section>
+                <h6>Loaning of tech equipment</h6>
+                <p>
+                  <b>Filter by</b>
+                </p>
+                <ul>
+                  <li>
+                    <input id="all" class="checkbox" type="checkbox" />
+                    <label for="all">All</label>
+                  </li>
+                  <li>
+                    <input id="pending" class="checkbox" type="checkbox" />
+                    <label for="pending">Pending</label>
+                  </li>
+                  <li>
+                    <input id="information_required" class="checkbox" type="checkbox" />
+                    <label for="information_required">Information Required</label>
+                  </li>
+                  <li>
+                    <input id="information_provided" class="checkbox" type="checkbox" />
+                    <label for="information_provided">Information Provided</label>
+                  </li>
+                  <li>
+                    <input id="approved" class="checkbox" type="checkbox" />
+                    <label for="approved">Approved</label>
+                  </li>
+                  <li>
+                    <input id="denied" class="checkbox" type="checkbox" />
+                    <label for="denied">Denied</label>
+                  </li>
+                </ul>
+              </section>
+    
+              <section>
+                <h6>Audio Visual</h6>
+                <p>
+                  <b>Filter by</b>
+                </p>
+                <ul>
+                  <li>
+                    <input id="all" class="checkbox" type="checkbox" />
+                    <label for="all">All</label>
+                  </li>
+                  <li>
+                    <input id="pending" class="checkbox" type="checkbox" />
+                    <label for="pending">Pending</label>
+                  </li>
+                  <li>
+                    <input id="information_required" class="checkbox" type="checkbox" />
+                    <label for="information_required">Information Required</label>
+                  </li>
+                  <li>
+                    <input id="information_provided" class="checkbox" type="checkbox" />
+                    <label for="information_provided">Information Provided</label>
+                  </li>
+                  <li>
+                    <input id="approved" class="checkbox" type="checkbox" />
+                    <label for="approved">Approved</label>
+                  </li>
+                  <li>
+                    <input id="denied" class="checkbox" type="checkbox" />
+                    <label for="denied">Denied</label>
+                  </li>
+                </ul>
+              </section>
+    
+            </aside>
+          </div>
+          <div class="col-md-9">
+            <div class="content__wrapper">
+
+              <div class="container">
+
+                <div class="row m-bottom-20">
+                  <div class="col-md-6 myrequests__buttons">
+                    <button class="btn btn-outline-primary myrequests__button"><i class="fa fa-angle-left"></i> Back</button>
+                  </div>
+                </div>
+
+                <h6 class="orange"><i class="fa fa-desktop"></i> <b>MEETING REQUEST DETAILS</b></h6>
+
+                <div class="row m-bottom-20">
+                  <div class="col-md-6">
+                    <b>Meeting Title</b><br/>
+                    This is the conference title text
+                  </div>
+                  <div class="col-md-6">
+                    <b>Meeting Status Request</b><br/>
+                    <button class="btn btn-outline-primary">DRAFT</button>
+                  </div>
+                </div>
+                <div class="row m-bottom-20">
+                  <div class="col-md-3">
+                    <b>Date (from)</b><br/>
+                    26/09/2017
+                  </div>
+                  <div class="col-md-3">
+                    <b>Date (to)</b><br/>
+                    31/11/2017
+                  </div>
+                  <div class="col-md-6">
+                    <b>Client Organization</b><br/>
+                    Advisory Commitee on Administrative and Budgetary Questions (12.0010)
+                  </div>
+                </div>
+                <div class="row m-bottom-20">
+                  <div class="col-md-6">
+                    <b>Unique Number</b><br/>
+                    NY174932A
+                  </div>
+                  <div class="col-md-6">
+                    <b>Location</b><br/>
+                    New York
+                  </div>
+                </div>
+
+                <h6>Requesting Contacts</h6>
+                <table class="table table-striped">
+                  <tr>
+                    <th>#</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Phone Number</th>
+                  </tr>
+                  <tr>
+                    <td>1</td>
+                    <td>David Blanco</td>
+                    <td>
+                      <i class="fa fa-envelope"></i>
+                      <a href="">mail@un.org</a>
+                    </td>
+                    <td>
+                      <i class="fa fa-phone"></i>
+                      1 (212) 963-8114
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>1</td>
+                    <td>David Blanco</td>
+                    <td>
+                      <i class="fa fa-envelope"></i>
+                      <a href="">mail@un.org</a>
+                    </td>
+                    <td>
+                      <i class="fa fa-phone"></i>
+                      1 (212) 963-8114
+                    </td>
+                  </tr>
+                </table>
+
+                <div class="meetings-list">
+                  <section class="meetings-list__item">
+                    <header>
+                      <div class="row">
+                        <div class="col-md-6">
+                          <h6>Requested Services</h6>
+                        </div>
+                        <div class="col-md-6 request-no">
+                          <a href="" class="btn btn-primary">
+                            Request Services
+                          </a>
+                          <a href="" class="btn btn-warning">
+                            Deny
+                          </a>
+                          <a href="" class="btn btn-success">
+                            Approve
+                          </a>
+                        </div>
+                      </div>
+                    </header>
+                    <div>
+                      <section class="list-item__room">
+                        <header>
+                          <div class="row">
+                            <div class="col-12">
+                              <p>Access and security related matters</p>
+                            </div>
+                          </div>
+                        </header>
+                        <div class="content">
+                          <div class="row m-bottom-20">
+                            <div class="col-md-3">
+                              <b>Date (from)</b><br/>
+                              26/09/2017
+                            </div>
+                            <div class="col-md-3">
+                              <b>Date (to)</b><br/>
+                              31/11/2017
+                            </div>
+                            <div class="col-md-6">
+                              <b>Requested Service Status</b><br/>
+                              <span class="badge badge-gray">Pending</span>
+                            </div>  
+                          </div>
+                          <div class="row m-bottom-20">
+                            <div class="col-md-6">
+                              <b>Room</b><br/>
+                              Small-sized room (53 maximum capacity)
+                            </div>  
+                            <div class="col-md-3">
+                              <b>Time (from)</b><br/>
+                              15:34
+                            </div>
+                            <div class="col-md-3">
+                              <b>Time (to)</b><br/>
+                              17:04
+                            </div>
+                          </div>
+
+                          <div class="request__form__tabs">
+                            <nav>
+                              <a href="" class="active">Service Details</a>
+                              <a href="">See Requests Updates</a>
+                            </nav>
+                            <div class="visible">
+                              <div class="row m-bottom-20">
+                                <div class="col-md-12">
+                                  <b>Date (from)</b><br/>
+                                  26/09/2017
+                                </div>
+                              </div>
+                              <div class="row m-bottom-20">
+                                <div class="col-md-12">
+                                  <b>Additions to CMSI services</b><br/>
+                                  <p>
+                                    <input id="gavel-block" class="checkbox" type="checkbox" />
+                                    <label for="gavel-block">Gavel/Block</label>
+                                    <br/>
+                                    <input id="pads-pencils" class="checkbox" type="checkbox" />
+                                    <label for="pads-pencils">Pads/Pencils</label>
+                                    <br/>
+                                    <input id="water-podium" class="checkbox" type="checkbox" />
+                                    <label for="water-podium">Water on podium</label>
+                                    <br/>
+                                    <input id="signs-nameplates" class="checkbox" type="checkbox" />
+                                    <label for="signs-nameplates">Signs/Nameplates (Digital)</label>
+                                  </p>
+                                  <p>
+                                    <b>Client Notes</b><br/>
+                                    Notice if an outside entity is being sponsored, including the name of the entity, the namos of its principal officers and relevent contact persons.
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </section>
+                </div>
+              </div>
+
+              <div class="clearfix"></div>
+              <br/>
+            </div>
+          </div>
+        </div>
+
+      </div>  
+    </div>
+
+    <footer class="footer content">
+      <div class="container">
+        <aside>UNITED NATIONS</aside>
+        <nav>
+          <a href="">A-Z Site Index</a>
+          <a href="">Contact</a>
+          <a href="">Copyright</a>
+          <a href="">FAQ</a>
+          <a href="">Fraud Alert</a>
+          <a href="">Privacy Notice</a>
+          <a href="">Terms of Use</a>
+        </nav>
+      </div>
+    </footer>
+
+    <script src="../assets/js/header.js"></script>
+    <script src="../assets/js/request-min.js"></script>
+    <script src="../assets/js/admin-min.js"></script>
+  </body>
+</html>
